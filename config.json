@@ -7,7 +7,8 @@
       "enemies": "tiles/enemies.png",
       "player_anim": "tiles/player_anim.png",
       "people": "tiles/people.png",
-      "terrain": "tiles/terrain.png"
+      "terrain": "tiles/terrain.png",
+      "rock_mountains": "tiles/terrain_rock_mountains.png"
    },
    "tilegroups": {
       "tileset1": {
@@ -529,6 +530,198 @@
                "blocking": false
             }
          }
+      },
+      "rock_mountains": {
+         "auto": true,
+         "image": "rock_mountains",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            0,
+            1,
+            true,
+            1,
+            0,
+            true,
+            2,
+            0,
+            true,
+            2,
+            1,
+            true,
+            0,
+            2,
+            true,
+            1,
+            2,
+            true,
+            2,
+            2,
+            true,
+            3,
+            0,
+            true,
+            4,
+            0,
+            true,
+            4,
+            1,
+            true,
+            3,
+            1,
+            true,
+            1,
+            1,
+            false
+         ],
+         "name": "rock_mountains",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "0_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "0_1",
+               "blocking": true
+            },
+            "1_0": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "1_0",
+               "blocking": true
+            },
+            "2_0": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "2_0",
+               "blocking": true
+            },
+            "2_1": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "2_1",
+               "blocking": true
+            },
+            "0_2": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "0_2",
+               "blocking": true
+            },
+            "1_2": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "1_2",
+               "blocking": true
+            },
+            "2_2": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "2_2",
+               "blocking": true
+            },
+            "3_0": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "3_0",
+               "blocking": true
+            },
+            "4_0": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "4_0",
+               "blocking": true
+            },
+            "4_1": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "4_1",
+               "blocking": true
+            },
+            "3_1": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "3_1",
+               "blocking": true
+            },
+            "1_1": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "1_1",
+               "blocking": false
+            }
+         }
       }
    },
    "objectgroups": {
@@ -638,5 +831,5 @@
          }
       }
    ],
-   "baseDir": "../dave/"
+   "baseDir": "dave"
 }
