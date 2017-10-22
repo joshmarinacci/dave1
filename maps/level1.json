@@ -1,0 +1,223 @@
+{
+    "id": "level1",
+    "path": "level1.json",
+    "name": "Level 1",
+    "battle": false,
+    "background": "#000000",
+    "actions": [],
+    "width": 20,
+    "height": 10,
+    "layers": [
+        {
+            "id": "ground",
+            "type": "drawn",
+            "data": [
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "2_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "2_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "0_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "terrain",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_0"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 20,
+            "height": 10
+        }
+    ],
+    "start": {
+        "x": 0,
+        "y": 0
+    },
+    "battleInfo": {
+        "countrange": [
+            1,
+            2
+        ],
+        "enemies": [
+            "snowslime",
+            "snowballs",
+            "crab"
+        ],
+        "scale": 1
+    }
+}

@@ -1,0 +1,642 @@
+{
+   "info": {
+      "version": 1
+   },
+   "images": {
+      "tileset1": "tiles/tileset1.png",
+      "enemies": "tiles/enemies.png",
+      "player_anim": "tiles/player_anim.png",
+      "people": "tiles/people.png",
+      "terrain": "tiles/terrain.png"
+   },
+   "tilegroups": {
+      "tileset1": {
+         "auto": true,
+         "image": "tileset1",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            0,
+            1,
+            true,
+            1,
+            1,
+            false,
+            1,
+            0,
+            false,
+            1,
+            2,
+            false,
+            0,
+            2,
+            false,
+            0,
+            3,
+            false,
+            1,
+            3,
+            false,
+            1,
+            4,
+            false,
+            0,
+            4,
+            false,
+            0,
+            5,
+            false,
+            1,
+            5,
+            false,
+            3,
+            5,
+            false,
+            2,
+            5,
+            false,
+            2,
+            6,
+            false,
+            1,
+            6,
+            false,
+            0,
+            6,
+            false
+         ],
+         "name": "tileset1",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "tileset1",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "0_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "tileset1",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "0_1",
+               "blocking": true
+            },
+            "1_1": {
+               "image": "tileset1",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "1_1",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "tileset1",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "1_0",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "tileset1",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "1_2",
+               "blocking": false
+            },
+            "0_2": {
+               "image": "tileset1",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "0_2",
+               "blocking": false
+            },
+            "0_3": {
+               "image": "tileset1",
+               "center": {
+                  "x": 0,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "0_3",
+               "blocking": false
+            },
+            "1_3": {
+               "image": "tileset1",
+               "center": {
+                  "x": 1,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "1_3",
+               "blocking": false
+            },
+            "1_4": {
+               "image": "tileset1",
+               "center": {
+                  "x": 1,
+                  "y": 4
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "1_4",
+               "blocking": false
+            },
+            "0_4": {
+               "image": "tileset1",
+               "center": {
+                  "x": 0,
+                  "y": 4
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "0_4",
+               "blocking": false
+            },
+            "0_5": {
+               "image": "tileset1",
+               "center": {
+                  "x": 0,
+                  "y": 5
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "0_5",
+               "blocking": false
+            },
+            "1_5": {
+               "image": "tileset1",
+               "center": {
+                  "x": 1,
+                  "y": 5
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "1_5",
+               "blocking": false
+            },
+            "3_5": {
+               "image": "tileset1",
+               "center": {
+                  "x": 3,
+                  "y": 5
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "3_5",
+               "blocking": false
+            },
+            "2_5": {
+               "image": "tileset1",
+               "center": {
+                  "x": 2,
+                  "y": 5
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "2_5",
+               "blocking": false
+            },
+            "2_6": {
+               "image": "tileset1",
+               "center": {
+                  "x": 2,
+                  "y": 6
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "2_6",
+               "blocking": false
+            },
+            "1_6": {
+               "image": "tileset1",
+               "center": {
+                  "x": 1,
+                  "y": 6
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "1_6",
+               "blocking": false
+            },
+            "0_6": {
+               "image": "tileset1",
+               "center": {
+                  "x": 0,
+                  "y": 6
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "0_6",
+               "blocking": false
+            }
+         }
+      },
+      "people": {
+         "auto": true,
+         "image": "people",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            0,
+            1,
+            true
+         ],
+         "name": "people",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "people",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "0_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "people",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "0_1",
+               "blocking": true
+            }
+         }
+      },
+      "terrain": {
+         "auto": true,
+         "image": "terrain",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            0,
+            1,
+            true,
+            0,
+            2,
+            false,
+            0,
+            3,
+            false,
+            0,
+            4,
+            false,
+            1,
+            1,
+            false,
+            1,
+            0,
+            false,
+            2,
+            0,
+            false,
+            2,
+            1,
+            false,
+            1,
+            2,
+            false,
+            2,
+            2,
+            false,
+            2,
+            3,
+            false,
+            1,
+            3,
+            false,
+            1,
+            4,
+            false,
+            1,
+            5,
+            false,
+            2,
+            4,
+            false
+         ],
+         "name": "terrain",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "terrain",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "0_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "terrain",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "0_1",
+               "blocking": true
+            },
+            "0_2": {
+               "image": "terrain",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "0_2",
+               "blocking": false
+            },
+            "0_3": {
+               "image": "terrain",
+               "center": {
+                  "x": 0,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "0_3",
+               "blocking": false
+            },
+            "0_4": {
+               "image": "terrain",
+               "center": {
+                  "x": 0,
+                  "y": 4
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "0_4",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "terrain",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "1_1",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "terrain",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "1_0",
+               "blocking": false
+            },
+            "2_0": {
+               "image": "terrain",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "2_0",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "terrain",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "2_1",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "terrain",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "1_2",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "terrain",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "2_2",
+               "blocking": false
+            },
+            "2_3": {
+               "image": "terrain",
+               "center": {
+                  "x": 2,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "2_3",
+               "blocking": false
+            },
+            "1_3": {
+               "image": "terrain",
+               "center": {
+                  "x": 1,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "1_3",
+               "blocking": false
+            },
+            "1_4": {
+               "image": "terrain",
+               "center": {
+                  "x": 1,
+                  "y": 4
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "1_4",
+               "blocking": false
+            },
+            "1_5": {
+               "image": "terrain",
+               "center": {
+                  "x": 1,
+                  "y": 5
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "1_5",
+               "blocking": false
+            },
+            "2_4": {
+               "image": "terrain",
+               "center": {
+                  "x": 2,
+                  "y": 4
+               },
+               "type": "drawn",
+               "group": "terrain",
+               "id": "2_4",
+               "blocking": false
+            }
+         }
+      }
+   },
+   "objectgroups": {
+      "people": {
+         "type": "objectgroup",
+         "name": "people",
+         "objects": [
+            {
+               "name": "boy",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "image": "people"
+            },
+            {
+               "name": "wizard",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "image": "people"
+            },
+            {
+               "name": "elf",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "image": "people"
+            },
+            {
+               "name": "penguin",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "image": "people"
+            },
+            {
+               "name": "man",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "image": "people"
+            },
+            {
+               "name": "santaclaus",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "image": "people"
+            },
+            {
+               "name": "mrsclaus",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_362",
+               "center": {
+                  "x": 3,
+                  "y": 3
+               },
+               "image": "people"
+            }
+         ]
+      }
+   },
+   "maps": {
+      "level1": {
+         "name": "Level 1",
+         "path": "level1.json",
+         "id": "level1"
+      },
+      "level2": {
+         "name": "Level 2",
+         "path": "level2.json",
+         "id": "level2"
+      }
+   },
+   "settings": {
+      "startMapId": "level1"
+   },
+   "people": [
+      {
+         "id": "player",
+         "title": "Player",
+         "image": "people",
+         "center": {
+            "x": 0,
+            "y": 0
+         }
+      },
+      {
+         "id": "narrator",
+         "title": "Narrator",
+         "image": "people",
+         "center": {
+            "x": 1,
+            "y": 5
+         }
+      }
+   ],
+   "baseDir": "../dave/"
+}
