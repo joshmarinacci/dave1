@@ -2,7 +2,7 @@
     "id": "level1",
     "path": "level1.json",
     "name": "Level 1",
-    "battle": false,
+    "battle": true,
     "background": "#000000",
     "actions": [],
     "width": 40,
@@ -1969,148 +1969,6 @@
                         "id": "3_5"
                     }
                 },
-                null,
-                null,
-                null,
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                null,
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
                 {
                     "master": {
                         "group": "tileset1",
@@ -2250,51 +2108,13 @@
                         "id": "3_5"
                     }
                 },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
                 null,
-                null,
-                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
                 {
                     "master": {
                         "group": "tileset1",
@@ -2470,116 +2290,6 @@
                         "id": "3_5"
                     }
                 },
-                null,
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                null,
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
                 {
                     "master": {
                         "group": "tileset1",
@@ -2594,10 +2304,30 @@
                 },
                 null,
                 null,
-                null,
-                null,
-                null,
-                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
                 null,
                 {
                     "master": {
@@ -2755,6 +2485,49 @@
                         "id": "3_5"
                     }
                 },
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
                 {
                     "master": {
                         "group": "tileset1",
@@ -2786,6 +2559,258 @@
                     }
                 },
                 null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
                 null,
                 null,
                 null,
@@ -8886,13 +8911,13 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "4_0"
+                        "id": "1_2"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_1"
+                        "id": "4_0"
                     }
                 },
                 {
@@ -9068,16 +9093,11 @@
                 },
                 null,
                 null,
+                null,
                 {
                     "master": {
                         "group": "rock_mountains",
                         "id": "0_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_2"
                     }
                 },
                 {
@@ -9775,7 +9795,7 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_2"
+                        "id": "3_0"
                     }
                 },
                 {
@@ -9967,12 +9987,27 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_1"
+                        "id": "3_0"
                     }
                 },
-                null,
-                null,
-                null,
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "2_2"
+                    }
+                },
                 null,
                 null,
                 null,
@@ -10132,22 +10167,12 @@
                 },
                 null,
                 null,
+                null,
+                null,
                 {
                     "master": {
                         "group": "rock_mountains",
                         "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_0"
                     }
                 },
                 {
@@ -10266,13 +10291,13 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_2"
+                        "id": "4_1"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_2"
+                        "id": "2_1"
                     }
                 },
                 null,
@@ -10292,22 +10317,12 @@
                 },
                 null,
                 null,
+                null,
+                null,
                 {
                     "master": {
                         "group": "rock_mountains",
                         "id": "0_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_2"
                     }
                 },
                 {
@@ -10401,15 +10416,10 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
                         "id": "2_0"
                     }
                 },
+                null,
                 null,
                 {
                     "master": {
@@ -10445,7 +10455,7 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_2"
+                        "id": "3_0"
                     }
                 },
                 {
@@ -10571,13 +10581,13 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_1"
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_1"
+                        "id": "2_0"
                     }
                 },
                 null,
@@ -10612,6 +10622,12 @@
                         "id": "3_0"
                     }
                 },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "2_2"
+                    }
+                },
                 null,
                 null,
                 null,
@@ -10619,12 +10635,6 @@
                     "master": {
                         "group": "rock_mountains",
                         "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_0"
                     }
                 },
                 {
@@ -10793,6 +10803,7 @@
                     }
                 },
                 null,
+                null,
                 {
                     "master": {
                         "group": "rock_mountains",
@@ -10809,12 +10820,6 @@
                     "master": {
                         "group": "rock_mountains",
                         "id": "4_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_1"
                     }
                 },
                 {
@@ -10976,13 +10981,13 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "0_1"
+                        "id": "0_0"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_1"
+                        "id": "4_1"
                     }
                 },
                 {
@@ -15535,11 +15540,38 @@
             "visible": true,
             "width": 40,
             "height": 40
+        },
+        {
+            "id": "items",
+            "type": "item",
+            "data": [
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_242"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "entrance"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Entrance"
+                        }
+                    },
+                    "x": 1,
+                    "y": 1
+                }
+            ],
+            "visible": true,
+            "width": 40,
+            "height": 40
         }
     ],
     "start": {
-        "x": 0,
-        "y": 0
+        "x": 1,
+        "y": 1
     },
     "battleInfo": {
         "countrange": [

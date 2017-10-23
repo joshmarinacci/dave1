@@ -11,7 +11,140 @@
         {
             "id": "ground",
             "type": "drawn",
-            "data": [],
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_2"
+                    }
+                }
+            ],
             "visible": true,
             "width": 20,
             "height": 10

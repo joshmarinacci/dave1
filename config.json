@@ -1,4 +1,122 @@
 {
+   "levels": {
+      "levelNames": [
+         "truly a catastrophe",
+         "merely a catastrophe",
+         "simply atrocious",
+         "shockingly bad",
+         "merely incompetent",
+         "a liability",
+         "useless",
+         "just clumsy",
+         "not a liability",
+         "mediocre",
+         "lousy",
+         "one who doesn’t screw up too often",
+         "not too shabby",
+         "merely competent",
+         "capable",
+         "genuinely helpful",
+         "an asset",
+         "majestically competent",
+         "quite adept",
+         "proficient",
+         "talented",
+         "extremely helpful",
+         "determined",
+         "a whiz kid",
+         "possessor of mad skillz",
+         "pretty freakin’ sweet",
+         "totally rad",
+         "awesome",
+         "crazy awesome",
+         "wicked awesome",
+         "a gifted player",
+         "someone with serious game",
+         "truly epic",
+         "legendary",
+         "like a boss",
+         "well versed in the ways of awesome"
+      ]
+    },
+   "enemies" : {
+      "snowslime": {
+         "name": "Snow Slime",
+         "hp": 5,
+         "mp": 0,
+         "strength": 10,
+         "defense": 0.1,
+         "weapon": 0,
+         "skill": 0.1,
+         "attacks": [
+            "slips",
+            "spills",
+            "smudges"
+         ],
+         "image": "enemies",
+         "center": {
+            "x": 3,
+            "y": 2
+         }
+      },
+      "iceslime": {
+         "name": "Ice Slime",
+         "hp": 10,
+         "mp": 0,
+         "strength": 10,
+         "defense": 0.1,
+         "weapon": 0,
+         "skill": 0.1,
+         "attacks": [
+            "slip",
+            "spill",
+            "smudge"
+         ],
+         "image": "enemies",
+         "center": {
+            "x": 4,
+            "y": 1
+         }
+      },
+      "snowballs": {
+         "name": "Snow Balls",
+         "hp": 10,
+         "mp": 0,
+         "strength": 15,
+         "defense": 0.1,
+         "weapon": 0,
+         "skill": 0.1,
+         "attacks": [
+            "smack",
+            "splat",
+            "careen"
+         ],
+         "image": "enemies",
+         "center": {
+            "x": 0,
+            "y": 2
+         }
+      },
+      "crab": {
+         "hp": 15,
+         "mp": 0,
+         "strength": 5,
+         "name": "Graspus Graspus",
+         "defense": 0.1,
+         "weapon": 0,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "enemies",
+         "center": {
+            "x": 4,
+            "y": 0
+         }
+      }
+   },
    "info": {
       "version": 1
    },
@@ -792,6 +910,30 @@
                   "y": 3
                },
                "image": "people"
+            }
+         ]
+      },
+      "item_group_5418": {
+         "id": "item_group_5418",
+         "name": "item_group_5418",
+         "title": "Title of item_group_5418",
+         "type": "objectgroup",
+         "objects": [
+            {
+               "name": "item_master_951",
+               "center": {
+                  "x": 6,
+                  "y": 0
+               },
+               "image": "tileset1"
+            },
+            {
+               "name": "item_master_242",
+               "center": {
+                  "x": 3,
+                  "y": 3
+               },
+               "image": "terrain"
             }
          ]
       }
