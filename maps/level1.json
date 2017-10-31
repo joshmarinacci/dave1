@@ -4,7 +4,36 @@
     "name": "Level 1",
     "battle": true,
     "background": "#000000",
-    "actions": [],
+    "actions": [
+        {
+            "id": "goto_0.4101169447434658",
+            "itemid": "shop",
+            "title": "Go To 0.29754209419361854",
+            "type": "gotoroom",
+            "gotoroom": {
+                "map": "l1shop",
+                "item": "exit",
+                "dx": 0,
+                "dy": -1
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "goto_0.4131751384672928",
+            "itemid": "exit",
+            "title": "Go To 0.8228526371630688",
+            "type": "gotoroom",
+            "gotoroom": {
+                "map": "level2",
+                "item": "entrance",
+                "dx": 0,
+                "dy": 1
+            },
+            "visible": true,
+            "next": null
+        }
+    ],
     "width": 40,
     "height": 40,
     "layers": [
@@ -8622,12 +8651,7 @@
                         "id": "3_0"
                     }
                 },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_2"
-                    }
-                },
+                null,
                 {
                     "master": {
                         "group": "rock_mountains",
@@ -15558,10 +15582,86 @@
                         "title": {
                             "name": "title",
                             "value": "Entrance"
+                        },
+                        "blocking": {
+                            "name": "blocking",
+                            "value": true
+                        },
+                        "lockable": {
+                            "name": "lockable",
+                            "value": true
+                        },
+                        "locked": {
+                            "name": "locked",
+                            "value": false
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
                         }
                     },
                     "x": 1,
-                    "y": 1
+                    "y": 0
+                },
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_573"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "shop"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Shop"
+                        },
+                        "blocking": {
+                            "name": "blocking",
+                            "value": false
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 38,
+                    "y": 32
+                },
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_242"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "exit"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Exit"
+                        },
+                        "blocking": {
+                            "name": "blocking",
+                            "value": false
+                        },
+                        "lockable": {
+                            "name": "lockable",
+                            "value": false
+                        },
+                        "locked": {
+                            "name": "locked",
+                            "value": false
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 19,
+                    "y": 13
                 }
             ],
             "visible": true,
@@ -15570,8 +15670,8 @@
         }
     ],
     "start": {
-        "x": 1,
-        "y": 1
+        "x": 38,
+        "y": 33
     },
     "battleInfo": {
         "countrange": [

@@ -38,10 +38,10 @@
          "like a boss",
          "well versed in the ways of awesome"
       ]
-    },
-   "enemies" : {
+   },
+   "enemies": {
       "snowslime": {
-         "name": "Snow Slime",
+         "name": "Maze Rat",
          "hp": 5,
          "mp": 0,
          "strength": 10,
@@ -53,14 +53,14 @@
             "spills",
             "smudges"
          ],
-         "image": "enemies",
+         "image": "dave_enemies",
          "center": {
-            "x": 3,
-            "y": 2
+            "x": 0,
+            "y": 0
          }
       },
       "iceslime": {
-         "name": "Ice Slime",
+         "name": "Maze Cat",
          "hp": 10,
          "mp": 0,
          "strength": 10,
@@ -72,14 +72,14 @@
             "spill",
             "smudge"
          ],
-         "image": "enemies",
+         "image": "dave_enemies",
          "center": {
-            "x": 4,
-            "y": 1
+            "x": 1,
+            "y": 0
          }
       },
       "snowballs": {
-         "name": "Snow Balls",
+         "name": "Maze Bat",
          "hp": 10,
          "mp": 0,
          "strength": 15,
@@ -91,17 +91,17 @@
             "splat",
             "careen"
          ],
-         "image": "enemies",
+         "image": "dave_enemies",
          "center": {
-            "x": 0,
-            "y": 2
+            "x": 2,
+            "y": 0
          }
       },
       "crab": {
          "hp": 15,
          "mp": 0,
          "strength": 5,
-         "name": "Graspus Graspus",
+         "name": "Maze Hat",
          "defense": 0.1,
          "weapon": 0,
          "skill": 0.1,
@@ -110,9 +110,9 @@
             "grab",
             "tweeze"
          ],
-         "image": "enemies",
+         "image": "dave_enemies",
          "center": {
-            "x": 4,
+            "x": 3,
             "y": 0
          }
       }
@@ -126,7 +126,9 @@
       "player_anim": "tiles/player_anim.png",
       "people": "tiles/people.png",
       "terrain": "tiles/terrain.png",
-      "rock_mountains": "tiles/terrain_rock_mountains.png"
+      "rock_mountains": "tiles/terrain_rock_mountains.png",
+      "items": "tiles/items.png",
+      "dave_enemies": "tiles/dave_enemies.png"
    },
    "tilegroups": {
       "tileset1": {
@@ -916,7 +918,7 @@
       "item_group_5418": {
          "id": "item_group_5418",
          "name": "item_group_5418",
-         "title": "Title of item_group_5418",
+         "title": "doors",
          "type": "objectgroup",
          "objects": [
             {
@@ -934,11 +936,104 @@
                   "y": 3
                },
                "image": "terrain"
+            },
+            {
+               "name": "item_master_207",
+               "center": {
+                  "x": 2,
+                  "y": 9
+               },
+               "image": "terrain"
+            },
+            {
+               "name": "item_master_238",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_573",
+               "center": {
+                  "x": 3,
+                  "y": 2
+               },
+               "image": "items"
+            }
+         ]
+      },
+      "item_group_4726": {
+         "id": "item_group_4726",
+         "name": "item_group_4726",
+         "title": "items",
+         "type": "objectgroup",
+         "objects": [
+            {
+               "name": "item_master_56",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_705",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_38",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_163",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_910",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_169",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_967",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "image": "items"
             }
          ]
       }
    },
    "maps": {
+      "l1shop": {
+         "name": "Level 1 Shop",
+         "path": "l1shop.json",
+         "id": "l1shop"
+      },
       "level1": {
          "name": "Level 1",
          "path": "level1.json",
@@ -948,15 +1043,20 @@
          "name": "Level 2",
          "path": "level2.json",
          "id": "level2"
+      },
+      "start_room": {
+         "name": "Starting Room",
+         "path": "start_room.json",
+         "id": "start_room"
       }
    },
    "settings": {
-      "startMapId": "level1"
+      "startMapId": "some_name"
    },
    "people": [
       {
          "id": "player",
-         "title": "Player",
+         "title": "Dave",
          "image": "people",
          "center": {
             "x": 0,
@@ -965,11 +1065,56 @@
       },
       {
          "id": "narrator",
-         "title": "Narrator",
+         "title": "Voice",
          "image": "people",
          "center": {
             "x": 1,
             "y": 5
+         }
+      },
+      {
+         "id": "person_7161",
+         "title": "Other Voice",
+         "image": "people",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      {
+         "id": "person_2465",
+         "title": "siren",
+         "image": "terrain",
+         "center": {
+            "x": 3,
+            "y": 9
+         }
+      },
+      {
+         "id": "person_122",
+         "title": "cheese",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      {
+         "id": "person_1049",
+         "title": "other cheese",
+         "image": "people",
+         "center": {
+            "x": 0,
+            "y": 0
+         }
+      },
+      {
+         "id": "person_5883",
+         "title": "unnamed person",
+         "image": "people",
+         "center": {
+            "x": 0,
+            "y": 0
          }
       }
    ],

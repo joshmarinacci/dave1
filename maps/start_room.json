@@ -1,0 +1,2099 @@
+{
+    "id": "start_room",
+    "path": "start_room.json",
+    "name": "Starting Room",
+    "battle": true,
+    "background": "#000000",
+    "actions": [
+        {
+            "id": "dialog_0.5177640523793069",
+            "title": "Dialog 0.2829477663074782",
+            "itemid": "jail_door",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "narrator",
+                    "text": "Wake up, Dungeon Dave. Wake up.",
+                    "key": "key_0.6568643082519219"
+                },
+                {
+                    "person": "player",
+                    "text": "errg... ungh....",
+                    "key": "key_0.2831153727068725"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Wake up I say.",
+                    "key": "key_0.39901645998403024"
+                },
+                {
+                    "person": "player",
+                    "text": "Errrrigh.",
+                    "key": "key_0.2026850837262646"
+                },
+                {
+                    "person": "narrator",
+                    "text": "I thought you said he'd be awake by now?",
+                    "key": "key_0.9439019852686916"
+                },
+                {
+                    "person": "person_7161",
+                    "text": "He should be. Perhaps the dose was too strong. Use the air horn.",
+                    "key": "key_0.6659188299029672"
+                },
+                {
+                    "person": "person_2465",
+                    "text": "*BERRRRRRRRK*",
+                    "key": "key_0.1792131179805676"
+                },
+                {
+                    "person": "player",
+                    "text": "Gah!! What? What?! Where am I?",
+                    "key": "key_0.47651493992601635"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Why in my clutches of course. ",
+                    "key": "key_0.7160685232881773"
+                },
+                {
+                    "person": "player",
+                    "text": "Um....\nCould you be a bit more specific?",
+                    "key": "key_0.2548799167691206"
+                },
+                {
+                    "person": "narrator",
+                    "text": "You are now within my carefully constructed torture, Dave.\nA maze from which there is no escape.",
+                    "key": "key_0.8923118989189581"
+                },
+                {
+                    "person": "player",
+                    "text": "But I love mazes.",
+                    "key": "key_0.2119596543248674"
+                },
+                {
+                    "person": "narrator",
+                    "text": "No! Not this one, anyway.",
+                    "key": "key_0.2815734223864591"
+                },
+                {
+                    "person": "item",
+                    "text": " Around every corner a trap. Through every door a magnificent horror of perfect design. ",
+                    "key": "key_0.959840055241552"
+                },
+                {
+                    "person": "player",
+                    "text": "Sounds delightful.",
+                    "key": "key_0.15928960009246917"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Silence! Let me finish! ... Now where was I. Oh right. The maze. ",
+                    "key": "key_0.8552115008205019"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Every room is filled with creatures whose only desire is to inflict exquisite suffering. ",
+                    "key": "key_0.7082943457002714"
+                },
+                {
+                    "person": "player",
+                    "text": "Sounds like you thought of everything.",
+                    "key": "key_0.834350436991572"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Why yes. Yes I did. I have dreamed of this day for an eternity Dungeness Dave. ",
+                    "key": "key_0.7606666246864331"
+                },
+                {
+                    "person": "player",
+                    "text": "It's Dungeon Dave actually. But my friends call me Shirley. ",
+                    "key": "key_0.6828171234167475"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Enough!  Now I will watch as you dungeon crawl to your doom. ",
+                    "key": "key_0.05089002609647175"
+                },
+                {
+                    "person": "person_7161",
+                    "text": "Sir?",
+                    "key": "key_0.31432898781966945"
+                },
+                {
+                    "person": "narrator",
+                    "text": "WHAT!!",
+                    "key": "key_0.41548584598080174"
+                },
+                {
+                    "person": "person_7161",
+                    "text": "Um.. Sir, your 11:00 appointment is here. ",
+                    "key": "key_0.7535871748349868"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Oh yes, yes. Of course. Send him in. ",
+                    "key": "key_0.9476944086713415"
+                },
+                {
+                    "person": "player",
+                    "text": "Busy?",
+                    "key": "key_0.7909673348838772"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Now I leave you to your doom Dave. ",
+                    "key": "key_0.22360734501871127"
+                }
+            ],
+            "visible": true,
+            "next": "goto_0.03932854577664546"
+        },
+        {
+            "id": "goto_0.03932854577664546",
+            "itemid": "exit",
+            "title": "exit",
+            "type": "gotoroom",
+            "gotoroom": {
+                "map": "level1",
+                "item": "entrance",
+                "dx": 0,
+                "dy": 1
+            },
+            "visible": true,
+            "next": null
+        }
+    ],
+    "width": 20,
+    "height": 10,
+    "layers": [
+        {
+            "id": "ground",
+            "type": "drawn",
+            "data": [
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "3_5"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 20,
+            "height": 10
+        },
+        {
+            "id": "walls",
+            "type": "drawn",
+            "data": [
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "1_4"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "tileset1",
+                        "id": "0_0"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 20,
+            "height": 10
+        },
+        {
+            "id": "items",
+            "type": "item",
+            "data": [
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_242"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "exit"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Exit"
+                        },
+                        "blocking": {
+                            "name": "blocking",
+                            "value": true
+                        },
+                        "lockable": {
+                            "name": "lockable",
+                            "value": true
+                        },
+                        "locked": {
+                            "name": "locked",
+                            "value": true
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 16,
+                    "y": 9
+                },
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_242"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "jail_door"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Jail Door"
+                        },
+                        "blocking": {
+                            "name": "blocking",
+                            "value": false
+                        },
+                        "lockable": {
+                            "name": "lockable",
+                            "value": true
+                        },
+                        "locked": {
+                            "name": "locked",
+                            "value": false
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 7,
+                    "y": 2
+                }
+            ],
+            "visible": true,
+            "width": 20,
+            "height": 10
+        }
+    ],
+    "start": {
+        "x": 10,
+        "y": 6
+    },
+    "battleInfo": {
+        "countrange": [
+            1,
+            2
+        ],
+        "enemies": [],
+        "scale": 1
+    }
+}
