@@ -128,7 +128,16 @@
       "terrain": "tiles/terrain.png",
       "rock_mountains": "tiles/terrain_rock_mountains.png",
       "items": "tiles/items.png",
-      "dave_enemies": "tiles/dave_enemies.png"
+      "dave_enemies": "tiles/dave_enemies.png",
+      "dirt": "tiles/terrain_dirt.png",
+      "grass": "tiles/terrain_grass.png",
+      "ice": "tiles/terrain_ice.png",
+      "ice_mountains": "tiles/terrain_ice_mountains.png",
+      "rock": "tiles/terrain_rock.png",
+      "rocklava": "tiles/terrain_rocklava.png",
+      "snow": "tiles/terrain_snow.png",
+      "floating_platform": "tiles/terrain_floating_platforms.png",
+      "water": "tiles/terrain_water.png"
    },
    "tilegroups": {
       "tileset1": {
@@ -185,6 +194,12 @@
             false,
             0,
             6,
+            false,
+            2,
+            2,
+            false,
+            3,
+            4,
             false
          ],
          "name": "tileset1",
@@ -375,6 +390,28 @@
                "type": "drawn",
                "group": "tileset1",
                "id": "0_6",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "tileset1",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "2_2",
+               "blocking": false
+            },
+            "3_4": {
+               "image": "tileset1",
+               "center": {
+                  "x": 3,
+                  "y": 4
+               },
+               "type": "drawn",
+               "group": "tileset1",
+               "id": "3_4",
                "blocking": false
             }
          }
@@ -670,9 +707,6 @@
             2,
             1,
             true,
-            0,
-            2,
-            true,
             1,
             2,
             true,
@@ -693,7 +727,10 @@
             true,
             1,
             1,
-            false
+            false,
+            0,
+            2,
+            true
          ],
          "name": "rock_mountains",
          "type": "collection",
@@ -751,17 +788,6 @@
                "type": "drawn",
                "group": "rock_mountains",
                "id": "2_1",
-               "blocking": true
-            },
-            "0_2": {
-               "image": "rock_mountains",
-               "center": {
-                  "x": 0,
-                  "y": 2
-               },
-               "type": "drawn",
-               "group": "rock_mountains",
-               "id": "0_2",
                "blocking": true
             },
             "1_2": {
@@ -840,6 +866,1745 @@
                "group": "rock_mountains",
                "id": "1_1",
                "blocking": false
+            },
+            "0_2": {
+               "image": "rock_mountains",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rock_mountains",
+               "id": "0_2",
+               "blocking": true
+            }
+         }
+      },
+      "dirt": {
+         "auto": true,
+         "image": "dirt",
+         "tiledefs": [
+            0,
+            0,
+            false,
+            1,
+            0,
+            false,
+            2,
+            0,
+            false,
+            2,
+            1,
+            false,
+            1,
+            1,
+            false,
+            0,
+            1,
+            false,
+            0,
+            2,
+            false,
+            1,
+            2,
+            false,
+            2,
+            2,
+            false,
+            3,
+            1,
+            false,
+            4,
+            1,
+            false,
+            4,
+            0,
+            false,
+            3,
+            0,
+            false
+         ],
+         "name": "dirt",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "dirt",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "0_0",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "dirt",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "1_0",
+               "blocking": false
+            },
+            "2_0": {
+               "image": "dirt",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "2_0",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "dirt",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "2_1",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "dirt",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "1_1",
+               "blocking": false
+            },
+            "0_1": {
+               "image": "dirt",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "0_1",
+               "blocking": false
+            },
+            "0_2": {
+               "image": "dirt",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "0_2",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "dirt",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "1_2",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "dirt",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "2_2",
+               "blocking": false
+            },
+            "3_1": {
+               "image": "dirt",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "3_1",
+               "blocking": false
+            },
+            "4_1": {
+               "image": "dirt",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "4_1",
+               "blocking": false
+            },
+            "4_0": {
+               "image": "dirt",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "4_0",
+               "blocking": false
+            },
+            "3_0": {
+               "image": "dirt",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "dirt",
+               "id": "3_0",
+               "blocking": false
+            }
+         }
+      },
+      "grass": {
+         "auto": true,
+         "image": "grass",
+         "tiledefs": [
+            0,
+            0,
+            false,
+            1,
+            0,
+            false,
+            2,
+            0,
+            false,
+            0,
+            1,
+            false,
+            1,
+            1,
+            false,
+            2,
+            1,
+            false,
+            0,
+            2,
+            false,
+            1,
+            2,
+            false,
+            2,
+            2,
+            false,
+            3,
+            0,
+            false,
+            4,
+            0,
+            false,
+            3,
+            1,
+            false,
+            4,
+            1,
+            false
+         ],
+         "name": "grass",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "grass",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "0_0",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "grass",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "1_0",
+               "blocking": false
+            },
+            "2_0": {
+               "image": "grass",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "2_0",
+               "blocking": false
+            },
+            "0_1": {
+               "image": "grass",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "0_1",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "grass",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "1_1",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "grass",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "2_1",
+               "blocking": false
+            },
+            "0_2": {
+               "image": "grass",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "0_2",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "grass",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "1_2",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "grass",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "2_2",
+               "blocking": false
+            },
+            "3_0": {
+               "image": "grass",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "3_0",
+               "blocking": false
+            },
+            "4_0": {
+               "image": "grass",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "4_0",
+               "blocking": false
+            },
+            "3_1": {
+               "image": "grass",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "3_1",
+               "blocking": false
+            },
+            "4_1": {
+               "image": "grass",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "grass",
+               "id": "4_1",
+               "blocking": false
+            }
+         }
+      },
+      "ice": {
+         "auto": true,
+         "image": "ice",
+         "tiledefs": [
+            0,
+            0,
+            false,
+            1,
+            0,
+            false,
+            2,
+            0,
+            false,
+            0,
+            1,
+            false,
+            1,
+            1,
+            false,
+            2,
+            1,
+            false,
+            0,
+            2,
+            false,
+            1,
+            2,
+            false,
+            2,
+            2,
+            false,
+            3,
+            0,
+            false,
+            4,
+            0,
+            false,
+            3,
+            1,
+            false,
+            4,
+            1,
+            false
+         ],
+         "name": "ice",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "ice",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "0_0",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "ice",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "1_0",
+               "blocking": false
+            },
+            "2_0": {
+               "image": "ice",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "2_0",
+               "blocking": false
+            },
+            "0_1": {
+               "image": "ice",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "0_1",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "ice",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "1_1",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "ice",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "2_1",
+               "blocking": false
+            },
+            "0_2": {
+               "image": "ice",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "0_2",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "ice",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "1_2",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "ice",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "2_2",
+               "blocking": false
+            },
+            "3_0": {
+               "image": "ice",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "3_0",
+               "blocking": false
+            },
+            "4_0": {
+               "image": "ice",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "4_0",
+               "blocking": false
+            },
+            "3_1": {
+               "image": "ice",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "3_1",
+               "blocking": false
+            },
+            "4_1": {
+               "image": "ice",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice",
+               "id": "4_1",
+               "blocking": false
+            }
+         }
+      },
+      "ice_mountains": {
+         "auto": true,
+         "image": "ice_mountains",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            0,
+            1,
+            true,
+            1,
+            0,
+            true,
+            2,
+            0,
+            true,
+            1,
+            1,
+            false,
+            2,
+            1,
+            true,
+            0,
+            2,
+            true,
+            1,
+            2,
+            true,
+            2,
+            2,
+            true,
+            3,
+            0,
+            true,
+            4,
+            0,
+            true,
+            3,
+            1,
+            true,
+            4,
+            1,
+            true
+         ],
+         "name": "ice_mountains",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "0_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "0_1",
+               "blocking": true
+            },
+            "1_0": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "1_0",
+               "blocking": true
+            },
+            "2_0": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "2_0",
+               "blocking": true
+            },
+            "1_1": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "1_1",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "2_1",
+               "blocking": true
+            },
+            "0_2": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "0_2",
+               "blocking": true
+            },
+            "1_2": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "1_2",
+               "blocking": true
+            },
+            "2_2": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "2_2",
+               "blocking": true
+            },
+            "3_0": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "3_0",
+               "blocking": true
+            },
+            "4_0": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "4_0",
+               "blocking": true
+            },
+            "3_1": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "3_1",
+               "blocking": true
+            },
+            "4_1": {
+               "image": "ice_mountains",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "ice_mountains",
+               "id": "4_1",
+               "blocking": true
+            }
+         }
+      },
+      "rock": {
+         "auto": true,
+         "image": "rock",
+         "tiledefs": [
+            0,
+            0,
+            false,
+            1,
+            0,
+            false,
+            2,
+            0,
+            false,
+            0,
+            1,
+            false,
+            1,
+            1,
+            false,
+            2,
+            1,
+            false,
+            0,
+            2,
+            false,
+            1,
+            2,
+            false,
+            2,
+            2,
+            false,
+            3,
+            0,
+            false,
+            4,
+            0,
+            false,
+            3,
+            1,
+            false,
+            4,
+            1,
+            false
+         ],
+         "name": "rock",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "rock",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "0_0",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "rock",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "1_0",
+               "blocking": false
+            },
+            "2_0": {
+               "image": "rock",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "2_0",
+               "blocking": false
+            },
+            "0_1": {
+               "image": "rock",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "0_1",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "rock",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "1_1",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "rock",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "2_1",
+               "blocking": false
+            },
+            "0_2": {
+               "image": "rock",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "0_2",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "rock",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "1_2",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "rock",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "2_2",
+               "blocking": false
+            },
+            "3_0": {
+               "image": "rock",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "3_0",
+               "blocking": false
+            },
+            "4_0": {
+               "image": "rock",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "4_0",
+               "blocking": false
+            },
+            "3_1": {
+               "image": "rock",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "3_1",
+               "blocking": false
+            },
+            "4_1": {
+               "image": "rock",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rock",
+               "id": "4_1",
+               "blocking": false
+            }
+         }
+      },
+      "rocklava": {
+         "auto": true,
+         "image": "rocklava",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            1,
+            0,
+            true,
+            2,
+            0,
+            true,
+            0,
+            1,
+            true,
+            1,
+            1,
+            true,
+            2,
+            1,
+            true,
+            0,
+            2,
+            true,
+            1,
+            2,
+            true,
+            2,
+            2,
+            true,
+            3,
+            0,
+            true,
+            4,
+            0,
+            true,
+            3,
+            1,
+            true,
+            4,
+            1,
+            true
+         ],
+         "name": "rocklava",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "rocklava",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "0_0",
+               "blocking": true
+            },
+            "1_0": {
+               "image": "rocklava",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "1_0",
+               "blocking": true
+            },
+            "2_0": {
+               "image": "rocklava",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "2_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "rocklava",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "0_1",
+               "blocking": true
+            },
+            "1_1": {
+               "image": "rocklava",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "1_1",
+               "blocking": true
+            },
+            "2_1": {
+               "image": "rocklava",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "2_1",
+               "blocking": true
+            },
+            "0_2": {
+               "image": "rocklava",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "0_2",
+               "blocking": true
+            },
+            "1_2": {
+               "image": "rocklava",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "1_2",
+               "blocking": true
+            },
+            "2_2": {
+               "image": "rocklava",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "2_2",
+               "blocking": true
+            },
+            "3_0": {
+               "image": "rocklava",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "3_0",
+               "blocking": true
+            },
+            "4_0": {
+               "image": "rocklava",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "4_0",
+               "blocking": true
+            },
+            "3_1": {
+               "image": "rocklava",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "3_1",
+               "blocking": true
+            },
+            "4_1": {
+               "image": "rocklava",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "rocklava",
+               "id": "4_1",
+               "blocking": true
+            }
+         }
+      },
+      "snow": {
+         "auto": true,
+         "image": "snow",
+         "tiledefs": [
+            0,
+            0,
+            false,
+            1,
+            0,
+            false,
+            2,
+            0,
+            false,
+            0,
+            1,
+            false,
+            1,
+            1,
+            false,
+            2,
+            1,
+            false,
+            0,
+            2,
+            false,
+            1,
+            2,
+            false,
+            2,
+            2,
+            false,
+            3,
+            0,
+            false,
+            4,
+            0,
+            false,
+            3,
+            1,
+            false,
+            4,
+            1,
+            false
+         ],
+         "name": "snow",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "snow",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "0_0",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "snow",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "1_0",
+               "blocking": false
+            },
+            "2_0": {
+               "image": "snow",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "2_0",
+               "blocking": false
+            },
+            "0_1": {
+               "image": "snow",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "0_1",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "snow",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "1_1",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "snow",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "2_1",
+               "blocking": false
+            },
+            "0_2": {
+               "image": "snow",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "0_2",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "snow",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "1_2",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "snow",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "2_2",
+               "blocking": false
+            },
+            "3_0": {
+               "image": "snow",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "3_0",
+               "blocking": false
+            },
+            "4_0": {
+               "image": "snow",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "4_0",
+               "blocking": false
+            },
+            "3_1": {
+               "image": "snow",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "3_1",
+               "blocking": false
+            },
+            "4_1": {
+               "image": "snow",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "snow",
+               "id": "4_1",
+               "blocking": false
+            }
+         }
+      },
+      "water": {
+         "auto": true,
+         "image": "water",
+         "tiledefs": [
+            0,
+            0,
+            false,
+            1,
+            0,
+            false,
+            2,
+            0,
+            false,
+            0,
+            1,
+            false,
+            1,
+            1,
+            false,
+            2,
+            1,
+            false,
+            0,
+            2,
+            false,
+            1,
+            2,
+            false,
+            2,
+            2,
+            false,
+            3,
+            0,
+            false,
+            4,
+            0,
+            false,
+            3,
+            1,
+            false,
+            4,
+            1,
+            false
+         ],
+         "name": "water",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "water",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "0_0",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "water",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "1_0",
+               "blocking": false
+            },
+            "2_0": {
+               "image": "water",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "2_0",
+               "blocking": false
+            },
+            "0_1": {
+               "image": "water",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "0_1",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "water",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "1_1",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "water",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "2_1",
+               "blocking": false
+            },
+            "0_2": {
+               "image": "water",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "0_2",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "water",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "1_2",
+               "blocking": false
+            },
+            "2_2": {
+               "image": "water",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "2_2",
+               "blocking": false
+            },
+            "3_0": {
+               "image": "water",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "3_0",
+               "blocking": false
+            },
+            "4_0": {
+               "image": "water",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "4_0",
+               "blocking": false
+            },
+            "3_1": {
+               "image": "water",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "3_1",
+               "blocking": false
+            },
+            "4_1": {
+               "image": "water",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "4_1",
+               "blocking": false
+            }
+         }
+      },
+      "floating_platform": {
+         "auto": true,
+         "image": "floating_platform",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            1,
+            0,
+            true,
+            2,
+            0,
+            true,
+            0,
+            1,
+            true,
+            1,
+            1,
+            false,
+            2,
+            1,
+            true,
+            0,
+            2,
+            true,
+            1,
+            2,
+            true,
+            2,
+            2,
+            true,
+            3,
+            0,
+            true,
+            4,
+            0,
+            true,
+            3,
+            1,
+            true,
+            4,
+            1,
+            true
+         ],
+         "name": "floating_platform",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "0_0",
+               "blocking": true
+            },
+            "1_0": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "1_0",
+               "blocking": true
+            },
+            "2_0": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "2_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "0_1",
+               "blocking": true
+            },
+            "1_1": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "1_1",
+               "blocking": false
+            },
+            "2_1": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "2_1",
+               "blocking": true
+            },
+            "0_2": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "0_2",
+               "blocking": true
+            },
+            "1_2": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "1_2",
+               "blocking": true
+            },
+            "2_2": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "2_2",
+               "blocking": true
+            },
+            "3_0": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "3_0",
+               "blocking": true
+            },
+            "4_0": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "4_0",
+               "blocking": true
+            },
+            "3_1": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "3_1",
+               "blocking": true
+            },
+            "4_1": {
+               "image": "floating_platform",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "floating_platform",
+               "id": "4_1",
+               "blocking": true
             }
          }
       }
@@ -1026,6 +2791,22 @@
                "image": "items"
             }
          ]
+      },
+      "item_group_8703": {
+         "id": "item_group_8703",
+         "name": "item_group_8703",
+         "title": "special enemies",
+         "type": "objectgroup",
+         "objects": [
+            {
+               "name": "item_master_356",
+               "center": {
+                  "x": 0,
+                  "y": 2
+               },
+               "image": "dave_enemies"
+            }
+         ]
       }
    },
    "maps": {
@@ -1044,10 +2825,35 @@
          "path": "level2.json",
          "id": "level2"
       },
+      "level3": {
+         "name": "Level 3",
+         "path": "level3.json",
+         "id": "level3"
+      },
+      "l4shop": {
+         "name": "Level 4 Shop",
+         "path": "l4shop.json",
+         "id": "l4shop"
+      },
       "start_room": {
          "name": "Starting Room",
          "path": "start_room.json",
          "id": "start_room"
+      },
+      "l3shop": {
+         "name": "Level 3 Shop",
+         "path": "l3shop.json",
+         "id": "l3shop"
+      },
+      "l2shop": {
+         "name": "Level 2 Shop",
+         "path": "l2shop.json",
+         "id": "l2shop"
+      },
+      "level4": {
+         "name": "Level 4",
+         "path": "level4.json",
+         "id": "level4"
       }
    },
    "settings": {
@@ -1060,7 +2866,7 @@
          "image": "people",
          "center": {
             "x": 0,
-            "y": 0
+            "y": 7
          }
       },
       {
@@ -1069,7 +2875,7 @@
          "image": "people",
          "center": {
             "x": 1,
-            "y": 5
+            "y": 7
          }
       },
       {
@@ -1077,17 +2883,17 @@
          "title": "Other Voice",
          "image": "people",
          "center": {
-            "x": 1,
-            "y": 0
+            "x": 2,
+            "y": 7
          }
       },
       {
          "id": "person_2465",
          "title": "siren",
-         "image": "terrain",
+         "image": "items",
          "center": {
-            "x": 3,
-            "y": 9
+            "x": 0,
+            "y": 2
          }
       },
       {

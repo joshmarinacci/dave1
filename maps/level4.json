@@ -1,0 +1,2101 @@
+{
+    "id": "level4",
+    "path": "level4.json",
+    "name": "Level 4",
+    "battle": false,
+    "background": "#000000",
+    "actions": [
+        {
+            "id": "goto_0.14910206337588272",
+            "itemid": "shop",
+            "title": "Go To 0.6771322537692491",
+            "type": "gotoroom",
+            "gotoroom": {
+                "map": "l4shop",
+                "item": "exit",
+                "dx": 0,
+                "dy": -1
+            },
+            "visible": true,
+            "next": null
+        }
+    ],
+    "width": 20,
+    "height": 30,
+    "layers": [
+        {
+            "id": "floor",
+            "type": "drawn",
+            "data": [
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_0"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_0"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "floating_platform",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "visible": true,
+            "width": 20,
+            "height": 30
+        },
+        {
+            "id": "items",
+            "type": "item",
+            "data": [
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_242"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "entrance"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Entrance"
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_573"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "shop"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Shop"
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 16,
+                    "y": 1
+                }
+            ],
+            "visible": true,
+            "width": 20,
+            "height": 10
+        }
+    ],
+    "start": {
+        "x": 8,
+        "y": 5
+    },
+    "battleInfo": {
+        "countrange": [
+            1,
+            2
+        ],
+        "enemies": [],
+        "scale": 1
+    }
+}
