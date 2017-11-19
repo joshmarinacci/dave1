@@ -40,14 +40,12 @@
       ]
    },
    "enemies": {
-      "snowslime": {
+      "mazerat": {
          "name": "Maze Rat",
          "hp": 5,
          "mp": 0,
          "strength": 10,
-         "defense": 0.1,
-         "weapon": 0,
-         "skill": 0.1,
+         "defense": 10,
          "attacks": [
             "slips",
             "spills",
@@ -59,14 +57,12 @@
             "y": 0
          }
       },
-      "iceslime": {
+      "mazecat": {
          "name": "Maze Cat",
          "hp": 10,
          "mp": 0,
          "strength": 10,
-         "defense": 0.1,
-         "weapon": 0,
-         "skill": 0.1,
+         "defense": 10,
          "attacks": [
             "slip",
             "spill",
@@ -78,14 +74,12 @@
             "y": 0
          }
       },
-      "snowballs": {
+      "mazebat": {
          "name": "Maze Bat",
-         "hp": 10,
+         "hp": 15,
          "mp": 0,
          "strength": 15,
-         "defense": 0.1,
-         "weapon": 0,
-         "skill": 0.1,
+         "defense": 20,
          "attacks": [
             "smack",
             "splat",
@@ -97,13 +91,12 @@
             "y": 0
          }
       },
-      "crab": {
-         "hp": 15,
+      "mazehat": {
+         "name": "Maze Hat",
+         "hp": 20,
          "mp": 0,
          "strength": 5,
-         "name": "Maze Hat",
-         "defense": 0.1,
-         "weapon": 0,
+         "defense": 10,
          "skill": 0.1,
          "attacks": [
             "pinch",
@@ -419,40 +412,10 @@
       "people": {
          "auto": true,
          "image": "people",
-         "tiledefs": [
-            0,
-            0,
-            true,
-            0,
-            1,
-            true
-         ],
+         "tiledefs": [],
          "name": "people",
          "type": "collection",
-         "tiles": {
-            "0_0": {
-               "image": "people",
-               "center": {
-                  "x": 0,
-                  "y": 0
-               },
-               "type": "drawn",
-               "group": "people",
-               "id": "0_0",
-               "blocking": true
-            },
-            "0_1": {
-               "image": "people",
-               "center": {
-                  "x": 0,
-                  "y": 1
-               },
-               "type": "drawn",
-               "group": "people",
-               "id": "0_1",
-               "blocking": true
-            }
-         }
+         "tiles": {}
       },
       "terrain": {
          "auto": true,
@@ -2677,8 +2640,25 @@
                   "y": 3
                },
                "image": "people"
+            },
+            {
+               "name": "item_master_154",
+               "center": {
+                  "x": 3,
+                  "y": 7
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_542",
+               "center": {
+                  "x": 1,
+                  "y": 10
+               },
+               "image": "people"
             }
-         ]
+         ],
+         "title": "people"
       },
       "item_group_5418": {
          "id": "item_group_5418",
@@ -2789,6 +2769,46 @@
                   "y": 1
                },
                "image": "items"
+            },
+            {
+               "name": "item_master_280",
+               "center": {
+                  "x": 2,
+                  "y": 3
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_23",
+               "center": {
+                  "x": 0,
+                  "y": 3
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_840",
+               "center": {
+                  "x": 1,
+                  "y": 3
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_590",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "image": "items"
+            },
+            {
+               "name": "item_master_212",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "image": "items"
             }
          ]
       },
@@ -2805,6 +2825,30 @@
                   "y": 2
                },
                "image": "dave_enemies"
+            },
+            {
+               "name": "item_master_410",
+               "center": {
+                  "x": 2,
+                  "y": 4
+               },
+               "image": "dave_enemies"
+            },
+            {
+               "name": "item_master_182",
+               "center": {
+                  "x": 6,
+                  "y": 2
+               },
+               "image": "dave_enemies"
+            },
+            {
+               "name": "item_master_975",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "image": "dave_enemies"
             }
          ]
       }
@@ -2814,6 +2858,11 @@
          "name": "Level 1 Shop",
          "path": "l1shop.json",
          "id": "l1shop"
+      },
+      "l4.json": {
+         "name": "Level 4",
+         "path": "l4.json.json",
+         "id": "l4.json"
       },
       "level1": {
          "name": "Level 1",
@@ -2825,39 +2874,47 @@
          "path": "level2.json",
          "id": "level2"
       },
-      "level3": {
-         "name": "Level 3",
-         "path": "level3.json",
-         "id": "level3"
+      "l2shop": {
+         "name": "Level 2 Shop",
+         "path": "l2shop.json",
+         "id": "l2shop"
       },
       "l4shop": {
-         "name": "Level 4 Shop",
+         "name": "Level 5 Shop",
          "path": "l4shop.json",
          "id": "l4shop"
       },
-      "start_room": {
-         "name": "Starting Room",
-         "path": "start_room.json",
-         "id": "start_room"
+      "level4": {
+         "name": "Level 5",
+         "path": "level4.json",
+         "id": "level4"
+      },
+      "undefined": {
+         "path": "undefined.json"
       },
       "l3shop": {
          "name": "Level 3 Shop",
          "path": "l3shop.json",
          "id": "l3shop"
       },
-      "l2shop": {
-         "name": "Level 2 Shop",
-         "path": "l2shop.json",
-         "id": "l2shop"
+      "level3": {
+         "name": "Level 3",
+         "path": "level3.json",
+         "id": "level3"
       },
-      "level4": {
-         "name": "Level 4",
-         "path": "level4.json",
-         "id": "level4"
+      "start_room": {
+         "name": "Starting Room",
+         "path": "start_room.json",
+         "id": "start_room"
+      },
+      "l4shopa": {
+         "name": "Level 4 Shop",
+         "path": "l4shopa.json",
+         "id": "l4shopa"
       }
    },
    "settings": {
-      "startMapId": "some_name"
+      "startMapId": "start_room"
    },
    "people": [
       {
@@ -2907,22 +2964,61 @@
       },
       {
          "id": "person_1049",
-         "title": "other cheese",
-         "image": "people",
+         "title": "note",
+         "image": "items",
          "center": {
-            "x": 0,
-            "y": 0
+            "x": 1,
+            "y": 2
          }
       },
       {
          "id": "person_5883",
-         "title": "unnamed person",
-         "image": "people",
+         "title": "water bottle",
+         "image": "items",
+         "center": {
+            "x": 2,
+            "y": 2
+         }
+      },
+      {
+         "id": "person_9037",
+         "title": "antacid",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 3
+         }
+      },
+      {
+         "id": "person_4958",
+         "title": "scuba gear",
+         "image": "items",
          "center": {
             "x": 0,
-            "y": 0
+            "y": 3
+         }
+      },
+      {
+         "id": "pointystick",
+         "title": "pointy stick",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 1
          }
       }
    ],
-   "baseDir": "../dave1"
+   "baseDir": "../dave1",
+   "items": {
+      "pointystick": {
+         "id": "pointystick",
+         "name": "pointy stick",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 1
+         }
+      }
+   }
 }

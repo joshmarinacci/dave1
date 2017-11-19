@@ -16,7 +16,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -27,8 +27,133 @@
             "dialog": [
                 {
                     "person": "item",
-                    "text": "howdy stranger",
+                    "text": "Hey Man, I’m Aqua Stan. How are you doing today?",
                     "key": "key_0.7803858601388932"
+                },
+                {
+                    "person": "player",
+                    "text": "Not well, obviously, I’m stuck down here.",
+                    "key": "key_0.4775401253178143"
+                },
+                {
+                    "person": "item",
+                    "text": "True true. But at least the weather’s always the same. 100% humidity.",
+                    "key": "key_0.31503492246541065"
+                },
+                {
+                    "person": "player",
+                    "text": "Speaking of which, is there anyway to get through that underground lake? It looks very acidic. And, deep.",
+                    "key": "key_0.5484801929009352"
+                },
+                {
+                    "person": "item",
+                    "text": "Sure. You just need some antacid.",
+                    "key": "key_0.9616745746006283"
+                },
+                {
+                    "person": "item",
+                    "text": "And the deepness?",
+                    "key": "key_0.24340848558456218"
+                },
+                {
+                    "person": "item",
+                    "text": "Um. Yeah, I've got some scuba gear. ",
+                    "key": "key_0.31401352559176965"
+                },
+                {
+                    "person": "item",
+                    "text": "Perfect! Thanks.",
+                    "key": "key_0.20276988103861182"
+                },
+                {
+                    "person": "item",
+                    "text": "Wait! Don’t you want to hear about my daughter?",
+                    "key": "key_0.020527340238253422"
+                },
+                {
+                    "person": "item",
+                    "text": "Oh geez. Do you have a daughter too?",
+                    "key": "key_0.8581893623581051"
+                },
+                {
+                    "person": "item",
+                    "text": "Yes I do. Well I did.",
+                    "key": "key_0.03399847869311168"
+                },
+                {
+                    "person": "item",
+                    "text": "Let me guess, she was kidnapped by the you know who.",
+                    "key": "key_0.9637265228671775"
+                },
+                {
+                    "person": "item",
+                    "text": "Why yes, how did you know?",
+                    "key": "key_0.15293421901009197"
+                },
+                {
+                    "person": "item",
+                    "text": "Just a hunch. Did he leave a note?",
+                    "key": "key_0.20261311598868303"
+                },
+                {
+                    "person": "item",
+                    "text": "No. Just a stick drawing of a sea creature eating a person. See, here it is?",
+                    "key": "key_0.2183917806958825"
+                },
+                {
+                    "person": "item",
+                    "text": "Hmm. Interesting. So you think an monster ate her? ",
+                    "key": "key_0.0693511798829054"
+                },
+                {
+                    "person": "item",
+                    "text": "I don’t see what else it could mean.",
+                    "key": "key_0.9168321856442982"
+                },
+                {
+                    "person": "item",
+                    "text": "Did your daughter wear a hat?",
+                    "key": "key_0.7078563368529864"
+                },
+                {
+                    "person": "item",
+                    "text": "Um. no.",
+                    "key": "key_0.1124633780040798"
+                },
+                {
+                    "person": "item",
+                    "text": "Well the stick person has a hat like yours.",
+                    "key": "key_0.3256530872298091"
+                },
+                {
+                    "person": "item",
+                    "text": "Hmm. Probably just a coincidence. It’s definitely a picture of a creature eating my daughter.",
+                    "key": "key_0.3881319935212926"
+                },
+                {
+                    "person": "item",
+                    "text": "In any case, can you please save her. She’s probably digesting now at the bottom of the lake. Some horrible sea creature is devouring her!",
+                    "key": "key_0.008403229821173364"
+                },
+                {
+                    "person": "item",
+                    "text": "*sigh*. I suppose. Give me the scuba gear and antacid.",
+                    "key": "key_0.5212435685371398"
+                },
+                {
+                    "person": "item",
+                    "text": "Thanks. And have a nice day!",
+                    "key": "key_0.09872835879852482"
+                },
+                {
+                    "person": "person_4958",
+                    "text": "scuba gear received",
+                    "key": "key_0.96472385867702"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "antacid received",
+                    "key": "key_0.8407246570831242"
                 }
             ],
             "visible": true,
@@ -1285,7 +1410,7 @@
                         },
                         "title": {
                             "name": "title",
-                            "value": "Shop Keeper"
+                            "value": "Aqua Stan"
                         },
                         "visible": {
                             "name": "visible",

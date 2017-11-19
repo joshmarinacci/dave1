@@ -1,7 +1,7 @@
 {
     "id": "level4",
     "path": "level4.json",
-    "name": "Level 4",
+    "name": "Level 5",
     "battle": false,
     "background": "#000000",
     "actions": [
@@ -2083,7 +2083,7 @@
             ],
             "visible": true,
             "width": 20,
-            "height": 10
+            "height": 30
         }
     ],
     "start": {

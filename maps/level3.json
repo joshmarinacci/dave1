@@ -3,7 +3,7 @@
     "path": "level3.json",
     "name": "Level 3",
     "battle": false,
-    "background": "#000000",
+    "background": "#969696",
     "actions": [
         {
             "id": "goto_0.6458898690424828",
@@ -29,6 +29,168 @@
                 "item": "entrance",
                 "dx": 0,
                 "dy": 0
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.783970059321558",
+            "title": "Dialog 0.3727505201901161",
+            "itemid": "monster",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "Please don’t hurt me. ",
+                    "key": "key_0.0914055630254561"
+                },
+                {
+                    "person": "item",
+                    "text": "Why are you adventurers always trying to hurt me?",
+                    "key": "key_0.3011418304340081"
+                },
+                {
+                    "person": "player",
+                    "text": "I’m not here to hurt you. I just need to get past you to find some girls who were kidnapped.",
+                    "key": "key_0.7443155804753981"
+                },
+                {
+                    "person": "item",
+                    "text": "You adventurers are always trying to save damsels in distress. ",
+                    "key": "key_0.07661300609144539"
+                },
+                {
+                    "person": "player",
+                    "text": "It wasn’t my choice. I don't suppose you ate one of them. If you did it would make my job a lot simpler.",
+                    "key": "key_0.97282999615843"
+                },
+                {
+                    "person": "item",
+                    "text": "Of course not! I don’t eat people! Way too much cholesterol. I generally have a nice diet of seaweed and low-fat cave clams.",
+                    "key": "key_0.4919300719937377"
+                },
+                {
+                    "person": "player",
+                    "text": "So what seems to be your problem?",
+                    "key": "key_0.023416952264688318"
+                },
+                {
+                    "person": "item",
+                    "text": "I found a huge stash of delicious cave clams and well, I couldn't help myself. And now I have this terrible heartburn and can't bear to move.",
+                    "key": "key_0.9803331228705038"
+                },
+                {
+                    "person": "player",
+                    "text": "Hmm. Perhaps I can help.",
+                    "key": "key_0.5966642408598066"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "*plop plop. fizz fizz*",
+                    "key": "key_0.3862122721147936"
+                },
+                {
+                    "person": "item",
+                    "text": "Ah, that’s better.",
+                    "key": "key_0.7188495214568331"
+                },
+                {
+                    "person": "player",
+                    "text": "So what’s your name? Some sort of a monster in the darkness? A dark-ness monster? :)",
+                    "key": "key_0.686169211462627"
+                },
+                {
+                    "person": "item",
+                    "text": "*sigh* You’re right most people call me Nessy, which is a horrible and childish name. I hate it.",
+                    "key": "key_0.18117263155294017"
+                },
+                {
+                    "person": "item",
+                    "text": "Plus I never talk to anyone, so I don’t really need a name.",
+                    "key": "key_0.04400193158000665"
+                },
+                {
+                    "person": "player",
+                    "text": "How about Mr Darkness Monster?",
+                    "key": "key_0.6872600591104918"
+                },
+                {
+                    "person": "item",
+                    "text": "Too formal.",
+                    "key": "key_0.692382852666624"
+                },
+                {
+                    "person": "player",
+                    "text": "Hmm. Well, how does Pikachu sound? That’s not childish at all.",
+                    "key": "key_0.2649003126034094"
+                },
+                {
+                    "person": "item",
+                    "text": "No good. Copyrighted.",
+                    "key": "key_0.7361737113412518"
+                },
+                {
+                    "person": "player",
+                    "text": "Instead of Darkness Monster I can just call you DM. ",
+                    "key": "key_0.10843004122077549"
+                },
+                {
+                    "person": "item",
+                    "text": "Hmm. I like the sound of that. DM: Ruler of Dungeons and Dice.",
+                    "key": "key_0.9327360232150884"
+                },
+                {
+                    "person": "player",
+                    "text": "Dice?",
+                    "key": "key_0.7166569651974546"
+                },
+                {
+                    "person": "item",
+                    "text": "Um.. never mind. I’m the DM from now on.",
+                    "key": "key_0.42074550734048377"
+                },
+                {
+                    "person": "player",
+                    "text": "Sounds great. It’s been a pleasure talking with you, but now I must be leaving.",
+                    "key": "key_0.4247709602637849"
+                },
+                {
+                    "person": "item",
+                    "text": "Of course, all those damsels to save. Well, take this whistle. If you need any help just give it a tweet.",
+                    "key": "key_0.6309754245116537"
+                },
+                {
+                    "person": "item",
+                    "text": "I always respond to tweets. I’m really a chat bot like that.",
+                    "key": "key_0.3707769516878293"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "received whistle",
+                    "key": "key_0.6695770893459952"
+                },
+                {
+                    "person": "player",
+                    "text": "Thanks DM. ",
+                    "key": "key_0.24063962326256128"
+                },
+                {
+                    "person": "item",
+                    "text": "No prob!",
+                    "key": "key_0.9349937614161539"
+                }
+            ],
+            "visible": true,
+            "next": "script_0.1271443336996565"
+        },
+        {
+            "id": "script_0.1271443336996565",
+            "itemid": "none",
+            "title": "hide monster",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.item('monster').hide()\n"
             },
             "visible": true,
             "next": null
@@ -21597,11 +21759,21 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_1"
+                        "id": "3_1"
                     }
                 },
-                null,
-                null,
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "2_0"
+                    }
+                },
                 null,
                 {
                     "master": {
@@ -21807,11 +21979,21 @@
                 {
                     "master": {
                         "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
                         "id": "2_1"
                     }
                 },
-                null,
-                null,
                 null,
                 {
                     "master": {
@@ -22022,11 +22204,21 @@
                 {
                     "master": {
                         "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
                         "id": "2_1"
                     }
                 },
-                null,
-                null,
                 null,
                 {
                     "master": {
@@ -22212,11 +22404,21 @@
                 {
                     "master": {
                         "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
                         "id": "2_1"
                     }
                 },
-                null,
-                null,
                 null,
                 {
                     "master": {
@@ -22397,16 +22599,21 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "3_1"
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_0"
+                        "id": "3_0"
                     }
                 },
-                null,
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "2_2"
+                    }
+                },
                 null,
                 null,
                 null,
@@ -26347,6 +26554,28 @@
                     },
                     "x": 47,
                     "y": 44
+                },
+                {
+                    "master": {
+                        "group": "item_group_8703",
+                        "id": "item_master_182"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "monster"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Monster"
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 43,
+                    "y": 28
                 }
             ],
             "visible": true,

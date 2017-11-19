@@ -1,7 +1,7 @@
 {
     "id": "l4shop",
     "path": "l4shop.json",
-    "name": "Level 4 Shop",
+    "name": "Level 5 Shop",
     "battle": false,
     "background": "#000000",
     "actions": [
@@ -16,7 +16,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -27,8 +27,413 @@
             "dialog": [
                 {
                     "person": "item",
-                    "text": "Mwaah haa haaa!",
+                    "text": "Welcome to Level 5, The Unnamed One. ",
                     "key": "key_0.3996391584544646"
+                },
+                {
+                    "person": "player",
+                    "text": "Unnamed? ",
+                    "key": "key_0.5808587923298304"
+                },
+                {
+                    "person": "item",
+                    "text": "Yeah, the designers got bored and just started throwing stuff everywhere.",
+                    "key": "key_0.17661707896230894"
+                },
+                {
+                    "person": "player",
+                    "text": "So before we go any further, do you have a daughter?",
+                    "key": "key_0.779367922898193"
+                },
+                {
+                    "person": "item",
+                    "text": "I don’t have any kids. They are.... unnecessary.",
+                    "key": "key_0.2872580079363758"
+                },
+                {
+                    "person": "player",
+                    "text": "No. It’s just that every shop keeper seems to have a kidnapped daughter.",
+                    "key": "key_0.5010775811008394"
+                },
+                {
+                    "person": "item",
+                    "text": "Hmm. Well, there’s no kidnapped girls here. The powers that be would never let that happen.",
+                    "key": "key_0.39647029281343305"
+                },
+                {
+                    "person": "player",
+                    "text": "You mean you know who?",
+                    "key": "key_0.7351806791000022"
+                },
+                {
+                    "person": "item",
+                    "text": "Who you know?",
+                    "key": "key_0.9578876412976898"
+                },
+                {
+                    "person": "player",
+                    "text": "What?",
+                    "key": "key_0.6296983883438927"
+                },
+                {
+                    "person": "item",
+                    "text": "Nevermind. How can I help you... Dave?",
+                    "key": "key_0.6049218282572911"
+                },
+                {
+                    "person": "player",
+                    "text": "Well, I assume I’ll need you to provide me with some special item. And without that item \nI can't proceed to the next level. You know... the usual.",
+                    "key": "key_0.02417623380256062"
+                },
+                {
+                    "person": "item",
+                    "text": "Of course Dave.",
+                    "key": "key_0.3396108728767959"
+                },
+                {
+                    "person": "player",
+                    "text": "Wait, how did you know my name was Dave?",
+                    "key": "key_0.24799375290689862"
+                },
+                {
+                    "person": "item",
+                    "text": "I know everything Dave. I’ve been expecting you.",
+                    "key": "key_0.42193574674849355"
+                },
+                {
+                    "person": "player",
+                    "text": "No! That voice! It's you!",
+                    "key": "key_0.8249278548102377"
+                },
+                {
+                    "person": "item",
+                    "text": "Yes Dave. It’s me. You know who, I am.",
+                    "key": "key_0.9340833666557313"
+                }
+            ],
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "dialog_0.7089102518754716",
+            "title": "Dialog 0.6095261800372548",
+            "itemid": "newitem_383",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "person_5883",
+                    "text": "Wait no. Don’t destroy him. I spent six weeks on his circuitry alone!",
+                    "key": "key_0.9443415301882957"
+                },
+                {
+                    "person": "player",
+                    "text": "Who are you?",
+                    "key": "key_0.27016289213018707"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "We are the powers that be.",
+                    "key": "key_0.9250155168029763"
+                },
+                {
+                    "person": "player",
+                    "text": "You four girls? You control him?",
+                    "key": "key_0.25579582471208906"
+                },
+                {
+                    "person": "person_4958",
+                    "text": "Of course we do. We made him.",
+                    "key": "key_0.762558036300557"
+                },
+                {
+                    "person": "player",
+                    "text": "Wait, are you the kidnapped daughters?",
+                    "key": "key_0.16797597627851169"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "Well…. kinda.",
+                    "key": "key_0.802811597076389"
+                },
+                {
+                    "person": "player",
+                    "text": "Hmm. I see. You weren’t really kidnapped at all, were you.",
+                    "key": "key_0.9990653465681626"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "*sigh* no.",
+                    "key": "key_0.4162401436000913"
+                },
+                {
+                    "person": "player",
+                    "text": "Your fathers are going to be very mad.",
+                    "key": "key_0.10205586436117198"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "Pfffft. My dad doesn’t care about me. He just cares about his stupid sea shop.",
+                    "key": "key_0.34795841616168666"
+                },
+                {
+                    "person": "player",
+                    "text": "You must be Aqua-Stan’s daughter.",
+                    "key": "key_0.6653245456668953"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "Not anymore. I ran away because he doesn’t love me. I wish the sea monster would just\neat him alive.",
+                    "key": "key_0.07221445363272061"
+                },
+                {
+                    "person": "player",
+                    "text": "Ah. That explains your picture. Why do you think he doesn’t love you?",
+                    "key": "key_0.262085715990937"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "If he loved me he wouldn’t have moved our family into this stupid dungeon that never has any customers anyway.",
+                    "key": "key_0.9785983052998148"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "Yeah. And my dad is the same.",
+                    "key": "key_0.043235557817640324"
+                },
+                {
+                    "person": "person_4958",
+                    "text": "Mine too.",
+                    "key": "key_0.5226853846178338"
+                },
+                {
+                    "person": "player",
+                    "text": "All of your fathers moved into this dungeon for their businesses?",
+                    "key": "key_0.32495022766133197"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "Well, it wasn’t really a dungeon then. We just added that name after we made our robot. It helps keep appearances.",
+                    "key": "key_0.38066764434485134"
+                },
+                {
+                    "person": "person_4958",
+                    "text": " Originally it was an abandoned mall that was overgrown with weeds. Not much foot traffic but the land is cheap.",
+                    "key": "key_0.22990142515496548"
+                },
+                {
+                    "person": "player",
+                    "text": "Wait. You made him, and he said he captured me. So that means you really brought me here. But why? What do you want me for?",
+                    "key": "key_0.2568760898937671"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "To help us with our dads. They just don’t understand us. You’re an adventurer. You understand that we can’t be cooped up here in this stupid dungeon lair.",
+                    "key": "key_0.583982423177071"
+                },
+                {
+                    "person": "person_9037",
+                    "text": " We need to explore, and build cool things. Our dads never let us build cool stuff.",
+                    "key": "key_0.18706655673479977"
+                },
+                {
+                    "person": "player",
+                    "text": "I gotta say this takes teen rebellion to a whole new level.",
+                    "key": "key_0.33220321113813533"
+                },
+                {
+                    "person": "person_4958",
+                    "text": "Yeah, I think we might have taken things too far.",
+                    "key": "key_0.2113948080889675"
+                },
+                {
+                    "person": "player",
+                    "text": "I tell you what. I’ll talk to your dads about letting you move to the city for college. In exchange you let me go and we forget this ever happened.",
+                    "key": "key_0.6770284236478252"
+                },
+                {
+                    "person": "person_4958",
+                    "text": "I think that’s fair.",
+                    "key": "key_0.6522442299420063"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "Yeah. That sounds good.",
+                    "key": "key_0.9835871419352827"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Negative.",
+                    "key": "key_0.17233946684997659"
+                },
+                {
+                    "person": "player",
+                    "text": "You know who? But he’s deactivated! ",
+                    "key": "key_0.09440515526343352"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Negative. Negative.",
+                    "key": "key_0.7497988091025135"
+                },
+                {
+                    "person": "narrator",
+                    "text": "Primary mission: destroy Dungeon Dave. Activate.",
+                    "key": "key_0.8084603860488452"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "His AI isn’t working. He’s reverted to his lower subroutines. We can’t control him anymore.",
+                    "key": "key_0.643605041794838"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "Now what do we do?",
+                    "key": "key_0.2928249938493087"
+                },
+                {
+                    "person": "person_4958",
+                    "text": "Take this debugger, it might help.",
+                    "key": "key_0.18252775401619425"
+                }
+            ],
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.2119207216309439",
+            "title": "Dialog 0.7934697940463054",
+            "itemid": "newitem_745",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "narrator",
+                    "text": "It’s no use. He’s too strong.",
+                    "key": "key_0.6807320640415004"
+                },
+                {
+                    "person": "player",
+                    "text": "Isn’t there anyone you can call for help?",
+                    "key": "key_0.9548762158832367"
+                },
+                {
+                    "person": "player",
+                    "text": "Your fathers?",
+                    "key": "key_0.8354308420996069"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "No, they’d never forgive us for pretending to be kidnapped. There must be someone else.",
+                    "key": "key_0.5197173350374398"
+                },
+                {
+                    "person": "player",
+                    "text": "Wait. Let me tweet.",
+                    "key": "key_0.5321291923646677"
+                },
+                {
+                    "person": "person_9037",
+                    "text": "Now isn’t the time to get on the internet!",
+                    "key": "key_0.9688329341143103"
+                },
+                {
+                    "person": "player",
+                    "text": "No. My whistle.",
+                    "key": "key_0.2515394586742671"
+                },
+                {
+                    "person": "person_122",
+                    "text": "Tweet Tweet.",
+                    "key": "key_0.5893057950203112"
+                },
+                {
+                    "person": "person_122",
+                    "text": "The DM arrives.",
+                    "key": "key_0.24160121346980645"
+                },
+                {
+                    "person": "pointystick",
+                    "text": "Howdy Dave. Looks like you’re in a bit of a pickle.",
+                    "key": "key_0.8537534350835744"
+                },
+                {
+                    "person": "player",
+                    "text": "Yeah, can you pull us out of a jam?",
+                    "key": "key_0.4692082675222392"
+                },
+                {
+                    "person": "pointystick",
+                    "text": "Of course my friend.",
+                    "key": "key_0.6592562686609093"
+                },
+                {
+                    "person": "pointystick",
+                    "text": "Rolling a D20.",
+                    "key": "key_0.46039837635502145"
+                },
+                {
+                    "person": "person_122",
+                    "text": "Critical Hit",
+                    "key": "key_0.23122454827719996"
+                },
+                {
+                    "person": "pointystick",
+                    "text": "Critical hit! He falls into a bag of holding.",
+                    "key": "key_0.32172322341735393"
+                },
+                {
+                    "person": "person_122",
+                    "text": "swoop!",
+                    "key": "key_0.9832310001675101"
+                },
+                {
+                    "person": "player",
+                    "text": "Ah. That’s better.",
+                    "key": "key_0.6849676447773008"
+                },
+                {
+                    "person": "pointystick",
+                    "text": "Remember kids. ",
+                    "key": "key_0.39455420571598243"
+                },
+                {
+                    "person": "pointystick",
+                    "text": "Anytime you need some help, just tweet your DM. ",
+                    "key": "key_0.6385894622371439"
+                },
+                {
+                    "person": "player",
+                    "text": "Thanks DM. Now back to you children.",
+                    "key": "key_0.6850855823351911"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "Hey! We're all 17. We aren't children!",
+                    "key": "key_0.002231462064558376"
+                },
+                {
+                    "person": "player",
+                    "text": "With coding skills like that you are. Didn’t you even unit test your safety modules. ",
+                    "key": "key_0.9138199077147313"
+                },
+                {
+                    "person": "player",
+                    "text": "I’m going to tell your fathers to send you to a good computer science department.",
+                    "key": "key_0.7152802324515063"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "Thanks Dungeon Dave.",
+                    "key": "key_0.8021504128020094"
+                },
+                {
+                    "person": "player",
+                    "text": "Aw shucks. Just call me Shirley.",
+                    "key": "key_0.5566437166337812"
+                },
+                {
+                    "person": "narrator",
+                    "text": "The End",
+                    "key": "key_0.13325220457550024"
                 }
             ],
             "visible": true,
@@ -884,6 +1289,42 @@
                     },
                     "x": 9,
                     "y": 9
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "penguin"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_383"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "part2"
+                        }
+                    },
+                    "x": 10,
+                    "y": 4
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "penguin"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_745"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "part3"
+                        }
+                    },
+                    "x": 11,
+                    "y": 4
                 }
             ],
             "visible": true,
@@ -892,8 +1333,8 @@
         }
     ],
     "start": {
-        "x": 0,
-        "y": 0
+        "x": 10,
+        "y": 6
     },
     "battleInfo": {
         "countrange": [

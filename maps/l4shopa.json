@@ -1,187 +1,147 @@
 {
-    "id": "l1shop",
-    "path": "l1shop.json",
-    "name": "Level 1 Shop",
+    "id": "l4shopa",
+    "path": "l4shopa.json",
+    "name": "Level 4 Shop",
     "battle": false,
     "background": "#000000",
     "actions": [
         {
-            "id": "dialog_0.41688588083212486",
-            "title": "Dialog 0.32013427182721077",
-            "itemid": "dad1",
+            "id": "dialog_0.1083575531730584",
+            "title": "Dialog 0.8882890456268151",
+            "itemid": "shopkeeper",
             "type": "dialog",
             "dialog": [
                 {
                     "person": "item",
-                    "text": "Howdy Stranger!",
-                    "key": "key_0.6699568364042143"
+                    "text": "Hey Bob. How’s it going?",
+                    "key": "key_0.9455118405580326"
                 },
                 {
                     "person": "player",
-                    "text": "Hi.. um.. is this a shop in the middle of an evil maze?",
-                    "key": "key_0.42920253218919024"
+                    "text": "My name is Dave.",
+                    "key": "key_0.8636227355974061"
                 },
                 {
                     "person": "item",
-                    "text": "It sure is! Minotaur Mike's the name. What can I do for ya stranger?",
-                    "key": "key_0.015560464076881497"
+                    "text": "Oh right. My name is Bob.",
+                    "key": "key_0.5604797238923706"
+                },
+                {
+                    "person": "item",
+                    "text": " Anyway. Welcome to Hot Bob’s Molten Supplies and Ice Cream Shop.",
+                    "key": "key_0.10747471682865939"
                 },
                 {
                     "person": "player",
-                    "text": "'Minotaur'? As in the monster from Greek mythology?",
-                    "key": "key_0.36962475865864663"
+                    "text": "It is wise to keep ice cream near molten hot lava?",
+                    "key": "key_0.744576258822531"
                 },
                 {
                     "person": "item",
-                    "text": "Yeah. When I moved here I thought it had a nice ring to it. Since, ya know, we're in a maze and all.",
-                    "key": "key_0.4272136029353715"
+                    "text": "Absolutely not, that’s why we got it priced to sell fast.",
+                    "key": "key_0.351644098237329"
+                },
+                {
+                    "person": "item",
+                    "text": "Originally I lived in the ice caves but no one wanted ice cream when it’s freezing",
+                    "key": "key_0.9864948756876852"
+                },
+                {
+                    "person": "item",
+                    "text": "so I moved down here.",
+                    "key": "key_0.13412173648544"
                 },
                 {
                     "person": "player",
-                    "text": "Well, I'm sort of trapped in this maze and I need some rest and supplies.",
-                    "key": "key_0.707057890811991"
+                    "text": "Do you have better sales down here?",
+                    "key": "key_0.10369492512104084"
                 },
                 {
                     "person": "item",
-                    "text": "Yeah, he does that a lot these days.",
-                    "key": "key_0.8821987768197629"
+                    "text": "Sadly no.",
+                    "key": "key_0.7073581007464"
                 },
                 {
                     "person": "player",
-                    "text": "And..erm.. who is 'he' exactly?",
-                    "key": "key_0.3496654679630673"
+                    "text": "I see. Well, in any case. I need some supplies. It’s too hot for me to travel further.",
+                    "key": "key_0.11150348894847106"
                 },
                 {
                     "person": "item",
-                    "text": "Him. The Man. You know who.",
-                    "key": "key_0.6906550741589181"
+                    "text": "Oh, right then. I got just what you need. Unfortunately it’s in the ice freezer and I don’t have the key.",
+                    "key": "key_0.619237906874022"
                 },
                 {
                     "person": "player",
-                    "text": "Who?",
-                    "key": "key_0.16835646746185529"
+                    "text": "You lost the key to your own freezer?",
+                    "key": "key_0.5964270521868611"
                 },
                 {
                     "person": "item",
-                    "text": "Who!",
-                    "key": "key_0.17640967971202803"
+                    "text": "Oh no, of course not. My daughter took it when she was kidnapped.",
+                    "key": "key_0.052848674900759285"
                 },
                 {
                     "person": "player",
-                    "text": "umm. right. So anyway, about that rest?",
-                    "key": "key_0.43672992202298"
+                    "text": "I’m beginning to detect a trend.",
+                    "key": "key_0.6882096725352962"
                 },
                 {
                     "person": "item",
-                    "text": "Oh yeah. Well there's a bed over there you can use and I've got supplies in the back.",
-                    "key": "key_0.472330039907517"
+                    "text": "Yep. Kidnapped by you know who.",
+                    "key": "key_0.4487430380544789"
                 },
                 {
                     "person": "player",
-                    "text": "Since I was brought here against my will in the middle of the night, I don't have my wallet. Could we work out a deal?",
-                    "key": "key_0.877659839582544"
+                    "text": "Indeed, I do know. And now you need me to save her.",
+                    "key": "key_0.6753134012902816"
                 },
                 {
                     "person": "item",
-                    "text": "Hmm.  Actually, there *is* something you could help me with. My daughter was kidnapped by you know who. Will you rescue her?",
-                    "key": "key_0.8657913885962238"
+                    "text": "If it wouldn’t be too much of a bother. I’m pretty sure he took her down to level five of the dungeon.",
+                    "key": "key_0.9087787880272901"
                 },
                 {
                     "person": "player",
-                    "text": "Sure. I'm not very busy right now. What's her name?",
-                    "key": "key_0.30359846458901407"
+                    "text": "Well, I’m on my way there anyway. So about those supplies.",
+                    "key": "key_0.5186467890775551"
                 },
                 {
                     "person": "item",
-                    "text": "I think her name is Jodi.",
-                    "key": "key_0.3417719692008042"
+                    "text": "All the supplies are in the storage, but here’s the last ice-cream I have. It’s mint chocolate chip, the coolest flavor around.",
+                    "key": "key_0.5732073349006483"
                 },
                 {
                     "person": "player",
-                    "text": "You think?.. And what does she look like?",
-                    "key": "key_0.4592833355037933"
+                    "text": "I hate mint.",
+                    "key": "key_0.7000099016443005"
                 },
                 {
                     "person": "item",
-                    "text": "Oh, about yey high and very annoying. Always ranting about needing minerals to craft things. She plays lots of video games.",
-                    "key": "key_0.9715160709940832"
+                    "text": "It’s that or a bucket of lava.",
+                    "key": "key_0.4924663858655197"
                 },
                 {
                     "person": "player",
-                    "text": "Any distinguishing features?",
-                    "key": "key_0.6156032903448687"
-                },
-                {
-                    "person": "item",
-                    "text": "I don't think so.",
-                    "key": "key_0.16083929939899033"
-                },
-                {
-                    "person": "player",
-                    "text": "This is your *daughter* we're talking about, right?",
-                    "key": "key_0.34659194455384135"
-                },
-                {
-                    "person": "item",
-                    "text": "Yes dammit! Go save her. I've got work to do.",
-                    "key": "key_0.7242137738576522"
-                },
-                {
-                    "person": "player",
-                    "text": "Of course, you must be quite busy with all of these customers in the middle of an abandoned dungeon maze.",
-                    "key": "key_0.46153779403957196"
-                },
-                {
-                    "person": "item",
-                    "text": "Exactly!  Now, I'll go get you some supplies.",
-                    "key": "key_0.2718809632707566"
-                },
-                {
-                    "person": "item",
-                    "text": "...",
-                    "key": "key_0.18523334580971007"
-                },
-                {
-                    "person": "item",
-                    "text": "Here ya go.",
-                    "key": "key_0.7283368310156977"
-                },
-                {
-                    "person": "person_122",
-                    "text": "received cheese",
-                    "key": "key_0.4351032642882746"
-                },
-                {
-                    "person": "player",
-                    "text": "This is a giant block of cheese.",
-                    "key": "key_0.4291208874773149"
-                },
-                {
-                    "person": "item",
-                    "text": "Yep. Best supply for an adventurer. You can eat it, stand on it, or chuck it at your enemies.",
-                    "key": "key_0.9729641935300732"
-                },
-                {
-                    "person": "player",
-                    "text": "*sigh*. thanks.",
-                    "key": "key_0.7533599076141848"
+                    "text": "I’ll take the ice-cream.",
+                    "key": "key_0.20024048234726233"
                 }
             ],
             "visible": true,
             "next": null
         },
         {
-            "id": "goto_0.05520811149896088",
+            "id": "goto_0.5755290297238042",
             "itemid": "exit",
-            "title": "Go To 0.3461980012697906",
+            "title": "Go To 0.873101883392607",
             "type": "gotoroom",
             "gotoroom": {
-                "map": "level1",
+                "map": "l4.json",
                 "item": "shop",
                 "dx": 0,
                 "dy": 1
             },
-            "visible": false,
+            "visible": true,
             "next": null
         }
     ],
@@ -194,1202 +154,1202 @@
             "data": [
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "dirt",
+                        "id": "1_1"
                     }
                 }
             ],
@@ -1401,6 +1361,42 @@
             "id": "walls",
             "type": "drawn",
             "data": [
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
                 {
                     "master": {
                         "group": "rock_mountains",
@@ -1470,7 +1466,25 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_2"
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "3_0"
                     }
                 },
                 {
@@ -1506,13 +1520,64 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_2"
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "0_2"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_2"
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "0_2"
                     }
                 },
                 {
@@ -1648,100 +1713,30 @@
                     }
                 },
                 null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "0_1"
+                        "id": "0_0"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_1"
-                    }
-                },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "0_1"
+                        "id": "1_0"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_1"
-                    }
-                },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "0_1"
+                        "id": "1_0"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "2_1"
+                        "id": "2_0"
                     }
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
                 null,
                 null,
                 null,
@@ -1776,46 +1771,106 @@
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_0"
+                        "id": "4_1"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_0"
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_0"
+                        "id": "1_1"
                     }
                 },
                 {
                     "master": {
                         "group": "rock_mountains",
-                        "id": "1_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "rock_mountains",
-                        "id": "1_0"
+                        "id": "2_1"
                     }
                 },
                 null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rock_mountains",
+                        "id": "1_0"
+                    }
+                },
                 {
                     "master": {
                         "group": "rock_mountains",
@@ -1887,25 +1942,25 @@
             "data": [
                 {
                     "master": {
-                        "group": "item_group_4726",
-                        "id": "item_master_163"
+                        "group": "item_group_5418",
+                        "id": "item_master_238"
                     },
                     "settings": {
                         "id": {
                             "name": "id",
-                            "value": "bed"
+                            "value": "exit"
                         },
                         "title": {
                             "name": "title",
-                            "value": "bed"
+                            "value": "Exit"
                         },
                         "visible": {
                             "name": "visible",
                             "value": true
                         }
                     },
-                    "x": 17,
-                    "y": 4
+                    "x": 10,
+                    "y": 9
                 },
                 {
                     "master": {
@@ -1915,37 +1970,15 @@
                     "settings": {
                         "id": {
                             "name": "id",
-                            "value": "dad1"
+                            "value": "shopkeeper"
                         },
                         "title": {
                             "name": "title",
-                            "value": "Minotaur Mike"
-                        }
-                    },
-                    "x": 4,
-                    "y": 4
-                },
-                {
-                    "master": {
-                        "group": "item_group_5418",
-                        "id": "item_master_573"
-                    },
-                    "settings": {
-                        "id": {
-                            "name": "id",
-                            "value": "exit"
-                        },
-                        "title": {
-                            "name": "title",
-                            "value": "exit"
-                        },
-                        "visible": {
-                            "name": "visible",
-                            "value": true
+                            "value": "Dad 4"
                         }
                     },
                     "x": 9,
-                    "y": 9
+                    "y": 3
                 }
             ],
             "visible": true,
@@ -1955,7 +1988,7 @@
     ],
     "start": {
         "x": 5,
-        "y": 8
+        "y": 6
     },
     "battleInfo": {
         "countrange": [

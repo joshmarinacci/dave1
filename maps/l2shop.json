@@ -13,13 +13,118 @@
             "dialog": [
                 {
                     "person": "item",
-                    "text": "The name’s Caveman Bob. How can I help you?",
+                    "text": "Welcome to the Doomed Hiking Supply and Laundromat.",
                     "key": "key_0.9788933177322237"
                 },
                 {
-                    "person": "player",
-                    "text": "Why are you called 'Caveman'?",
+                    "person": "item",
+                    "text": "The name’s Caveman Bob. How can I help you?",
                     "key": "key_0.5974532175529635"
+                },
+                {
+                    "person": "player",
+                    "text": "Why are you called 'caveman'?",
+                    "key": "key_0.7291873465075405"
+                },
+                {
+                    "person": "item",
+                    "text": "Because I work and live in a cave, obviously. ",
+                    "key": "key_0.19317252647885708"
+                },
+                {
+                    "person": "player",
+                    "text": "Oh, of course. So, I need some supplies. My weapons aren’t very effective against these rock creatures.",
+                    "key": "key_0.27897029486128255"
+                },
+                {
+                    "person": "item",
+                    "text": "I told you it’s because I live in a cave. Obviously I have to dress like a cave man. Geez.",
+                    "key": "key_0.9747040212609752"
+                },
+                {
+                    "person": "player",
+                    "text": "Um. Right. So about some weapons.",
+                    "key": "key_0.18095530726179176"
+                },
+                {
+                    "person": "item",
+                    "text": "You’re just like my daughter, always criticizing me for my sense of fashion.   ",
+                    "key": "key_0.28207955592423706"
+                },
+                {
+                    "person": "item",
+                    "text": "I just find cave outfits to be very comfortable.",
+                    "key": "key_0.10420013724234856"
+                },
+                {
+                    "person": "item",
+                    "text": "Of course now she’s not saying anything.",
+                    "key": "key_0.6117624906078876"
+                },
+                {
+                    "person": "player",
+                    "text": "Is she giving you the silent treatment? ",
+                    "key": "key_0.52689688231599"
+                },
+                {
+                    "person": "item",
+                    "text": "No. She was kidnapped by the, well, by you know who. He left this note.",
+                    "key": "key_0.4420363996001915"
+                },
+                {
+                    "person": "person_1049",
+                    "text": "I totally have your daughter. Don’t search for her. Just mail clothes and a self addressed stamped envelope to 555 Evil Lair, Level 5, NT 3117.  - You Know Who",
+                    "key": "key_0.5278753686360341"
+                },
+                {
+                    "person": "player",
+                    "text": "Hmm. Fascinating.",
+                    "key": "key_0.16758272295486398"
+                },
+                {
+                    "person": "item",
+                    "text": "You must save her.  ",
+                    "key": "key_0.9043702739223631"
+                },
+                {
+                    "person": "player",
+                    "text": "Must I?",
+                    "key": "key_0.984445772582243"
+                },
+                {
+                    "person": "item",
+                    "text": "Yes, you must. The plot can’t progress if you don’t.",
+                    "key": "key_0.4150687715205802"
+                },
+                {
+                    "person": "player",
+                    "text": "*sigh*. Fine. ",
+                    "key": "key_0.9435025892015252"
+                },
+                {
+                    "person": "item",
+                    "text": "Here, take this bottle of water. I’ve found it to be useful against the forces of thirst.",
+                    "key": "key_0.3141166822703644"
+                },
+                {
+                    "person": "player",
+                    "text": "Do you have anything more powerful. You know, against the forces of darkness?",
+                    "key": "key_0.24984601435113396"
+                },
+                {
+                    "person": "item",
+                    "text": "Actually I'm sold out of weapons so it's the bottle of water or some really old laundry detergent.",
+                    "key": "key_0.22392772880406753"
+                },
+                {
+                    "person": "player",
+                    "text": "I'll take the water.",
+                    "key": "key_0.25723734388940345"
+                },
+                {
+                    "person": "person_5883",
+                    "text": "received water",
+                    "key": "key_0.6074781312511778"
                 }
             ],
             "visible": true,
@@ -1477,7 +1582,7 @@
                 {
                     "master": {
                         "group": "people",
-                        "id": "man"
+                        "id": "item_master_154"
                     },
                     "settings": {
                         "id": {
