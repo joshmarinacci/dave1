@@ -130,7 +130,9 @@
       "rocklava": "tiles/terrain_rocklava.png",
       "snow": "tiles/terrain_snow.png",
       "floating_platform": "tiles/terrain_floating_platforms.png",
-      "water": "tiles/terrain_water.png"
+      "laundromat": "tiles/laundromat.png",
+      "water": "tiles/terrain_water.png",
+      "icecream_shop": "tiles/icecream_shop.png"
    },
    "tilegroups": {
       "tileset1": {
@@ -2229,6 +2231,9 @@
             false,
             4,
             1,
+            false,
+            3,
+            2,
             false
          ],
          "name": "water",
@@ -2376,6 +2381,17 @@
                "group": "water",
                "id": "4_1",
                "blocking": false
+            },
+            "3_2": {
+               "image": "water",
+               "center": {
+                  "x": 3,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "water",
+               "id": "3_2",
+               "blocking": false
             }
          }
       },
@@ -2386,40 +2402,7 @@
             0,
             0,
             true,
-            1,
             0,
-            true,
-            2,
-            0,
-            true,
-            0,
-            1,
-            true,
-            1,
-            1,
-            false,
-            2,
-            1,
-            true,
-            0,
-            2,
-            true,
-            1,
-            2,
-            true,
-            2,
-            2,
-            true,
-            3,
-            0,
-            true,
-            4,
-            0,
-            true,
-            3,
-            1,
-            true,
-            4,
             1,
             true
          ],
@@ -2437,28 +2420,6 @@
                "id": "0_0",
                "blocking": true
             },
-            "1_0": {
-               "image": "floating_platform",
-               "center": {
-                  "x": 1,
-                  "y": 0
-               },
-               "type": "drawn",
-               "group": "floating_platform",
-               "id": "1_0",
-               "blocking": true
-            },
-            "2_0": {
-               "image": "floating_platform",
-               "center": {
-                  "x": 2,
-                  "y": 0
-               },
-               "type": "drawn",
-               "group": "floating_platform",
-               "id": "2_0",
-               "blocking": true
-            },
             "0_1": {
                "image": "floating_platform",
                "center": {
@@ -2469,104 +2430,655 @@
                "group": "floating_platform",
                "id": "0_1",
                "blocking": true
+            }
+         }
+      },
+      "laundromat": {
+         "auto": true,
+         "image": "laundromat",
+         "tiledefs": [
+            0,
+            0,
+            false,
+            1,
+            0,
+            true,
+            0,
+            1,
+            true,
+            1,
+            1,
+            true,
+            2,
+            0,
+            true,
+            3,
+            0,
+            true,
+            4,
+            0,
+            true,
+            4,
+            1,
+            true,
+            4,
+            2,
+            true,
+            3,
+            2,
+            true,
+            2,
+            2,
+            true,
+            2,
+            1,
+            true,
+            3,
+            1,
+            false,
+            1,
+            2,
+            true,
+            0,
+            2,
+            true,
+            0,
+            3,
+            true
+         ],
+         "name": "laundromat",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "laundromat",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "0_0",
+               "blocking": false
+            },
+            "1_0": {
+               "image": "laundromat",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "1_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "laundromat",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "0_1",
+               "blocking": true
             },
             "1_1": {
-               "image": "floating_platform",
+               "image": "laundromat",
                "center": {
                   "x": 1,
                   "y": 1
                },
                "type": "drawn",
-               "group": "floating_platform",
+               "group": "laundromat",
                "id": "1_1",
-               "blocking": false
+               "blocking": true
+            },
+            "2_0": {
+               "image": "laundromat",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "2_0",
+               "blocking": true
+            },
+            "3_0": {
+               "image": "laundromat",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "3_0",
+               "blocking": true
+            },
+            "4_0": {
+               "image": "laundromat",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "4_0",
+               "blocking": true
+            },
+            "4_1": {
+               "image": "laundromat",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "4_1",
+               "blocking": true
+            },
+            "4_2": {
+               "image": "laundromat",
+               "center": {
+                  "x": 4,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "4_2",
+               "blocking": true
+            },
+            "3_2": {
+               "image": "laundromat",
+               "center": {
+                  "x": 3,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "3_2",
+               "blocking": true
+            },
+            "2_2": {
+               "image": "laundromat",
+               "center": {
+                  "x": 2,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "2_2",
+               "blocking": true
             },
             "2_1": {
-               "image": "floating_platform",
+               "image": "laundromat",
                "center": {
                   "x": 2,
                   "y": 1
                },
                "type": "drawn",
-               "group": "floating_platform",
+               "group": "laundromat",
                "id": "2_1",
                "blocking": true
             },
+            "3_1": {
+               "image": "laundromat",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "3_1",
+               "blocking": false
+            },
+            "1_2": {
+               "image": "laundromat",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "1_2",
+               "blocking": true
+            },
             "0_2": {
-               "image": "floating_platform",
+               "image": "laundromat",
                "center": {
                   "x": 0,
                   "y": 2
                },
                "type": "drawn",
-               "group": "floating_platform",
+               "group": "laundromat",
                "id": "0_2",
                "blocking": true
             },
-            "1_2": {
-               "image": "floating_platform",
+            "0_3": {
+               "image": "laundromat",
+               "center": {
+                  "x": 0,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "laundromat",
+               "id": "0_3",
+               "blocking": true
+            }
+         }
+      },
+      "icecream_shop": {
+         "auto": true,
+         "image": "icecream_shop",
+         "tiledefs": [
+            0,
+            0,
+            true,
+            0,
+            1,
+            true,
+            5,
+            0,
+            true,
+            6,
+            0,
+            true,
+            7,
+            0,
+            true,
+            7,
+            1,
+            true,
+            5,
+            1,
+            false,
+            5,
+            3,
+            true,
+            4,
+            3,
+            false,
+            3,
+            3,
+            false,
+            2,
+            3,
+            false,
+            1,
+            3,
+            false,
+            0,
+            3,
+            false,
+            1,
+            1,
+            true,
+            1,
+            0,
+            true,
+            2,
+            0,
+            true,
+            3,
+            0,
+            true,
+            4,
+            0,
+            true,
+            2,
+            1,
+            true,
+            3,
+            1,
+            false,
+            4,
+            1,
+            true,
+            4,
+            2,
+            true,
+            3,
+            2,
+            true,
+            2,
+            2,
+            true,
+            6,
+            2,
+            true,
+            7,
+            2,
+            true,
+            7,
+            3,
+            true,
+            6,
+            3,
+            true,
+            5,
+            2,
+            true
+         ],
+         "name": "icecream_shop",
+         "type": "collection",
+         "tiles": {
+            "0_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 0,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "0_0",
+               "blocking": true
+            },
+            "0_1": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 0,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "0_1",
+               "blocking": true
+            },
+            "5_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 5,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "5_0",
+               "blocking": true
+            },
+            "6_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 6,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "6_0",
+               "blocking": true
+            },
+            "7_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 7,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "7_0",
+               "blocking": true
+            },
+            "7_1": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 7,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "7_1",
+               "blocking": true
+            },
+            "5_1": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 5,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "5_1",
+               "blocking": false
+            },
+            "5_3": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 5,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "5_3",
+               "blocking": true
+            },
+            "4_3": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 4,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "4_3",
+               "blocking": false
+            },
+            "3_3": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 3,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "3_3",
+               "blocking": false
+            },
+            "2_3": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 2,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "2_3",
+               "blocking": false
+            },
+            "1_3": {
+               "image": "icecream_shop",
                "center": {
                   "x": 1,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "1_3",
+               "blocking": false
+            },
+            "0_3": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 0,
+                  "y": 3
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "0_3",
+               "blocking": false
+            },
+            "1_1": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 1,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "1_1",
+               "blocking": true
+            },
+            "1_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 1,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "1_0",
+               "blocking": true
+            },
+            "2_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 2,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "2_0",
+               "blocking": true
+            },
+            "3_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 3,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "3_0",
+               "blocking": true
+            },
+            "4_0": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 4,
+                  "y": 0
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "4_0",
+               "blocking": true
+            },
+            "2_1": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 2,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "2_1",
+               "blocking": true
+            },
+            "3_1": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 3,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "3_1",
+               "blocking": false
+            },
+            "4_1": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "4_1",
+               "blocking": true
+            },
+            "4_2": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 4,
                   "y": 2
                },
                "type": "drawn",
-               "group": "floating_platform",
-               "id": "1_2",
+               "group": "icecream_shop",
+               "id": "4_2",
+               "blocking": true
+            },
+            "3_2": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 3,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "3_2",
                "blocking": true
             },
             "2_2": {
-               "image": "floating_platform",
+               "image": "icecream_shop",
                "center": {
                   "x": 2,
                   "y": 2
                },
                "type": "drawn",
-               "group": "floating_platform",
+               "group": "icecream_shop",
                "id": "2_2",
                "blocking": true
             },
-            "3_0": {
-               "image": "floating_platform",
+            "6_2": {
+               "image": "icecream_shop",
                "center": {
-                  "x": 3,
-                  "y": 0
+                  "x": 6,
+                  "y": 2
                },
                "type": "drawn",
-               "group": "floating_platform",
-               "id": "3_0",
+               "group": "icecream_shop",
+               "id": "6_2",
                "blocking": true
             },
-            "4_0": {
-               "image": "floating_platform",
+            "7_2": {
+               "image": "icecream_shop",
                "center": {
-                  "x": 4,
-                  "y": 0
+                  "x": 7,
+                  "y": 2
                },
                "type": "drawn",
-               "group": "floating_platform",
-               "id": "4_0",
+               "group": "icecream_shop",
+               "id": "7_2",
                "blocking": true
             },
-            "3_1": {
-               "image": "floating_platform",
+            "7_3": {
+               "image": "icecream_shop",
                "center": {
-                  "x": 3,
-                  "y": 1
+                  "x": 7,
+                  "y": 3
                },
                "type": "drawn",
-               "group": "floating_platform",
-               "id": "3_1",
+               "group": "icecream_shop",
+               "id": "7_3",
                "blocking": true
             },
-            "4_1": {
-               "image": "floating_platform",
+            "6_3": {
+               "image": "icecream_shop",
                "center": {
-                  "x": 4,
-                  "y": 1
+                  "x": 6,
+                  "y": 3
                },
                "type": "drawn",
-               "group": "floating_platform",
-               "id": "4_1",
+               "group": "icecream_shop",
+               "id": "6_3",
+               "blocking": true
+            },
+            "5_2": {
+               "image": "icecream_shop",
+               "center": {
+                  "x": 5,
+                  "y": 2
+               },
+               "type": "drawn",
+               "group": "icecream_shop",
+               "id": "5_2",
                "blocking": true
             }
          }
@@ -2859,10 +3371,30 @@
          "path": "l1shop.json",
          "id": "l1shop"
       },
+      "l2shop": {
+         "name": "Level 2 Shop",
+         "path": "l2shop.json",
+         "id": "l2shop"
+      },
+      "l3shop": {
+         "name": "Level 3 Shop",
+         "path": "l3shop.json",
+         "id": "l3shop"
+      },
       "l4.json": {
          "name": "Level 4",
          "path": "l4.json.json",
          "id": "l4.json"
+      },
+      "l4shop": {
+         "name": "Level 5 Shop",
+         "path": "l4shop.json",
+         "id": "l4shop"
+      },
+      "l4shopa": {
+         "name": "Level 4 Shop",
+         "path": "l4shopa.json",
+         "id": "l4shopa"
       },
       "level1": {
          "name": "Level 1",
@@ -2874,43 +3406,23 @@
          "path": "level2.json",
          "id": "level2"
       },
-      "l2shop": {
-         "name": "Level 2 Shop",
-         "path": "l2shop.json",
-         "id": "l2shop"
-      },
-      "l4shop": {
-         "name": "Level 5 Shop",
-         "path": "l4shop.json",
-         "id": "l4shop"
+      "level3": {
+         "name": "Level 3",
+         "path": "level3.json",
+         "id": "level3"
       },
       "level4": {
          "name": "Level 5",
          "path": "level4.json",
          "id": "level4"
       },
-      "undefined": {
-         "path": "undefined.json"
-      },
-      "l3shop": {
-         "name": "Level 3 Shop",
-         "path": "l3shop.json",
-         "id": "l3shop"
-      },
-      "level3": {
-         "name": "Level 3",
-         "path": "level3.json",
-         "id": "level3"
-      },
       "start_room": {
          "name": "Starting Room",
          "path": "start_room.json",
          "id": "start_room"
       },
-      "l4shopa": {
-         "name": "Level 4 Shop",
-         "path": "l4shopa.json",
-         "id": "l4shopa"
+      "undefined": {
+         "path": "undefined.json"
       }
    },
    "settings": {
