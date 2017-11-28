@@ -160,7 +160,7 @@
             "next": null
         }
     ],
-    "width": 20,
+    "width": 10,
     "height": 10,
     "layers": [
         {
@@ -169,1207 +169,1262 @@
             "data": [
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "3_2"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "general",
+                        "id": "5_5"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "3_5"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "tileset1",
-                        "id": "0_0"
+                        "group": "laundromat",
+                        "id": "3_1"
                     }
                 }
             ],
             "visible": true,
-            "width": 20,
+            "width": 10,
+            "height": 10
+        },
+        {
+            "id": "wall",
+            "type": "drawn",
+            "data": [
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "3_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "3_1"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "2_2"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 10,
+            "height": 10
+        },
+        {
+            "id": "draw items",
+            "type": "drawn",
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "1_3"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "1_3"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "0_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "0_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "visible": true,
+            "width": 10,
+            "height": 10
+        },
+        {
+            "id": "more items",
+            "type": "drawn",
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "2_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "1_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "2_3"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "6_3"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "6_4"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "6_4"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "5_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "5_5"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "general",
+                        "id": "6_5"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "visible": true,
+            "width": 10,
             "height": 10
         },
         {
@@ -1392,16 +1447,16 @@
                         },
                         "visible": {
                             "name": "visible",
-                            "value": true
+                            "value": false
                         }
                     },
-                    "x": 8,
+                    "x": 4,
                     "y": 9
                 },
                 {
                     "master": {
                         "group": "people",
-                        "id": "man"
+                        "id": "item_master_665"
                     },
                     "settings": {
                         "id": {
@@ -1417,18 +1472,18 @@
                             "value": true
                         }
                     },
-                    "x": 3,
-                    "y": 2
+                    "x": 5,
+                    "y": 5
                 }
             ],
             "visible": true,
-            "width": 20,
+            "width": 10,
             "height": 10
         }
     ],
     "start": {
-        "x": 10,
-        "y": 8
+        "x": 7,
+        "y": 7
     },
     "battleInfo": {
         "countrange": [

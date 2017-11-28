@@ -152,23 +152,220 @@
             "id": "floor",
             "type": "drawn",
             "data": [
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 {
                     "master": {
                         "group": "laundromat",
-                        "id": "3_1"
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "0_0"
                     }
                 },
                 {
@@ -177,118 +374,6 @@
                         "id": "3_1"
                     }
                 },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                null,
-                null,
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_1"
-                    }
-                },
-                null,
-                null,
                 {
                     "master": {
                         "group": "laundromat",
@@ -349,8 +434,6 @@
                         "id": "3_1"
                     }
                 },
-                null,
-                null,
                 {
                     "master": {
                         "group": "laundromat",
@@ -411,8 +494,6 @@
                         "id": "3_1"
                     }
                 },
-                null,
-                null,
                 {
                     "master": {
                         "group": "laundromat",
@@ -473,8 +554,6 @@
                         "id": "3_1"
                     }
                 },
-                null,
-                null,
                 {
                     "master": {
                         "group": "laundromat",
@@ -535,8 +614,6 @@
                         "id": "3_1"
                     }
                 },
-                null,
-                null,
                 {
                     "master": {
                         "group": "laundromat",
@@ -597,8 +674,6 @@
                         "id": "3_1"
                     }
                 },
-                null,
-                null,
                 {
                     "master": {
                         "group": "laundromat",
@@ -659,19 +734,144 @@
                         "id": "3_1"
                     }
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "laundromat",
+                        "id": "3_1"
+                    }
+                }
             ],
             "visible": true,
             "width": 12,
@@ -683,224 +883,124 @@
             "data": [
                 {
                     "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
                         "id": "2_0"
                     }
                 },
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
+                        "group": "xmas",
+                        "id": "0_1"
                     }
                 },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "4_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
                         "id": "2_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
+                        "group": "xmas",
+                        "id": "0_1"
                     }
                 },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "4_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
                         "id": "2_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_0"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "4_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "2_1"
+                        "group": "xmas",
+                        "id": "0_1"
                     }
                 },
                 null,
@@ -930,104 +1030,104 @@
                 null,
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "4_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
                         "id": "2_1"
                     }
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "4_1"
+                        "group": "xmas",
+                        "id": "0_1"
                     }
                 },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                     "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
                         "id": "2_1"
                     }
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "4_1"
+                        "group": "xmas",
+                        "id": "0_1"
                     }
                 },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                     "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
                         "id": "2_1"
                     }
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "4_1"
+                        "group": "xmas",
+                        "id": "0_1"
                     }
                 },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                     "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
                         "id": "2_1"
                     }
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 {
                     "master": {
-                        "group": "laundromat",
-                        "id": "4_1"
+                        "group": "xmas",
+                        "id": "0_1"
                     }
                 },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                     "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
                         "id": "2_1"
                     }
                 },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_1"
+                    }
+                },
                 null,
                 null,
                 null,
@@ -1040,80 +1140,70 @@
                 null,
                 {
                     "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "3_1"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas",
                         "id": "4_1"
                     }
                 },
                 {
                     "master": {
-                        "group": "laundromat",
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas",
                         "id": "2_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "3_2"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "4_2"
                     }
                 }
             ],
@@ -1395,10 +1485,10 @@
                         },
                         "visible": {
                             "name": "visible",
-                            "value": true
+                            "value": false
                         }
                     },
-                    "x": 9,
+                    "x": 5,
                     "y": 9
                 },
                 {
@@ -1458,12 +1548,6 @@
                 null,
                 null,
                 null,
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_3"
-                    }
-                },
                 null,
                 null,
                 null,
@@ -1477,12 +1561,8 @@
                 null,
                 null,
                 null,
-                {
-                    "master": {
-                        "group": "laundromat",
-                        "id": "0_2"
-                    }
-                },
+                null,
+                null,
                 null,
                 null,
                 null,
