@@ -168,11 +168,11 @@
                 }
             ],
             "visible": true,
-            "next": null
+            "next": "get_cheese"
         },
         {
-            "id": "goto_0.05520811149896088",
-            "itemid": "exit",
+            "id": "leave",
+            "itemid": "none",
             "title": "Go To 0.3461980012697906",
             "type": "gotoroom",
             "gotoroom": {
@@ -181,7 +181,31 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": false,
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "script_0.5329786306612956",
+            "itemid": "none",
+            "title": "Script 0.39503792603546917",
+            "type": "script",
+            "script": {
+                "trigger": "mapexit",
+                "code": "ctx.run(ctx.action('leave'))"
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "get_cheese",
+            "itemid": "bed",
+            "title": "get the cheese",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.receiveItem('cheese');\nconsole.log(\"got the cheese\");"
+            },
+            "visible": true,
             "next": null
         }
     ],
@@ -1046,16 +1070,11 @@
                     }
                 },
                 null,
+                null,
                 {
                     "master": {
                         "group": "xmas",
                         "id": "4_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "xmas",
-                        "id": "1_2"
                     }
                 },
                 {
@@ -1124,28 +1143,6 @@
                     },
                     "x": 2,
                     "y": 3
-                },
-                {
-                    "master": {
-                        "group": "item_group_5418",
-                        "id": "item_master_573"
-                    },
-                    "settings": {
-                        "id": {
-                            "name": "id",
-                            "value": "exit"
-                        },
-                        "title": {
-                            "name": "title",
-                            "value": "exit"
-                        },
-                        "visible": {
-                            "name": "visible",
-                            "value": true
-                        }
-                    },
-                    "x": 3,
-                    "y": 8
                 }
             ],
             "visible": true,

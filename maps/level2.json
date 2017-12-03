@@ -2,7 +2,7 @@
     "id": "level2",
     "path": "level2.json",
     "name": "Level 2",
-    "battle": false,
+    "battle": true,
     "background": "#000000",
     "actions": [
         {
@@ -17,8 +17,8 @@
                     "key": "key_0.7402661510794882"
                 }
             ],
-            "visible": false,
-            "next": null
+            "visible": true,
+            "next": "start_battle"
         },
         {
             "id": "goto_0.45302088903548676",
@@ -44,6 +44,18 @@
                 "item": "exit",
                 "dx": 0,
                 "dy": -1
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "start_battle",
+            "itemid": "none",
+            "title": "Start Battle",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "var en = ctx.item('boss');\nctx.customBattle('rockcandy').then(()=>en.hide())"
             },
             "visible": true,
             "next": null
@@ -14903,18 +14915,22 @@
         }
     ],
     "start": {
-        "x": 3,
+        "x": 9,
         "y": 2
     },
     "battleInfo": {
+        "attackRate": 0.1,
+        "attackStepsMin": 10,
+        "attackStepsMax": 20,
         "countrange": [
             1,
             2
         ],
         "enemies": [
-            "snowslime",
-            "snowballs",
-            "crab"
+            "caverat",
+            "cavecat",
+            "cavebat",
+            "cavehat"
         ],
         "scale": 1
     }

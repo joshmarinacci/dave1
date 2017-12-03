@@ -2,7 +2,7 @@
     "id": "l4.json",
     "path": "l4.json.json",
     "name": "Level 4",
-    "battle": false,
+    "battle": true,
     "background": "#000000",
     "actions": [
         {
@@ -29,6 +29,33 @@
                 "item": "entrance",
                 "dx": 0,
                 "dy": 1
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.9459222070707919",
+            "title": "Dialog 0.1764619661545701",
+            "itemid": "lavamonster",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "narrator",
+                    "text": "Grarh!",
+                    "key": "key_0.7654412287839429"
+                }
+            ],
+            "visible": true,
+            "next": "start_battle"
+        },
+        {
+            "id": "start_battle",
+            "itemid": "none",
+            "title": "Start Battle",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "var en = ctx.item('lavamonster');\nctx.customBattle('rocklava').then(()=>en.hide())\n"
             },
             "visible": true,
             "next": null
@@ -16484,6 +16511,24 @@
                     },
                     "x": 5,
                     "y": 3
+                },
+                {
+                    "master": {
+                        "group": "item_group_5418",
+                        "id": "item_master_242"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "entrance"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "entrance"
+                        }
+                    },
+                    "x": 31,
+                    "y": 32
                 }
             ],
             "visible": true,

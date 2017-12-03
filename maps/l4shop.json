@@ -16,7 +16,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -121,7 +121,7 @@
             "type": "dialog",
             "dialog": [
                 {
-                    "person": "person_5883",
+                    "person": "person_8222",
                     "text": "Wait no. Don’t destroy him. I spent six weeks on his circuitry alone!",
                     "key": "key_0.9443415301882957"
                 },
@@ -131,7 +131,7 @@
                     "key": "key_0.27016289213018707"
                 },
                 {
-                    "person": "person_9037",
+                    "person": "person_8376",
                     "text": "We are the powers that be.",
                     "key": "key_0.9250155168029763"
                 },
@@ -141,7 +141,7 @@
                     "key": "key_0.25579582471208906"
                 },
                 {
-                    "person": "person_4958",
+                    "person": "person_8921",
                     "text": "Of course we do. We made him.",
                     "key": "key_0.762558036300557"
                 },
@@ -151,7 +151,7 @@
                     "key": "key_0.16797597627851169"
                 },
                 {
-                    "person": "person_9037",
+                    "person": "person_3634",
                     "text": "Well…. kinda.",
                     "key": "key_0.802811597076389"
                 },
@@ -161,7 +161,7 @@
                     "key": "key_0.9990653465681626"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8222",
                     "text": "*sigh* no.",
                     "key": "key_0.4162401436000913"
                 },
@@ -171,7 +171,7 @@
                     "key": "key_0.10205586436117198"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8222",
                     "text": "Pfffft. My dad doesn’t care about me. He just cares about his stupid sea shop.",
                     "key": "key_0.34795841616168666"
                 },
@@ -181,7 +181,7 @@
                     "key": "key_0.6653245456668953"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8222",
                     "text": "Not anymore. I ran away because he doesn’t love me. I wish the sea monster would just\neat him alive.",
                     "key": "key_0.07221445363272061"
                 },
@@ -191,17 +191,17 @@
                     "key": "key_0.262085715990937"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8222",
                     "text": "If he loved me he wouldn’t have moved our family into this stupid dungeon that never has any customers anyway.",
                     "key": "key_0.9785983052998148"
                 },
                 {
-                    "person": "person_9037",
+                    "person": "person_8921",
                     "text": "Yeah. And my dad is the same.",
                     "key": "key_0.043235557817640324"
                 },
                 {
-                    "person": "person_4958",
+                    "person": "person_3634",
                     "text": "Mine too.",
                     "key": "key_0.5226853846178338"
                 },
@@ -211,12 +211,12 @@
                     "key": "key_0.32495022766133197"
                 },
                 {
-                    "person": "person_9037",
+                    "person": "person_8921",
                     "text": "Well, it wasn’t really a dungeon then. We just added that name after we made our robot. It helps keep appearances.",
                     "key": "key_0.38066764434485134"
                 },
                 {
-                    "person": "person_4958",
+                    "person": "person_3634",
                     "text": " Originally it was an abandoned mall that was overgrown with weeds. Not much foot traffic but the land is cheap.",
                     "key": "key_0.22990142515496548"
                 },
@@ -226,12 +226,12 @@
                     "key": "key_0.2568760898937671"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8376",
                     "text": "To help us with our dads. They just don’t understand us. You’re an adventurer. You understand that we can’t be cooped up here in this stupid dungeon lair.",
                     "key": "key_0.583982423177071"
                 },
                 {
-                    "person": "person_9037",
+                    "person": "person_8921",
                     "text": " We need to explore, and build cool things. Our dads never let us build cool stuff.",
                     "key": "key_0.18706655673479977"
                 },
@@ -241,7 +241,7 @@
                     "key": "key_0.33220321113813533"
                 },
                 {
-                    "person": "person_4958",
+                    "person": "person_3634",
                     "text": "Yeah, I think we might have taken things too far.",
                     "key": "key_0.2113948080889675"
                 },
@@ -251,17 +251,17 @@
                     "key": "key_0.6770284236478252"
                 },
                 {
-                    "person": "person_4958",
+                    "person": "person_3634",
                     "text": "I think that’s fair.",
                     "key": "key_0.6522442299420063"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8222",
                     "text": "Yeah. That sounds good.",
                     "key": "key_0.9835871419352827"
                 },
                 {
-                    "person": "narrator",
+                    "person": "person_9746",
                     "text": "Negative.",
                     "key": "key_0.17233946684997659"
                 },
@@ -271,27 +271,27 @@
                     "key": "key_0.09440515526343352"
                 },
                 {
-                    "person": "narrator",
+                    "person": "person_9746",
                     "text": "Negative. Negative.",
                     "key": "key_0.7497988091025135"
                 },
                 {
-                    "person": "narrator",
+                    "person": "person_9746",
                     "text": "Primary mission: destroy Dungeon Dave. Activate.",
                     "key": "key_0.8084603860488452"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8921",
                     "text": "His AI isn’t working. He’s reverted to his lower subroutines. We can’t control him anymore.",
                     "key": "key_0.643605041794838"
                 },
                 {
-                    "person": "person_9037",
+                    "person": "person_8376",
                     "text": "Now what do we do?",
                     "key": "key_0.2928249938493087"
                 },
                 {
-                    "person": "person_4958",
+                    "person": "person_3634",
                     "text": "Take this debugger, it might help.",
                     "key": "key_0.18252775401619425"
                 }
@@ -306,7 +306,7 @@
             "type": "dialog",
             "dialog": [
                 {
-                    "person": "narrator",
+                    "person": "person_8222",
                     "text": "It’s no use. He’s too strong.",
                     "key": "key_0.6807320640415004"
                 },
@@ -321,7 +321,7 @@
                     "key": "key_0.8354308420996069"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8376",
                     "text": "No, they’d never forgive us for pretending to be kidnapped. There must be someone else.",
                     "key": "key_0.5197173350374398"
                 },
@@ -331,7 +331,7 @@
                     "key": "key_0.5321291923646677"
                 },
                 {
-                    "person": "person_9037",
+                    "person": "person_8921",
                     "text": "Now isn’t the time to get on the internet!",
                     "key": "key_0.9688329341143103"
                 },
@@ -341,17 +341,17 @@
                     "key": "key_0.2515394586742671"
                 },
                 {
-                    "person": "person_122",
+                    "person": "person_3001",
                     "text": "Tweet Tweet.",
                     "key": "key_0.5893057950203112"
                 },
                 {
-                    "person": "person_122",
+                    "person": "person_3001",
                     "text": "The DM arrives.",
                     "key": "key_0.24160121346980645"
                 },
                 {
-                    "person": "pointystick",
+                    "person": "person_4558",
                     "text": "Howdy Dave. Looks like you’re in a bit of a pickle.",
                     "key": "key_0.8537534350835744"
                 },
@@ -361,27 +361,27 @@
                     "key": "key_0.4692082675222392"
                 },
                 {
-                    "person": "pointystick",
+                    "person": "person_4558",
                     "text": "Of course my friend.",
                     "key": "key_0.6592562686609093"
                 },
                 {
-                    "person": "pointystick",
+                    "person": "person_4558",
                     "text": "Rolling a D20.",
                     "key": "key_0.46039837635502145"
                 },
                 {
-                    "person": "person_122",
+                    "person": "person_8648",
                     "text": "Critical Hit",
                     "key": "key_0.23122454827719996"
                 },
                 {
-                    "person": "pointystick",
+                    "person": "person_4558",
                     "text": "Critical hit! He falls into a bag of holding.",
                     "key": "key_0.32172322341735393"
                 },
                 {
-                    "person": "person_122",
+                    "person": "person_8724",
                     "text": "swoop!",
                     "key": "key_0.9832310001675101"
                 },
@@ -391,12 +391,12 @@
                     "key": "key_0.6849676447773008"
                 },
                 {
-                    "person": "pointystick",
+                    "person": "person_4558",
                     "text": "Remember kids. ",
                     "key": "key_0.39455420571598243"
                 },
                 {
-                    "person": "pointystick",
+                    "person": "person_4558",
                     "text": "Anytime you need some help, just tweet your DM. ",
                     "key": "key_0.6385894622371439"
                 },
@@ -406,7 +406,7 @@
                     "key": "key_0.6850855823351911"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_3634",
                     "text": "Hey! We're all 17. We aren't children!",
                     "key": "key_0.002231462064558376"
                 },
@@ -421,7 +421,7 @@
                     "key": "key_0.7152802324515063"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_8222",
                     "text": "Thanks Dungeon Dave.",
                     "key": "key_0.8021504128020094"
                 },
@@ -436,7 +436,7 @@
                     "key": "key_0.13325220457550024"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": null
         },
         {
@@ -450,7 +450,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         }
     ],
@@ -2596,7 +2596,7 @@
                         },
                         "visible": {
                             "name": "visible",
-                            "value": false
+                            "value": true
                         }
                     },
                     "x": 11,
@@ -2618,7 +2618,7 @@
                         },
                         "visible": {
                             "name": "visible",
-                            "value": false
+                            "value": true
                         }
                     },
                     "x": 12,

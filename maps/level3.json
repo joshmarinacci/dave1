@@ -2,7 +2,7 @@
     "id": "level3",
     "path": "level3.json",
     "name": "Level 3",
-    "battle": false,
+    "battle": true,
     "background": "#969696",
     "actions": [
         {
@@ -16,7 +16,7 @@
                 "dx": 0,
                 "dy": -1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -25,10 +25,10 @@
             "title": "Go To 0.7735153466078677",
             "type": "gotoroom",
             "gotoroom": {
-                "map": "level4",
+                "map": "l4.json",
                 "item": "entrance",
                 "dx": 0,
-                "dy": 0
+                "dy": 1
             },
             "visible": true,
             "next": null
@@ -180,11 +180,11 @@
                     "key": "key_0.9349937614161539"
                 }
             ],
-            "visible": true,
-            "next": "script_0.1271443336996565"
+            "visible": false,
+            "next": "hide_monster"
         },
         {
-            "id": "script_0.1271443336996565",
+            "id": "hide_monster",
             "itemid": "none",
             "title": "hide monster",
             "type": "script",
@@ -192,7 +192,34 @@
                 "trigger": "none",
                 "code": "ctx.item('monster').hide()\n"
             },
-            "visible": true,
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "script_0.35066335211273814",
+            "itemid": "deep_water",
+            "title": "Script 0.6226067443019082",
+            "type": "script",
+            "script": {
+                "trigger": "item",
+                "code": "if(!ctx.hasItem('scuba')) {\n   ctx.dialog('toodeep');\n} else {\n   ctx.item('deep_water').hide();\n}"
+            },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "toodeep",
+            "title": "Water Too Deep",
+            "itemid": "none",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "narrator",
+                    "text": "This water is too deep to swim without scuba gear",
+                    "key": "key_0.41076924924647285"
+                }
+            ],
+            "visible": false,
             "next": null
         }
     ],
@@ -26576,6 +26603,28 @@
                     },
                     "x": 43,
                     "y": 28
+                },
+                {
+                    "master": {
+                        "group": "item_group_2176",
+                        "id": "item_master_261"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "deep_water"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Deep Water"
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 43,
+                    "y": 25
                 }
             ],
             "visible": true,

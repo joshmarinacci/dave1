@@ -2,7 +2,7 @@
     "id": "level1",
     "path": "level1.json",
     "name": "Level 1",
-    "battle": false,
+    "battle": true,
     "background": "#000000",
     "actions": [
         {
@@ -16,7 +16,7 @@
                 "dx": 0,
                 "dy": -1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -30,7 +30,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -41,6 +41,18 @@
             "script": {
                 "trigger": "none",
                 "code": "console.log(\"context is\",ctx);\nif(ctx.hasItem('pointystick')) {\n  ctx.customDialog(['The box is empty.'],'chest');\n} else {\n  ctx.receiveItem('pointystick');\n  ctx.customDialog(['You found a pointy stick. Lucky you. ','Engage in glorious battle, brave one!'],'pointystick');\n}"
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "script_0.5148242410216665",
+            "itemid": "bigrat",
+            "title": "Script 0.4966951229062795",
+            "type": "script",
+            "script": {
+                "trigger": "item",
+                "code": "var bigrat = ctx.item('bigrat');\nconsole.log(\"bigrat = \",bigrat);\nctx.customBattle('bigrat').then(()=>bigrat.hide())"
             },
             "visible": true,
             "next": null
@@ -17203,7 +17215,7 @@
                     "settings": {
                         "id": {
                             "name": "id",
-                            "value": "big-rat"
+                            "value": "bigrat"
                         },
                         "title": {
                             "name": "title",
@@ -17246,13 +17258,13 @@
         }
     ],
     "start": {
-        "x": 17,
-        "y": 5
+        "x": 19,
+        "y": 15
     },
     "battleInfo": {
-        "attackRate": 0.2,
-        "attackStepsMin": 3,
-        "attackStepsMax": 7,
+        "attackRate": 0.1,
+        "attackStepsMin": 10,
+        "attackStepsMax": 20,
         "countrange": [
             1,
             2

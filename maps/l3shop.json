@@ -6,8 +6,8 @@
     "background": "#000000",
     "actions": [
         {
-            "id": "goto_0.17506040770153508",
-            "itemid": "exit",
+            "id": "leave",
+            "itemid": "none",
             "title": "Go To 0.6846337107761331",
             "type": "gotoroom",
             "gotoroom": {
@@ -156,7 +156,31 @@
                     "key": "key_0.8407246570831242"
                 }
             ],
-            "visible": true,
+            "visible": false,
+            "next": "get_items"
+        },
+        {
+            "id": "get_items",
+            "itemid": "none",
+            "title": "Get Items",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.receiveItem('antacid');\nctx.receiveItem('scuba');"
+            },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "script_0.8116082417939213",
+            "itemid": "none",
+            "title": "Script 0.6414436651921789",
+            "type": "script",
+            "script": {
+                "trigger": "mapexit",
+                "code": "ctx.run(ctx.action('leave'))"
+            },
+            "visible": false,
             "next": null
         }
     ],

@@ -128,18 +128,42 @@
                 }
             ],
             "visible": true,
-            "next": null
+            "next": "script_0.9922867836312342"
         },
         {
-            "id": "goto_0.5755290297238042",
+            "id": "leave",
             "itemid": "exit",
-            "title": "Go To 0.873101883392607",
+            "title": "Leave",
             "type": "gotoroom",
             "gotoroom": {
                 "map": "l4.json",
                 "item": "shop",
                 "dx": 0,
                 "dy": 1
+            },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "script_0.9922867836312342",
+            "itemid": "none",
+            "title": "get icecream",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.receiveItem('icecream');"
+            },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "script_0.02484444485409565",
+            "itemid": "none",
+            "title": "Script 0.15844076726257428",
+            "type": "script",
+            "script": {
+                "trigger": "mapexit",
+                "code": "ctx.run(ctx.action('leave'))"
             },
             "visible": true,
             "next": null
@@ -1722,16 +1746,11 @@
                     }
                 },
                 null,
+                null,
                 {
                     "master": {
                         "group": "xmas",
                         "id": "4_1"
-                    }
-                },
-                {
-                    "master": {
-                        "group": "xmas",
-                        "id": "1_2"
                     }
                 },
                 {
@@ -2329,28 +2348,6 @@
             "data": [
                 {
                     "master": {
-                        "group": "item_group_5418",
-                        "id": "item_master_238"
-                    },
-                    "settings": {
-                        "id": {
-                            "name": "id",
-                            "value": "exit"
-                        },
-                        "title": {
-                            "name": "title",
-                            "value": "Exit"
-                        },
-                        "visible": {
-                            "name": "visible",
-                            "value": true
-                        }
-                    },
-                    "x": 7,
-                    "y": 9
-                },
-                {
-                    "master": {
                         "group": "people",
                         "id": "man"
                     },
@@ -2361,7 +2358,7 @@
                         },
                         "title": {
                             "name": "title",
-                            "value": "Dad 4"
+                            "value": "Bob"
                         }
                     },
                     "x": 7,

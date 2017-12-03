@@ -108,6 +108,411 @@
             "x": 3,
             "y": 0
          }
+      },
+      "caverat": {
+         "name": "Cave Rat",
+         "hp": 10,
+         "mp": 0,
+         "strength": 20,
+         "defense": 20,
+         "attacks": [
+            "slips",
+            "spills",
+            "smudges"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 0,
+            "y": 0
+         }
+      },
+      "cavecat": {
+         "name": "Cave Cat",
+         "hp": 20,
+         "mp": 0,
+         "strength": 20,
+         "defense": 20,
+         "attacks": [
+            "slip",
+            "spill",
+            "smudge"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "cavebat": {
+         "name": "Cave Bat",
+         "hp": 30,
+         "mp": 0,
+         "strength": 30,
+         "defense": 40,
+         "attacks": [
+            "smack",
+            "splat",
+            "careen"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 2,
+            "y": 0
+         }
+      },
+      "cavehat": {
+         "name": "Cave Hat",
+         "hp": 40,
+         "mp": 0,
+         "strength": 10,
+         "defense": 20,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 3,
+            "y": 0
+         }
+      },
+      "waterrat": {
+         "name": "Water Rat",
+         "hp": 20,
+         "mp": 0,
+         "strength": 40,
+         "defense": 40,
+         "attacks": [
+            "slips",
+            "spills",
+            "smudges"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 0,
+            "y": 0
+         }
+      },
+      "watercat": {
+         "name": "Water Cat",
+         "hp": 40,
+         "mp": 0,
+         "strength": 40,
+         "defense": 40,
+         "attacks": [
+            "slip",
+            "spill",
+            "smudge"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "waterbat": {
+         "name": "Water Bat",
+         "hp": 60,
+         "mp": 0,
+         "strength": 60,
+         "defense": 80,
+         "attacks": [
+            "smack",
+            "splat",
+            "careen"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 2,
+            "y": 0
+         }
+      },
+      "waterhat": {
+         "name": "Water Hat",
+         "hp": 80,
+         "mp": 0,
+         "strength": 20,
+         "defense": 40,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 3,
+            "y": 0
+         }
+      },
+      "lavarat": {
+         "name": "Lava Rat",
+         "hp": 40,
+         "mp": 0,
+         "strength": 80,
+         "defense": 80,
+         "attacks": [
+            "slips",
+            "spills",
+            "smudges"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 0,
+            "y": 0
+         }
+      },
+      "lavacat": {
+         "name": "Lava Cat",
+         "hp": 80,
+         "mp": 0,
+         "strength": 80,
+         "defense": 80,
+         "attacks": [
+            "slip",
+            "spill",
+            "smudge"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "lavabat": {
+         "name": "Lava Bat",
+         "hp": 120,
+         "mp": 0,
+         "strength": 120,
+         "defense": 160,
+         "attacks": [
+            "smack",
+            "splat",
+            "careen"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 2,
+            "y": 0
+         }
+      },
+      "lavahat": {
+         "name": "Lava Hat",
+         "hp": 160,
+         "mp": 0,
+         "strength": 40,
+         "defense": 80,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 3,
+            "y": 0
+         }
+      },
+      "snowrat": {
+         "name": "Snow Rat",
+         "hp": 80,
+         "mp": 0,
+         "strength": 160,
+         "defense": 160,
+         "attacks": [
+            "slips",
+            "spills",
+            "smudges"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 0,
+            "y": 0
+         }
+      },
+      "snowcat": {
+         "name": "Snow Cat",
+         "hp": 160,
+         "mp": 0,
+         "strength": 160,
+         "defense": 160,
+         "attacks": [
+            "slip",
+            "spill",
+            "smudge"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "snowbat": {
+         "name": "Snow Bat",
+         "hp": 240,
+         "mp": 0,
+         "strength": 240,
+         "defense": 280,
+         "attacks": [
+            "smack",
+            "splat",
+            "careen"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 2,
+            "y": 0
+         }
+      },
+      "snowhat": {
+         "name": "Snow Hat",
+         "hp": 320,
+         "mp": 0,
+         "strength": 40,
+         "defense": 160,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 3,
+            "y": 0
+         }
+      },
+      "bigrat": {
+         "name": "Big Rat",
+         "hp": 100000,
+         "mp": 0,
+         "strength": 10,
+         "defense": 10,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 0,
+            "y": 4
+         },
+         "weaknesses": [
+            {
+               "type": "item_death",
+               "item": "cheese",
+               "description": "Big Rat grabs the cheese and wanders off"
+            }
+         ]
+      },
+      "rockcandy": {
+         "name": "Rock Candy Monster",
+         "hp": 100000,
+         "mp": 0,
+         "strength": 10,
+         "defense": 10,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 0,
+            "y": 8
+         },
+         "weaknesses": [
+            {
+               "type": "item_death",
+               "item": "water",
+               "description": "The Rock Candy Monster melts into a delicious puddle of goo"
+            }
+         ]
+      },
+      "rocklava": {
+         "name": "Rock Lava Monster",
+         "hp": 100000,
+         "mp": 0,
+         "strength": 10,
+         "defense": 10,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 0,
+            "y": 8
+         },
+         "weaknesses": [
+            {
+               "type": "item_death",
+               "item": "icecream",
+               "description": "The Rock Lava Monster shrieks from the horrible mint and runs away"
+            }
+         ]
+      },
+      "nessie": {
+         "name": "Nesse",
+         "hp": 100000,
+         "mp": 0,
+         "strength": 10,
+         "defense": 10,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 8,
+            "y": 4
+         }
+      },
+      "robot": {
+         "name": "Robot",
+         "hp": 100000,
+         "mp": 0,
+         "strength": 10,
+         "defense": 10,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 6,
+            "y": 8
+         }
+      },
+      "bigrobot": {
+         "name": "Big Robot",
+         "hp": 100000,
+         "mp": 0,
+         "strength": 10,
+         "defense": 10,
+         "skill": 0.1,
+         "attacks": [
+            "pinch",
+            "grab",
+            "tweeze"
+         ],
+         "image": "dave_enemies",
+         "center": {
+            "x": 12,
+            "y": 8
+         }
       }
    },
    "info": {
@@ -4249,18 +4654,46 @@
                "image": "dave_enemies"
             }
          ]
+      },
+      "item_group_2176": {
+         "id": "item_group_2176",
+         "name": "item_group_2176",
+         "title": "terrain",
+         "type": "objectgroup",
+         "objects": [
+            {
+               "name": "item_master_261",
+               "center": {
+                  "x": 3,
+                  "y": 2
+               },
+               "image": "water"
+            }
+         ]
+      },
+      "item_group_530": {
+         "id": "item_group_530",
+         "name": "item_group_530",
+         "title": "Title of item_group_530",
+         "type": "objectgroup",
+         "objects": []
       }
    },
    "maps": {
-      "l1shop": {
-         "name": "Level 1 Shop",
-         "path": "l1shop.json",
-         "id": "l1shop"
-      },
       "l3shop": {
          "name": "Level 3 Shop",
          "path": "l3shop.json",
          "id": "l3shop"
+      },
+      "l4.json": {
+         "name": "Level 4",
+         "path": "l4.json.json",
+         "id": "l4.json"
+      },
+      "l4shopa": {
+         "name": "Level 4 Shop",
+         "path": "l4shopa.json",
+         "id": "l4shopa"
       },
       "l4shop": {
          "name": "Level 5 Shop",
@@ -4277,30 +4710,25 @@
          "path": "level2.json",
          "id": "level2"
       },
-      "l2shop": {
-         "name": "Level 2 Shop",
-         "path": "l2shop.json",
-         "id": "l2shop"
-      },
       "level3": {
          "name": "Level 3",
          "path": "level3.json",
          "id": "level3"
-      },
-      "l4.json": {
-         "name": "Level 4",
-         "path": "l4.json.json",
-         "id": "l4.json"
       },
       "level4": {
          "name": "Level 5",
          "path": "level4.json",
          "id": "level4"
       },
-      "l4shopa": {
-         "name": "Level 4 Shop",
-         "path": "l4shopa.json",
-         "id": "l4shopa"
+      "l1shop": {
+         "name": "Level 1 Shop",
+         "path": "l1shop.json",
+         "id": "l1shop"
+      },
+      "l2shop": {
+         "name": "Level 2 Shop",
+         "path": "l2shop.json",
+         "id": "l2shop"
       },
       "start_room": {
          "name": "Starting Room",
@@ -4404,6 +4832,87 @@
             "x": 1,
             "y": 1
          }
+      },
+      {
+         "id": "person_8222",
+         "title": "Lucy",
+         "image": "people",
+         "center": {
+            "x": 1,
+            "y": 8
+         }
+      },
+      {
+         "id": "person_8376",
+         "title": "Sally",
+         "image": "people",
+         "center": {
+            "x": 3,
+            "y": 8
+         }
+      },
+      {
+         "id": "person_8921",
+         "title": "Jet",
+         "image": "people",
+         "center": {
+            "x": 2,
+            "y": 8
+         }
+      },
+      {
+         "id": "person_3634",
+         "title": "Roxy",
+         "image": "people",
+         "center": {
+            "x": 4,
+            "y": 8
+         }
+      },
+      {
+         "id": "person_9746",
+         "title": "Robot",
+         "image": "dave_enemies",
+         "center": {
+            "x": 5,
+            "y": 4
+         }
+      },
+      {
+         "id": "person_3001",
+         "title": "whistle",
+         "image": "items",
+         "center": {
+            "x": 3,
+            "y": 3
+         }
+      },
+      {
+         "id": "person_4558",
+         "title": "DM",
+         "image": "dave_enemies",
+         "center": {
+            "x": 6,
+            "y": 2
+         }
+      },
+      {
+         "id": "person_8648",
+         "title": "D20",
+         "image": "items",
+         "center": {
+            "x": 4,
+            "y": 3
+         }
+      },
+      {
+         "id": "person_8724",
+         "title": "Bag of Holding",
+         "image": "items",
+         "center": {
+            "x": 4,
+            "y": 2
+         }
       }
    ],
    "baseDir": "../dave1",
@@ -4416,6 +4925,56 @@
          "center": {
             "x": 1,
             "y": 1
+         }
+      },
+      "cheese": {
+         "id": "cheese",
+         "name": "Hunk O' Cheese",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "antacid": {
+         "id": "antacid",
+         "name": "Hunk O' Cheese",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "scuba": {
+         "id": "scuba",
+         "name": "Scuba Gear",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "water": {
+         "id": "water",
+         "name": "Bottled Water",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 0
+         }
+      },
+      "icecream": {
+         "id": "icecream",
+         "name": "Mint Icecream",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 1,
+            "y": 0
          }
       }
    }

@@ -128,18 +128,42 @@
                 }
             ],
             "visible": true,
-            "next": null
+            "next": "get_water"
         },
         {
-            "id": "goto_0.7179504593184527",
+            "id": "leave",
             "itemid": "exit",
-            "title": "Go To 0.35286728365893405",
+            "title": "Leave The Shop",
             "type": "gotoroom",
             "gotoroom": {
                 "map": "level2",
                 "item": "shop",
                 "dx": 0,
                 "dy": 1
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "get_water",
+            "itemid": "none",
+            "title": "Get Water",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.receiveItem('water');\n"
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "script_0.3640860047576533",
+            "itemid": "none",
+            "title": "Script 0.538060672708513",
+            "type": "script",
+            "script": {
+                "trigger": "mapexit",
+                "code": "ctx.run(ctx.action('leave'))"
             },
             "visible": true,
             "next": null
