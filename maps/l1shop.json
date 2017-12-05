@@ -167,7 +167,7 @@
                     "key": "key_0.7533599076141848"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "get_cheese"
         },
         {
@@ -198,8 +198,20 @@
         },
         {
             "id": "get_cheese",
-            "itemid": "bed",
+            "itemid": "none",
             "title": "get the cheese",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.receiveItem('cheese')"
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "script_0.32436125303524577",
+            "itemid": "bed",
+            "title": "Script 0.06282850772769644",
             "type": "script",
             "script": {
                 "trigger": "none",
