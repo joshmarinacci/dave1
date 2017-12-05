@@ -36,7 +36,7 @@
         {
             "id": "dialog_0.9459222070707919",
             "title": "Dialog 0.1764619661545701",
-            "itemid": "lavamonster",
+            "itemid": "rocklava",
             "type": "dialog",
             "dialog": [
                 {
@@ -55,7 +55,7 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "var en = ctx.item('lavamonster');\nctx.customBattle('rocklava').then(()=>en.hide())\n"
+                "code": "ctx.customBattle('rocklava').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('rocklava').hide()\n   }\n})"
             },
             "visible": true,
             "next": null
@@ -16498,7 +16498,7 @@
                     "settings": {
                         "id": {
                             "name": "id",
-                            "value": "lavamonster"
+                            "value": "rocklava"
                         },
                         "title": {
                             "name": "title",
@@ -16547,5 +16547,6 @@
         ],
         "enemies": [],
         "scale": 1
-    }
+    },
+    "music": "/audio/walking.mp3"
 }

@@ -167,7 +167,7 @@
                     "key": "key_0.7533599076141848"
                 }
             ],
-            "visible": true,
+            "visible": false,
             "next": "get_cheese"
         },
         {
@@ -181,7 +181,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -193,7 +193,7 @@
                 "trigger": "mapexit",
                 "code": "ctx.run(ctx.action('leave'))"
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -203,7 +203,7 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "ctx.receiveItem('cheese');\nconsole.log(\"got the cheese\");"
+                "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');"
             },
             "visible": true,
             "next": null
@@ -1116,7 +1116,7 @@
                         },
                         "title": {
                             "name": "title",
-                            "value": "bed"
+                            "value": "Bed"
                         },
                         "visible": {
                             "name": "visible",
@@ -1161,5 +1161,6 @@
         ],
         "enemies": [],
         "scale": 1
-    }
+    },
+    "music": "/audio/shop.mp3"
 }

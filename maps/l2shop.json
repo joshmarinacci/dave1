@@ -1535,7 +1535,29 @@
                         }
                     },
                     "x": 2,
-                    "y": 4
+                    "y": 5
+                },
+                {
+                    "master": {
+                        "group": "item_group_4726",
+                        "id": "item_master_163"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "bed"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "bed"
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 1,
+                    "y": 3
                 }
             ],
             "visible": true,
@@ -1669,5 +1691,6 @@
         ],
         "enemies": [],
         "scale": 1
-    }
+    },
+    "music": "/audio/shop.mp3"
 }

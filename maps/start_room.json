@@ -2251,5 +2251,6 @@
         ],
         "enemies": [],
         "scale": 1
-    }
+    },
+    "music": "/audio/levelboss.mp3"
 }

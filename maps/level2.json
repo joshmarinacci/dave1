@@ -55,7 +55,7 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "var en = ctx.item('boss');\nctx.customBattle('rockcandy').then(()=>en.hide())"
+                "code": "ctx.customBattle('rockcandy').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('boss').hide()\n   }\n})"
             },
             "visible": true,
             "next": null
@@ -14933,5 +14933,6 @@
             "cavehat"
         ],
         "scale": 1
-    }
+    },
+    "music": "/audio/walking.mp3"
 }

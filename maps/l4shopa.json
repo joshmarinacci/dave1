@@ -127,7 +127,7 @@
                     "key": "key_0.20024048234726233"
                 }
             ],
-            "visible": true,
+            "visible": false,
             "next": "script_0.9922867836312342"
         },
         {
@@ -164,6 +164,18 @@
             "script": {
                 "trigger": "mapexit",
                 "code": "ctx.run(ctx.action('leave'))"
+            },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "script_0.7655081995627477",
+            "itemid": "bed",
+            "title": "Script 0.9995078476277042",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');"
             },
             "visible": true,
             "next": null
@@ -2363,6 +2375,28 @@
                     },
                     "x": 7,
                     "y": 4
+                },
+                {
+                    "master": {
+                        "group": "item_group_4726",
+                        "id": "item_master_163"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "bed"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "bed"
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 13,
+                    "y": 5
                 }
             ],
             "visible": true,
@@ -2381,5 +2415,6 @@
         ],
         "enemies": [],
         "scale": 1
-    }
+    },
+    "music": "/audio/shop.mp3"
 }

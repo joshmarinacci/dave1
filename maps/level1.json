@@ -52,7 +52,7 @@
             "type": "script",
             "script": {
                 "trigger": "item",
-                "code": "var bigrat = ctx.item('bigrat');\nconsole.log(\"bigrat = \",bigrat);\nctx.customBattle('bigrat').then(()=>bigrat.hide())"
+                "code": "ctx.customBattle('bigrat').then((status)=>{\n   console.log('battle over, status is',status);\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('bigrat').hide()\n   }\n})"
             },
             "visible": true,
             "next": null
@@ -17276,5 +17276,6 @@
             "mazehat"
         ],
         "scale": 1
-    }
+    },
+    "music": "/audio/walking.mp3"
 }
