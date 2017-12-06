@@ -7142,11 +7142,19 @@
         "y": 5
     },
     "battleInfo": {
+        "attackRate": 0.1,
+        "attackStepsMin": 10,
+        "attackStepsMax": 20,
         "countrange": [
             1,
             2
         ],
-        "enemies": [],
+        "enemies": [
+            "snowrat",
+            "snowcat",
+            "snowbat",
+            "snowhat"
+        ],
         "scale": 1
     },
     "music": "/audio/music.mp3"

@@ -26637,11 +26637,19 @@
         "y": 2
     },
     "battleInfo": {
+        "attackRate": 0.1,
+        "attackStepsMin": 10,
+        "attackStepsMax": 20,
         "countrange": [
             1,
             2
         ],
-        "enemies": [],
+        "enemies": [
+            "waterrat",
+            "watercat",
+            "waterbat",
+            "waterhat"
+        ],
         "scale": 1
     },
     "music": "/audio/walking.mp3"

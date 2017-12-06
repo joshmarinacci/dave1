@@ -167,6 +167,18 @@
             },
             "visible": true,
             "next": null
+        },
+        {
+            "id": "script_0.612175889907107",
+            "itemid": "bed",
+            "title": "Script 0.07878681265435639",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');"
+            },
+            "visible": true,
+            "next": null
         }
     ],
     "width": 12,

@@ -160,7 +160,7 @@
          "hp": 30,
          "mp": 0,
          "strength": 30,
-         "defense": 40,
+         "defense": 30,
          "attacks": [
             "smack",
             "splat",
@@ -208,7 +208,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 0,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "watercat": {
@@ -224,8 +226,10 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 1,
-            "y": 0
+            "x": 2,
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "waterbat": {
@@ -242,7 +246,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 2,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "waterhat": {
@@ -259,8 +265,10 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 3,
-            "y": 0
+            "x": 6,
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "lavarat": {
@@ -277,7 +285,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 0,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "lavacat": {
@@ -294,7 +304,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 1,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "lavabat": {
@@ -311,7 +323,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 2,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "lavahat": {
@@ -329,7 +343,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 3,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "snowrat": {
@@ -346,7 +362,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 0,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "snowcat": {
@@ -363,7 +381,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 1,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "snowbat": {
@@ -380,7 +400,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 2,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "snowhat": {
@@ -398,7 +420,9 @@
          "image": "dave_enemies",
          "center": {
             "x": 3,
-            "y": 0
+            "y": 0,
+            "w": 2,
+            "h": 2
          }
       },
       "bigrat": {
@@ -4723,25 +4747,20 @@
          "path": "l3shop.json",
          "id": "l3shop"
       },
-      "l4.json": {
-         "name": "Level 4",
-         "path": "l4.json.json",
-         "id": "l4.json"
-      },
       "l4shop": {
          "name": "Level 5 Shop",
          "path": "l4shop.json",
          "id": "l4shop"
       },
+      "l4.json": {
+         "name": "Level 4",
+         "path": "l4.json.json",
+         "id": "l4.json"
+      },
       "l4shopa": {
          "name": "Level 4 Shop",
          "path": "l4shopa.json",
          "id": "l4shopa"
-      },
-      "level1": {
-         "name": "Level 1",
-         "path": "level1.json",
-         "id": "level1"
       },
       "level2": {
          "name": "Level 2",
@@ -4757,6 +4776,11 @@
          "name": "Level 5",
          "path": "level4.json",
          "id": "level4"
+      },
+      "level1": {
+         "name": "Level 1",
+         "path": "level1.json",
+         "id": "level1"
       },
       "start_room": {
          "name": "Starting Room",
