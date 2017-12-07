@@ -4732,35 +4732,25 @@
       }
    },
    "maps": {
-      "l1shop": {
-         "name": "Level 1 Shop",
-         "path": "l1shop.json",
-         "id": "l1shop"
-      },
-      "l2shop": {
-         "name": "Level 2 Shop",
-         "path": "l2shop.json",
-         "id": "l2shop"
-      },
-      "l3shop": {
-         "name": "Level 3 Shop",
-         "path": "l3shop.json",
-         "id": "l3shop"
+      "l4.json": {
+         "name": "Level 4",
+         "path": "l4.json.json",
+         "id": "l4.json"
       },
       "l4shop": {
          "name": "Level 5 Shop",
          "path": "l4shop.json",
          "id": "l4shop"
       },
-      "l4.json": {
-         "name": "Level 4",
-         "path": "l4.json.json",
-         "id": "l4.json"
+      "l3shop": {
+         "name": "Level 3 Shop",
+         "path": "l3shop.json",
+         "id": "l3shop"
       },
-      "l4shopa": {
-         "name": "Level 4 Shop",
-         "path": "l4shopa.json",
-         "id": "l4shopa"
+      "level1": {
+         "name": "Level 1",
+         "path": "level1.json",
+         "id": "level1"
       },
       "level2": {
          "name": "Level 2",
@@ -4777,15 +4767,25 @@
          "path": "level4.json",
          "id": "level4"
       },
-      "level1": {
-         "name": "Level 1",
-         "path": "level1.json",
-         "id": "level1"
+      "l1shop": {
+         "name": "Level 1 Shop",
+         "path": "l1shop.json",
+         "id": "l1shop"
       },
       "start_room": {
          "name": "Starting Room",
          "path": "start_room.json",
          "id": "start_room"
+      },
+      "l4shopa": {
+         "name": "Level 4 Shop",
+         "path": "l4shopa.json",
+         "id": "l4shopa"
+      },
+      "l2shop": {
+         "name": "Level 2 Shop",
+         "path": "l2shop.json",
+         "id": "l2shop"
       },
       "undefined": {
          "path": "undefined.json"

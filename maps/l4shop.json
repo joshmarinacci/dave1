@@ -436,8 +436,8 @@
                     "key": "key_0.13325220457550024"
                 }
             ],
-            "visible": false,
-            "next": null
+            "visible": true,
+            "next": "end_screen"
         },
         {
             "id": "goto_0.3706880695641649",
@@ -484,7 +484,19 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');"
+                "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');\n"
+            },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "end_screen",
+            "itemid": "none",
+            "title": "Show End Screen",
+            "type": "script",
+            "script": {
+                "trigger": "none",
+                "code": "ctx.pushScreen(\"end\");"
             },
             "visible": true,
             "next": null
