@@ -123,7 +123,7 @@
                 },
                 {
                     "person": "item",
-                    "text": "Yes dammit! Go save her. I've got work to do.",
+                    "text": "Yes! Now go save her! I've got work to do.",
                     "key": "key_0.7242137738576522"
                 },
                 {
@@ -167,7 +167,7 @@
                     "key": "key_0.7533599076141848"
                 }
             ],
-            "visible": true,
+            "visible": false,
             "next": "get_cheese"
         },
         {
@@ -205,7 +205,7 @@
                 "trigger": "none",
                 "code": "ctx.receiveItem('cheese')"
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {

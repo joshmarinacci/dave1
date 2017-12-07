@@ -436,7 +436,7 @@
                     "key": "key_0.13325220457550024"
                 }
             ],
-            "visible": true,
+            "visible": false,
             "next": "end_screen"
         },
         {
@@ -460,9 +460,9 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "ctx.customBattle('robot',true).then((status)=>{\n   ctx.dialog('part2')\n})"
+                "code": "ctx.customBattle('robot',true,'finalboss').then((status)=>{\n   ctx.playMusic('finalboss')\n   ctx.dialog('part2')\n})"
             },
-            "visible": false,
+            "visible": true,
             "next": null
         },
         {
@@ -472,9 +472,9 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "ctx.customBattle('bigrobot',true).then(()=>{\n   ctx.dialog('part3')\n})"
+                "code": "ctx.receiveItem('debugger');\nctx.customBattle('bigrobot',true,'finalboss').then(()=>{\n   ctx.playMusic('finalboss')\n   ctx.dialog('part3')\n})"
             },
-            "visible": false,
+            "visible": true,
             "next": null
         },
         {

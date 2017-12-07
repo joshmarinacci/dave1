@@ -4732,20 +4732,35 @@
       }
    },
    "maps": {
-      "l4.json": {
-         "name": "Level 4",
-         "path": "l4.json.json",
-         "id": "l4.json"
+      "l1shop": {
+         "name": "Level 1 Shop",
+         "path": "l1shop.json",
+         "id": "l1shop"
+      },
+      "l2shop": {
+         "name": "Level 2 Shop",
+         "path": "l2shop.json",
+         "id": "l2shop"
+      },
+      "l3shop": {
+         "name": "Level 3 Shop",
+         "path": "l3shop.json",
+         "id": "l3shop"
       },
       "l4shop": {
          "name": "Level 5 Shop",
          "path": "l4shop.json",
          "id": "l4shop"
       },
-      "l3shop": {
-         "name": "Level 3 Shop",
-         "path": "l3shop.json",
-         "id": "l3shop"
+      "l4.json": {
+         "name": "Level 4",
+         "path": "l4.json.json",
+         "id": "l4.json"
+      },
+      "l4shopa": {
+         "name": "Level 4 Shop",
+         "path": "l4shopa.json",
+         "id": "l4shopa"
       },
       "level1": {
          "name": "Level 1",
@@ -4767,25 +4782,10 @@
          "path": "level4.json",
          "id": "level4"
       },
-      "l1shop": {
-         "name": "Level 1 Shop",
-         "path": "l1shop.json",
-         "id": "l1shop"
-      },
       "start_room": {
          "name": "Starting Room",
          "path": "start_room.json",
          "id": "start_room"
-      },
-      "l4shopa": {
-         "name": "Level 4 Shop",
-         "path": "l4shopa.json",
-         "id": "l4shopa"
-      },
-      "l2shop": {
-         "name": "Level 2 Shop",
-         "path": "l2shop.json",
-         "id": "l2shop"
       },
       "undefined": {
          "path": "undefined.json"
@@ -4968,6 +4968,36 @@
       }
    ],
    "baseDir": "../dave1",
+   "music": [
+      {
+         "id": "battle",
+         "path": "/audio/battle.mp3"
+      },
+      {
+         "id": "finalboss",
+         "path": "/audio/finalboss.mp3"
+      },
+      {
+         "id": "jinglebells",
+         "path": "/audio/jinglebells.mp3"
+      },
+      {
+         "id": "levelboss",
+         "path": "/audio/levelboss.mp3"
+      },
+      {
+         "id": "shop",
+         "path": "/audio/shop.mp3"
+      },
+      {
+         "id": "victory",
+         "path": "/audio/victory.mp3"
+      },
+      {
+         "id": "walking",
+         "path": "/audio/walking.mp3"
+      }
+   ],
    "items": {
       "pointystick": {
          "id": "pointystick",
@@ -5012,6 +5042,16 @@
       "water": {
          "id": "water",
          "name": "Bottled Water",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 2,
+            "y": 2
+         }
+      },
+      "debugger": {
+         "id": "debugger",
+         "name": "Debugger",
          "type": "off",
          "image": "items",
          "center": {

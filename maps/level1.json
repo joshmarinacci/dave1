@@ -52,7 +52,7 @@
             "type": "script",
             "script": {
                 "trigger": "item",
-                "code": "ctx.customBattle('bigrat').then((status)=>{\n   console.log('battle over, status is',status);\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('bigrat').hide()\n   }\n})"
+                "code": "ctx.customBattle('bigrat',false,'levelboss').then((status)=>{\n   console.log('battle over, status is',status);\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('bigrat').hide()\n   }\n})"
             },
             "visible": true,
             "next": null

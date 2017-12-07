@@ -16,7 +16,7 @@
                 "dx": 0,
                 "dy": -1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -30,7 +30,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -45,7 +45,7 @@
                     "key": "key_0.7654412287839429"
                 }
             ],
-            "visible": true,
+            "visible": false,
             "next": "start_battle"
         },
         {
@@ -55,7 +55,7 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "ctx.customBattle('rocklava').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('rocklava').hide()\n   }\n})"
+                "code": "ctx.customBattle('rocklava',false,'levelboss').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('rocklava').hide()\n   }\n})"
             },
             "visible": true,
             "next": null

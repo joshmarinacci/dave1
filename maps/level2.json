@@ -55,7 +55,7 @@
             "type": "script",
             "script": {
                 "trigger": "none",
-                "code": "ctx.customBattle('rockcandy').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('boss').hide()\n   }\n})"
+                "code": "ctx.customBattle('rockcandy',false,'levelboss').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('boss').hide()\n   }\n})"
             },
             "visible": true,
             "next": null
