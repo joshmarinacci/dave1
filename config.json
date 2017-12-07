@@ -303,7 +303,7 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 1,
+            "x": 2,
             "y": 0,
             "w": 2,
             "h": 2
@@ -322,7 +322,7 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 2,
+            "x": 4,
             "y": 0,
             "w": 2,
             "h": 2
@@ -342,7 +342,7 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 3,
+            "x": 6,
             "y": 0,
             "w": 2,
             "h": 2
