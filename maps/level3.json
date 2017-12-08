@@ -165,7 +165,7 @@
                     "key": "key_0.3707769516878293"
                 },
                 {
-                    "person": "person_5883",
+                    "person": "person_3001",
                     "text": "received whistle",
                     "key": "key_0.6695770893459952"
                 },
@@ -180,7 +180,7 @@
                     "key": "key_0.9349937614161539"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "hide_monster"
         },
         {

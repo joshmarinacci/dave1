@@ -51,7 +51,7 @@
                     "key": "key_0.9616745746006283"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "And the deepness?",
                     "key": "key_0.24340848558456218"
                 },
@@ -61,7 +61,7 @@
                     "key": "key_0.31401352559176965"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "Perfect! Thanks.",
                     "key": "key_0.20276988103861182"
                 },
@@ -71,7 +71,7 @@
                     "key": "key_0.020527340238253422"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "Oh geez. Do you have a daughter too?",
                     "key": "key_0.8581893623581051"
                 },
@@ -81,7 +81,7 @@
                     "key": "key_0.03399847869311168"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "Let me guess, she was kidnapped by the you know who.",
                     "key": "key_0.9637265228671775"
                 },
@@ -91,7 +91,7 @@
                     "key": "key_0.15293421901009197"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "Just a hunch. Did he leave a note?",
                     "key": "key_0.20261311598868303"
                 },
@@ -101,7 +101,7 @@
                     "key": "key_0.2183917806958825"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "Hmm. Interesting. So you think an monster ate her? ",
                     "key": "key_0.0693511798829054"
                 },
@@ -111,7 +111,7 @@
                     "key": "key_0.9168321856442982"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "Did your daughter wear a hat?",
                     "key": "key_0.7078563368529864"
                 },
@@ -121,7 +121,7 @@
                     "key": "key_0.1124633780040798"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "Well the stick person has a hat like yours.",
                     "key": "key_0.3256530872298091"
                 },
@@ -136,7 +136,7 @@
                     "key": "key_0.008403229821173364"
                 },
                 {
-                    "person": "item",
+                    "person": "player",
                     "text": "*sigh*. I suppose. Give me the scuba gear and antacid.",
                     "key": "key_0.5212435685371398"
                 },
@@ -156,7 +156,7 @@
                     "key": "key_0.8407246570831242"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "get_items"
         },
         {

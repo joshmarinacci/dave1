@@ -16537,8 +16537,8 @@
         }
     ],
     "start": {
-        "x": 20,
-        "y": 30
+        "x": 31,
+        "y": 33
     },
     "battleInfo": {
         "attackRate": 0.1,

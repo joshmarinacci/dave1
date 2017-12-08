@@ -380,7 +380,7 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 1,
+            "x": 2,
             "y": 0,
             "w": 2,
             "h": 2
@@ -399,7 +399,7 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 2,
+            "x": 4,
             "y": 0,
             "w": 2,
             "h": 2
@@ -419,7 +419,7 @@
          ],
          "image": "dave_enemies",
          "center": {
-            "x": 3,
+            "x": 6,
             "y": 0,
             "w": 2,
             "h": 2
@@ -4742,20 +4742,15 @@
          "path": "l2shop.json",
          "id": "l2shop"
       },
-      "l3shop": {
-         "name": "Level 3 Shop",
-         "path": "l3shop.json",
-         "id": "l3shop"
-      },
-      "l4shop": {
-         "name": "Level 5 Shop",
-         "path": "l4shop.json",
-         "id": "l4shop"
-      },
       "l4.json": {
          "name": "Level 4",
          "path": "l4.json.json",
          "id": "l4.json"
+      },
+      "l3shop": {
+         "name": "Level 3 Shop",
+         "path": "l3shop.json",
+         "id": "l3shop"
       },
       "l4shopa": {
          "name": "Level 4 Shop",
@@ -4776,6 +4771,11 @@
          "name": "Level 3",
          "path": "level3.json",
          "id": "level3"
+      },
+      "l4shop": {
+         "name": "Level 5 Shop",
+         "path": "l4shop.json",
+         "id": "l4shop"
       },
       "level4": {
          "name": "Level 5",
