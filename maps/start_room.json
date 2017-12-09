@@ -23,16 +23,6 @@
                 },
                 {
                     "person": "narrator",
-                    "text": "Wake up I say.",
-                    "key": "key_0.39901645998403024"
-                },
-                {
-                    "person": "player",
-                    "text": "Errrrigh.",
-                    "key": "key_0.2026850837262646"
-                },
-                {
-                    "person": "narrator",
                     "text": "I thought you said he'd be awake by now?",
                     "key": "key_0.9439019852686916"
                 },
@@ -78,7 +68,7 @@
                 },
                 {
                     "person": "narrator",
-                    "text": " Around every corner a trap. Through every door a magnificent horror of perfect design. ",
+                    "text": "Around every corner a trap. Through every door a magnificent horror of perfect design. ",
                     "key": "key_0.959840055241552"
                 },
                 {
@@ -93,18 +83,8 @@
                 },
                 {
                     "person": "narrator",
-                    "text": "Every room is filled with creatures whose only desire is to inflict exquisite suffering. ",
+                    "text": "Every room is filled with creatures whose only desire is to inflict exquisite suffering. I have dreamed of this day for an eternity Dungeness Dave. ",
                     "key": "key_0.7082943457002714"
-                },
-                {
-                    "person": "player",
-                    "text": "Sounds like you thought of everything.",
-                    "key": "key_0.834350436991572"
-                },
-                {
-                    "person": "narrator",
-                    "text": "Why yes. Yes I did. I have dreamed of this day for an eternity Dungeness Dave. ",
-                    "key": "key_0.7606666246864331"
                 },
                 {
                     "person": "player",
@@ -123,7 +103,7 @@
                 },
                 {
                     "person": "narrator",
-                    "text": "WHAT!!",
+                    "text": "WHAT IS IT!!",
                     "key": "key_0.41548584598080174"
                 },
                 {
@@ -147,7 +127,7 @@
                     "key": "key_0.22360734501871127"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "none"
         },
         {
@@ -166,14 +146,14 @@
         },
         {
             "id": "script_0.93415602752067",
-            "itemid": "empty",
+            "itemid": "none",
             "title": "Script 0.12463169664349216",
             "type": "script",
             "script": {
                 "trigger": "mapstart",
                 "code": "ctx.dialog('intro');"
             },
-            "visible": false,
+            "visible": true,
             "next": null
         }
     ],

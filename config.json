@@ -4786,6 +4786,9 @@
          "name": "Starting Room",
          "path": "start_room.json",
          "id": "start_room"
+      },
+      "undefined": {
+         "path": "undefined.json"
       }
    },
    "settings": {
