@@ -167,7 +167,7 @@
                     "key": "key_0.7533599076141848"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "get_cheese"
         },
         {
@@ -187,7 +187,7 @@
         {
             "id": "script_0.5329786306612956",
             "itemid": "none",
-            "title": "Script 0.39503792603546917",
+            "title": "auto exit",
             "type": "script",
             "script": {
                 "trigger": "mapexit",
@@ -211,13 +211,13 @@
         {
             "id": "script_0.32436125303524577",
             "itemid": "bed",
-            "title": "Script 0.06282850772769644",
+            "title": "heal",
             "type": "script",
             "script": {
                 "trigger": "none",
                 "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');"
             },
-            "visible": true,
+            "visible": false,
             "next": null
         }
     ],

@@ -141,7 +141,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -153,31 +153,31 @@
                 "trigger": "none",
                 "code": "ctx.receiveItem('water');\n"
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
             "id": "script_0.3640860047576533",
             "itemid": "none",
-            "title": "Script 0.538060672708513",
+            "title": "map exit",
             "type": "script",
             "script": {
                 "trigger": "mapexit",
                 "code": "ctx.run(ctx.action('leave'))"
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
             "id": "script_0.612175889907107",
             "itemid": "bed",
-            "title": "Script 0.07878681265435639",
+            "title": "heal",
             "type": "script",
             "script": {
                 "trigger": "none",
                 "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');"
             },
-            "visible": true,
+            "visible": false,
             "next": null
         }
     ],

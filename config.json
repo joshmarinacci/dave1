@@ -573,7 +573,7 @@
    "images": {
       "tileset1": "tiles/tileset1.png",
       "enemies": "tiles/enemies.png",
-      "player_anim": "tiles/player_anim.png",
+      "dave_anim": "tiles/dave_anim.png",
       "people": "tiles/people.png",
       "terrain": "tiles/terrain.png",
       "rock_mountains": "tiles/terrain_rock_mountains.png",
@@ -955,25 +955,25 @@
             false,
             1,
             2,
-            false,
+            true,
             2,
             2,
-            false,
+            true,
             2,
             3,
-            false,
+            true,
             1,
             3,
-            false,
+            true,
             1,
             4,
-            false,
+            true,
             1,
             5,
-            false,
+            true,
             2,
             4,
-            false
+            true
          ],
          "name": "terrain",
          "type": "collection",
@@ -1086,7 +1086,7 @@
                "type": "drawn",
                "group": "terrain",
                "id": "1_2",
-               "blocking": false
+               "blocking": true
             },
             "2_2": {
                "image": "terrain",
@@ -1097,7 +1097,7 @@
                "type": "drawn",
                "group": "terrain",
                "id": "2_2",
-               "blocking": false
+               "blocking": true
             },
             "2_3": {
                "image": "terrain",
@@ -1108,7 +1108,7 @@
                "type": "drawn",
                "group": "terrain",
                "id": "2_3",
-               "blocking": false
+               "blocking": true
             },
             "1_3": {
                "image": "terrain",
@@ -1119,7 +1119,7 @@
                "type": "drawn",
                "group": "terrain",
                "id": "1_3",
-               "blocking": false
+               "blocking": true
             },
             "1_4": {
                "image": "terrain",
@@ -1130,7 +1130,7 @@
                "type": "drawn",
                "group": "terrain",
                "id": "1_4",
-               "blocking": false
+               "blocking": true
             },
             "1_5": {
                "image": "terrain",
@@ -1141,7 +1141,7 @@
                "type": "drawn",
                "group": "terrain",
                "id": "1_5",
-               "blocking": false
+               "blocking": true
             },
             "2_4": {
                "image": "terrain",
@@ -1152,7 +1152,7 @@
                "type": "drawn",
                "group": "terrain",
                "id": "2_4",
-               "blocking": false
+               "blocking": true
             }
          }
       },
@@ -4732,6 +4732,16 @@
       }
    },
    "maps": {
+      "l3shop": {
+         "name": "Level 3 Shop",
+         "path": "l3shop.json",
+         "id": "l3shop"
+      },
+      "l4shop": {
+         "name": "Level 5 Shop",
+         "path": "l4shop.json",
+         "id": "l4shop"
+      },
       "l1shop": {
          "name": "Level 1 Shop",
          "path": "l1shop.json",
@@ -4746,16 +4756,6 @@
          "name": "Level 4",
          "path": "l4.json.json",
          "id": "l4.json"
-      },
-      "l3shop": {
-         "name": "Level 3 Shop",
-         "path": "l3shop.json",
-         "id": "l3shop"
-      },
-      "l4shopa": {
-         "name": "Level 4 Shop",
-         "path": "l4shopa.json",
-         "id": "l4shopa"
       },
       "level1": {
          "name": "Level 1",
@@ -4772,27 +4772,25 @@
          "path": "level3.json",
          "id": "level3"
       },
-      "l4shop": {
-         "name": "Level 5 Shop",
-         "path": "l4shop.json",
-         "id": "l4shop"
-      },
       "level4": {
          "name": "Level 5",
          "path": "level4.json",
          "id": "level4"
       },
+      "l4shopa": {
+         "name": "Level 4 Shop",
+         "path": "l4shopa.json",
+         "id": "l4shopa"
+      },
       "start_room": {
          "name": "Starting Room",
          "path": "start_room.json",
          "id": "start_room"
-      },
-      "undefined": {
-         "path": "undefined.json"
       }
    },
    "settings": {
-      "startMapId": "start_room"
+      "startMapId": "start_room",
+      "player_anim": "dave_anim"
    },
    "people": [
       {

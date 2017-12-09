@@ -8,7 +8,7 @@
         {
             "id": "goto_0.08244986017708478",
             "itemid": "exit",
-            "title": "Go To 0.9121009631647194",
+            "title": "exit",
             "type": "gotoroom",
             "gotoroom": {
                 "map": "level4",
@@ -16,12 +16,12 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": false,
+            "visible": true,
             "next": null
         },
         {
             "id": "dialog_0.5392403026998676",
-            "title": "Dialog 0.4425366409342849",
+            "title": "starting dialog",
             "itemid": "shopkeeper",
             "type": "dialog",
             "dialog": [
@@ -111,7 +111,7 @@
                     "key": "key_0.9340833666557313"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "battle1"
         },
         {
@@ -296,7 +296,7 @@
                     "key": "key_0.18252775401619425"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "battle2"
         },
         {
@@ -436,13 +436,13 @@
                     "key": "key_0.13325220457550024"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "end_screen"
         },
         {
-            "id": "goto_0.3706880695641649",
-            "itemid": "exit2",
-            "title": "Go To 0.8423005588649",
+            "id": "leave",
+            "itemid": "none",
+            "title": "leave",
             "type": "gotoroom",
             "gotoroom": {
                 "map": "level4",
@@ -450,7 +450,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": false,
+            "visible": true,
             "next": null
         },
         {
@@ -480,13 +480,13 @@
         {
             "id": "script_0.3619066089770634",
             "itemid": "bed",
-            "title": "Script 0.05466804820156457",
+            "title": "heal",
             "type": "script",
             "script": {
                 "trigger": "none",
                 "code": "ctx.restoreHP();\nctx.customDialog([\"HP fully restored\",\"Boom! It's action time!\"],'bed');\n"
             },
-            "visible": false,
+            "visible": true,
             "next": null
         },
         {
@@ -497,6 +497,18 @@
             "script": {
                 "trigger": "none",
                 "code": "ctx.pushScreen(\"end\");"
+            },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "script_0.4200046570647097",
+            "itemid": "none",
+            "title": "leave script",
+            "type": "script",
+            "script": {
+                "trigger": "mapexit",
+                "code": "ctx.run(ctx.action('leave'))"
             },
             "visible": true,
             "next": null
