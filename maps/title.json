@@ -1,0 +1,1722 @@
+{
+    "id": "title",
+    "path": "title.json",
+    "name": "Title Screen",
+    "battle": false,
+    "background": "#000000",
+    "actions": [],
+    "width": 16,
+    "height": 10,
+    "layers": [
+        {
+            "id": "ground 1",
+            "type": "drawn",
+            "data": [
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "dirt",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "visible": true,
+            "width": 16,
+            "height": 10
+        },
+        {
+            "id": "water",
+            "type": "drawn",
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "2_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "2_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "2_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "3_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "water",
+                        "id": "2_0"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 16,
+            "height": 10
+        },
+        {
+            "id": "lava",
+            "type": "drawn",
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_0"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "rocklava",
+                        "id": "1_1"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 16,
+            "height": 10
+        },
+        {
+            "id": "snow",
+            "type": "drawn",
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "3_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "4_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "2_2"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "2_1"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "snow",
+                        "id": "2_2"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 16,
+            "height": 10
+        }
+    ],
+    "start": {
+        "x": 8,
+        "y": 5
+    },
+    "battleInfo": {
+        "countrange": [
+            1,
+            2
+        ],
+        "enemies": [],
+        "scale": 1
+    }
+}

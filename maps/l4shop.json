@@ -495,7 +495,7 @@
             "title": "Show End Screen",
             "type": "script",
             "script": {
-                "trigger": "none",
+                "trigger": "mapstart",
                 "code": "ctx.pushScreen(\"end\");"
             },
             "visible": true,

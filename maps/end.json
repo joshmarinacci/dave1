@@ -1,0 +1,1345 @@
+{
+    "id": "end",
+    "path": "end.json",
+    "name": "End Screen",
+    "battle": false,
+    "background": "#000000",
+    "actions": [],
+    "width": 16,
+    "height": 10,
+    "layers": [
+        {
+            "id": "ground",
+            "type": "drawn",
+            "data": [
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_1"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_2"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_2"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 16,
+            "height": 10
+        },
+        {
+            "id": "figures",
+            "type": "drawn",
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_3"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "5_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_3"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_3"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "5_0"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "1_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "2_4"
+                    }
+                },
+                null,
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "3_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "3_0"
+                    }
+                },
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "4_0"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "3_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "4_4"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                },
+                {
+                    "master": {
+                        "group": "xmas_sweater",
+                        "id": "0_4"
+                    }
+                }
+            ],
+            "visible": true,
+            "width": 16,
+            "height": 10
+        }
+    ],
+    "start": {
+        "x": 8,
+        "y": 5
+    },
+    "battleInfo": {
+        "countrange": [
+            1,
+            2
+        ],
+        "enemies": [],
+        "scale": 1
+    }
+}
