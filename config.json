@@ -905,6 +905,39 @@
          "tiledefs": [
             5,
             5,
+            false,
+            1,
+            8,
+            false,
+            2,
+            8,
+            false,
+            3,
+            8,
+            false,
+            4,
+            8,
+            false,
+            3,
+            7,
+            false,
+            4,
+            7,
+            false,
+            5,
+            7,
+            false,
+            6,
+            7,
+            false,
+            0,
+            7,
+            false,
+            1,
+            7,
+            false,
+            2,
+            7,
             false
          ],
          "name": "people",
@@ -919,6 +952,127 @@
                "type": "drawn",
                "group": "people",
                "id": "5_5",
+               "blocking": false
+            },
+            "1_8": {
+               "image": "people",
+               "center": {
+                  "x": 1,
+                  "y": 8
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "1_8",
+               "blocking": false
+            },
+            "2_8": {
+               "image": "people",
+               "center": {
+                  "x": 2,
+                  "y": 8
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "2_8",
+               "blocking": false
+            },
+            "3_8": {
+               "image": "people",
+               "center": {
+                  "x": 3,
+                  "y": 8
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "3_8",
+               "blocking": false
+            },
+            "4_8": {
+               "image": "people",
+               "center": {
+                  "x": 4,
+                  "y": 8
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "4_8",
+               "blocking": false
+            },
+            "3_7": {
+               "image": "people",
+               "center": {
+                  "x": 3,
+                  "y": 7
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "3_7",
+               "blocking": false
+            },
+            "4_7": {
+               "image": "people",
+               "center": {
+                  "x": 4,
+                  "y": 7
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "4_7",
+               "blocking": false
+            },
+            "5_7": {
+               "image": "people",
+               "center": {
+                  "x": 5,
+                  "y": 7
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "5_7",
+               "blocking": false
+            },
+            "6_7": {
+               "image": "people",
+               "center": {
+                  "x": 6,
+                  "y": 7
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "6_7",
+               "blocking": false
+            },
+            "0_7": {
+               "image": "people",
+               "center": {
+                  "x": 0,
+                  "y": 7
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "0_7",
+               "blocking": false
+            },
+            "1_7": {
+               "image": "people",
+               "center": {
+                  "x": 1,
+                  "y": 7
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "1_7",
+               "blocking": false
+            },
+            "2_7": {
+               "image": "people",
+               "center": {
+                  "x": 2,
+                  "y": 7
+               },
+               "type": "drawn",
+               "group": "people",
+               "id": "2_7",
                "blocking": false
             }
          }
@@ -5065,11 +5219,6 @@
       }
    },
    "maps": {
-      "end": {
-         "name": "End Screen",
-         "path": "end.json",
-         "id": "end"
-      },
       "l1shop": {
          "name": "Level 1 Shop",
          "path": "l1shop.json",
@@ -5084,6 +5233,11 @@
          "name": "Level 3 Shop",
          "path": "l3shop.json",
          "id": "l3shop"
+      },
+      "l4.json": {
+         "name": "Level 4",
+         "path": "l4.json.json",
+         "id": "l4.json"
       },
       "l4shop": {
          "name": "Level 5 Shop",
@@ -5115,23 +5269,23 @@
          "path": "level4.json",
          "id": "level4"
       },
+      "end": {
+         "name": "End Screen",
+         "path": "end.json",
+         "id": "end"
+      },
       "title": {
          "name": "Title Screen",
          "path": "title.json",
          "id": "title"
       },
-      "l4.json": {
-         "name": "Level 4",
-         "path": "l4.json.json",
-         "id": "l4.json"
+      "undefined": {
+         "path": "undefined.json"
       },
       "start_room": {
          "name": "Starting Room",
          "path": "start_room.json",
          "id": "start_room"
-      },
-      "undefined": {
-         "path": "undefined.json"
       }
    },
    "settings": {

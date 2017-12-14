@@ -1,0 +1,28 @@
+{
+    "height": 10,
+    "start": {
+        "x": 0,
+        "y": 0
+    },
+    "layers": [
+        {
+            "data": [],
+            "id": "ground",
+            "type": "drawn",
+            "width": 20,
+            "height": 10,
+            "visible": true
+        }
+    ],
+    "width": 20,
+    "actions": [],
+    "battleInfo": {
+        "countrange": [
+            1,
+            2
+        ],
+        "enemies": [],
+        "scale": 1
+    },
+    "path": "undefined.json"
+}
