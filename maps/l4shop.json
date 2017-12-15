@@ -127,7 +127,7 @@
                 },
                 {
                     "person": "player",
-                    "text": "Hurt him? He almost destroyed *me*! And who are kids you anyway?",
+                    "text": "Hurt him? He almost destroyed *me*! And who are you kids anyway?",
                     "key": "key_0.27016289213018707"
                 },
                 {
@@ -137,7 +137,7 @@
                 },
                 {
                     "person": "player",
-                    "text": "You four girls? You control him?",
+                    "text": "You four girls?! You control him?",
                     "key": "key_0.25579582471208906"
                 },
                 {
@@ -152,12 +152,12 @@
                 },
                 {
                     "person": "person_3634",
-                    "text": "Well…. kinda.",
+                    "text": "Well... kinda.",
                     "key": "key_0.802811597076389"
                 },
                 {
                     "person": "player",
-                    "text": "Hmm. I see. You weren’t really kidnapped at all, were you.",
+                    "text": "Hmm. I see. You weren’t really kidnapped at all, were you?",
                     "key": "key_0.9990653465681626"
                 },
                 {
@@ -495,7 +495,7 @@
             "title": "Show End Screen",
             "type": "script",
             "script": {
-                "trigger": "mapstart",
+                "trigger": "none",
                 "code": "ctx.pushScreen(\"end\");"
             },
             "visible": true,

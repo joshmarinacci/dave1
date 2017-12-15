@@ -17,7 +17,7 @@
                     "key": "key_0.7402661510794882"
                 }
             ],
-            "visible": true,
+            "visible": false,
             "next": "start_battle"
         },
         {
@@ -31,7 +31,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -45,7 +45,7 @@
                 "dx": 0,
                 "dy": -1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -57,6 +57,48 @@
                 "trigger": "none",
                 "code": "ctx.customBattle('rockcandy',false,'levelboss').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('boss').hide()\n   }\n})"
             },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "script_0.22187929385607497",
+            "itemid": "chest1",
+            "title": "Script 0.38275200617511296",
+            "type": "script",
+            "script": {
+                "trigger": "item",
+                "code": "if(ctx.hasItem('hamburger')) {\n  ctx.customDialog(['The box is empty.'],'chest1');\n} else {\n  ctx.receiveItem('hamburger');\n  ctx.customDialog(['You found a hamburger in a dungeon. Yummy.'],'hamburger');\n}"
+            },
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "dialog_0.258482396399783",
+            "title": "Dialog 0.5647191140135914",
+            "itemid": "D6",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "This is not the D20 you are looking for. You leave it here.",
+                    "key": "key_0.8017894125160715"
+                }
+            ],
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.6635561649669216",
+            "title": "Dialog 0.7244918054658436",
+            "itemid": "newitem_441",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "There are 10 kinds of people in this world. People who don't understand binary and people who make jokes about them.",
+                    "key": "key_0.9878788365533175"
+                }
+            ],
             "visible": true,
             "next": null
         }
@@ -14883,8 +14925,8 @@
                             "value": true
                         }
                     },
-                    "x": 1,
-                    "y": 10
+                    "x": 30,
+                    "y": 4
                 },
                 {
                     "master": {
@@ -14906,7 +14948,61 @@
                         }
                     },
                     "x": 1,
-                    "y": 3
+                    "y": 2
+                },
+                {
+                    "master": {
+                        "group": "item_group_4726",
+                        "id": "item_master_280"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "chest1"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Treasure?"
+                        }
+                    },
+                    "x": 51,
+                    "y": 16
+                },
+                {
+                    "master": {
+                        "group": "item_group_4726",
+                        "id": "item_master_795"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "D6"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Dice"
+                        }
+                    },
+                    "x": 42,
+                    "y": 1
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "boy"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_441"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "dude"
+                        }
+                    },
+                    "x": 16,
+                    "y": 1
                 }
             ],
             "visible": true,

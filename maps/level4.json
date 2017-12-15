@@ -18,6 +18,51 @@
             },
             "visible": true,
             "next": null
+        },
+        {
+            "id": "dialog_0.9051830786816657",
+            "title": "Dialog 0.44192843017662053",
+            "itemid": "newitem_796",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "Emperor penguins get paid 40% more for the same job. It's so unfair.",
+                    "key": "key_0.6496316136275864"
+                }
+            ],
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.5702483071253392",
+            "title": "Dialog 0.8471725901570575",
+            "itemid": "newitem_159",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "I could really fly through this game if I could find my chocobo.",
+                    "key": "key_0.8304261251880787"
+                }
+            ],
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.19685737830736094",
+            "title": "Dialog 0.6346424157349289",
+            "itemid": "newitem_951",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "I'm not a thief. I'm a treasure hunter!",
+                    "key": "key_0.8178944721111941"
+                }
+            ],
+            "visible": true,
+            "next": null
         }
     ],
     "width": 20,
@@ -5194,6 +5239,60 @@
                     },
                     "x": 15,
                     "y": 0
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "item_master_259"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_796"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Empress Penguin"
+                        }
+                    },
+                    "x": 9,
+                    "y": 6
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "elf"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_159"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Elf"
+                        }
+                    },
+                    "x": 16,
+                    "y": 1
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "item_master_966"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_951"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Loche"
+                        }
+                    },
+                    "x": 8,
+                    "y": 21
                 }
             ],
             "visible": true,
@@ -6777,32 +6876,6 @@
                 null,
                 null,
                 null,
-                {
-                    "master": {
-                        "group": "people",
-                        "id": "5_5"
-                    }
-                },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                {
-                    "master": {
-                        "group": "xmas",
-                        "id": "1_3"
-                    }
-                },
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 null,
                 null,
                 null,
@@ -6831,6 +6904,27 @@
                 null,
                 null,
                 null,
+                {
+                    "master": {
+                        "group": "xmas",
+                        "id": "1_3"
+                    }
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 null,
                 null,
                 null,
@@ -6963,12 +7057,7 @@
                 null,
                 null,
                 null,
-                {
-                    "master": {
-                        "group": "people",
-                        "id": "5_5"
-                    }
-                },
+                null,
                 null,
                 null,
                 null,

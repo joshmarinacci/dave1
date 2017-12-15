@@ -905,7 +905,7 @@
          "tiledefs": [
             5,
             5,
-            false,
+            true,
             1,
             8,
             false,
@@ -952,7 +952,7 @@
                "type": "drawn",
                "group": "people",
                "id": "5_5",
-               "blocking": false
+               "blocking": true
             },
             "1_8": {
                "image": "people",
@@ -3874,6 +3874,12 @@
             false,
             1,
             4,
+            true,
+            0,
+            6,
+            true,
+            1,
+            6,
             true
          ],
          "name": "xmas",
@@ -4251,6 +4257,28 @@
                "type": "drawn",
                "group": "xmas",
                "id": "1_4",
+               "blocking": true
+            },
+            "0_6": {
+               "image": "xmas",
+               "center": {
+                  "x": 0,
+                  "y": 6
+               },
+               "type": "drawn",
+               "group": "xmas",
+               "id": "0_6",
+               "blocking": true
+            },
+            "1_6": {
+               "image": "xmas",
+               "center": {
+                  "x": 1,
+                  "y": 6
+               },
+               "type": "drawn",
+               "group": "xmas",
+               "id": "1_6",
                "blocking": true
             }
          }
@@ -4990,6 +5018,102 @@
                   "y": 8
                },
                "image": "people"
+            },
+            {
+               "name": "item_master_465",
+               "center": {
+                  "x": 4,
+                  "y": 1
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_35",
+               "center": {
+                  "x": 3,
+                  "y": 5
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_966",
+               "center": {
+                  "x": 1,
+                  "y": 5
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_413",
+               "center": {
+                  "x": 0,
+                  "y": 4
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_18",
+               "center": {
+                  "x": 2,
+                  "y": 3
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_903",
+               "center": {
+                  "x": 3,
+                  "y": 2
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_92",
+               "center": {
+                  "x": 0,
+                  "y": 3
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_634",
+               "center": {
+                  "x": 1,
+                  "y": 2
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_473",
+               "center": {
+                  "x": 3,
+                  "y": 3
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_270",
+               "center": {
+                  "x": 1,
+                  "y": 4
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_878",
+               "center": {
+                  "x": 2,
+                  "y": 4
+               },
+               "image": "people"
+            },
+            {
+               "name": "item_master_259",
+               "center": {
+                  "x": 0,
+                  "y": 6
+               },
+               "image": "people"
             }
          ],
          "title": "people"
@@ -5143,6 +5267,14 @@
                   "y": 2
                },
                "image": "items"
+            },
+            {
+               "name": "item_master_795",
+               "center": {
+                  "x": 4,
+                  "y": 3
+               },
+               "image": "items"
             }
          ]
       },
@@ -5219,6 +5351,11 @@
       }
    },
    "maps": {
+      "end": {
+         "name": "End Screen",
+         "path": "end.json",
+         "id": "end"
+      },
       "l1shop": {
          "name": "Level 1 Shop",
          "path": "l1shop.json",
@@ -5269,10 +5406,10 @@
          "path": "level4.json",
          "id": "level4"
       },
-      "end": {
-         "name": "End Screen",
-         "path": "end.json",
-         "id": "end"
+      "start_room": {
+         "name": "Starting Room",
+         "path": "start_room.json",
+         "id": "start_room"
       },
       "title": {
          "name": "Title Screen",
@@ -5281,11 +5418,6 @@
       },
       "undefined": {
          "path": "undefined.json"
-      },
-      "start_room": {
-         "name": "Starting Room",
-         "path": "start_room.json",
-         "id": "start_room"
       }
    },
    "settings": {
@@ -5451,8 +5583,8 @@
          "title": "D20",
          "image": "items",
          "center": {
-            "x": 4,
-            "y": 3
+            "x": 5,
+            "y": 0
          }
       },
       {
@@ -5553,8 +5685,18 @@
          "type": "off",
          "image": "items",
          "center": {
-            "x": 2,
-            "y": 2
+            "x": 4,
+            "y": 1
+         }
+      },
+      "hamburger": {
+         "id": "hamburger",
+         "name": "Hamburger",
+         "type": "off",
+         "image": "items",
+         "center": {
+            "x": 0,
+            "y": 1
          }
       },
       "icecream": {
@@ -5563,7 +5705,7 @@
          "type": "off",
          "image": "items",
          "center": {
-            "x": 0,
+            "x": 4,
             "y": 0
          }
       }

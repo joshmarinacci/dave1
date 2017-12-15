@@ -30,7 +30,7 @@
                 "dx": 0,
                 "dy": 1
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -180,7 +180,7 @@
                     "key": "key_0.9349937614161539"
                 }
             ],
-            "visible": true,
+            "visible": false,
             "next": "hide_monster"
         },
         {
@@ -217,6 +217,56 @@
                     "person": "narrator",
                     "text": "This water is too deep to swim without scuba gear",
                     "key": "key_0.41076924924647285"
+                }
+            ],
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "dialog_0.511990582605713",
+            "title": "Dialog 0.3044178294525608",
+            "itemid": "newitem_87",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "No paparazzi please.",
+                    "key": "key_0.37894262764995446"
+                },
+                {
+                    "person": "player",
+                    "text": "Who are you?",
+                    "key": "key_0.9712050872736285"
+                },
+                {
+                    "person": "item",
+                    "text": "Geez. Don't you know who I am? I'm the white whale!  I'm book famous!",
+                    "key": "key_0.496474130452094"
+                },
+                {
+                    "person": "player",
+                    "text": "I'm sorry. I don't read much.",
+                    "key": "key_0.7674591133636584"
+                },
+                {
+                    "person": "item",
+                    "text": "I really need to get a new agent.",
+                    "key": "key_0.8833680873293076"
+                }
+            ],
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.18544757014691782",
+            "title": "Dialog 0.6858428384802067",
+            "itemid": "newitem_707",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "I've heard that cave music is the next music trend after rock. It's even better than dubstep.",
+                    "key": "key_0.5154064606780158"
                 }
             ],
             "visible": false,
@@ -26625,6 +26675,42 @@
                     },
                     "x": 43,
                     "y": 25
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "item_master_362"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_87"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Moby"
+                        }
+                    },
+                    "x": 42,
+                    "y": 2
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "man"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_707"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Wandering Hipster"
+                        }
+                    },
+                    "x": 26,
+                    "y": 45
                 }
             ],
             "visible": true,

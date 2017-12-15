@@ -12,11 +12,11 @@
             "type": "gotoroom",
             "gotoroom": {
                 "map": "l4shopa",
-                "item": "exit",
+                "item": "shopkeeper",
                 "dx": 0,
-                "dy": -1
+                "dy": 5
             },
-            "visible": false,
+            "visible": true,
             "next": null
         },
         {
@@ -57,7 +57,52 @@
                 "trigger": "none",
                 "code": "ctx.customBattle('rocklava',false,'levelboss').then((status)=>{\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('rocklava').hide()\n   }\n})"
             },
-            "visible": true,
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "dialog_0.7904228239300415",
+            "title": "Dialog 0.4310451367620405",
+            "itemid": "newitem_66",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "Have you heard the one about geologist who wasn't hungry? He lost is apatite. ",
+                    "key": "key_0.38583061985129796"
+                },
+                {
+                    "person": "item",
+                    "text": "Wait, where are you going?",
+                    "key": "key_0.27628273216089616"
+                }
+            ],
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "dialog_0.8417125314583928",
+            "title": "Dialog 0.29727347413234073",
+            "itemid": "newitem_591",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "One tectonic plate bumped into another and said: \"sorry. my fault\".",
+                    "key": "key_0.9835379921142217"
+                },
+                {
+                    "person": "player",
+                    "text": "That was truly horrible.",
+                    "key": "key_0.010521230894103506"
+                },
+                {
+                    "person": "item",
+                    "text": "Hey, please be gneiss.  Don't take geology for granite.",
+                    "key": "key_0.3160083211517548"
+                }
+            ],
+            "visible": false,
             "next": null
         }
     ],
@@ -16529,6 +16574,46 @@
                     },
                     "x": 31,
                     "y": 32
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "item_master_18"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_66"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Geologist"
+                        }
+                    },
+                    "x": 27,
+                    "y": 3
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "item_master_18"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_591"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Other Geologist"
+                        },
+                        "visible": {
+                            "name": "visible",
+                            "value": true
+                        }
+                    },
+                    "x": 3,
+                    "y": 28
                 }
             ],
             "visible": true,

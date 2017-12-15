@@ -39,8 +39,8 @@
             "title": "get stick",
             "type": "script",
             "script": {
-                "trigger": "none",
-                "code": "console.log(\"context is\",ctx);\nif(ctx.hasItem('pointystick')) {\n  ctx.customDialog(['The box is empty.'],'chest');\n} else {\n  ctx.receiveItem('pointystick');\n  ctx.customDialog(['You found a pointy stick. Lucky you. ','Engage in glorious battle, brave one!'],'pointystick');\n}"
+                "trigger": "item",
+                "code": "if(ctx.hasItem('pointystick')) {\n  ctx.customDialog(['The box is empty.'],'chest');\n} else {\n  ctx.receiveItem('pointystick');\n  ctx.customDialog(['You found a pointy stick. Lucky you. '],'pointystick');\n}"
             },
             "visible": true,
             "next": null
@@ -54,6 +54,56 @@
                 "trigger": "item",
                 "code": "ctx.customBattle('bigrat',false,'levelboss').then((status)=>{\n   console.log('battle over, status is',status);\n  if(status == ctx.BattleCalcs.CONSTS.WON) {\n     ctx.item('bigrat').hide()\n   }\n})"
             },
+            "visible": true,
+            "next": null
+        },
+        {
+            "id": "dialog_0.015397382623985378",
+            "title": "Dialog 0.05866093944546946",
+            "itemid": "newitem_406",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "Walking around is fine, but I'd love to pilot an airship.",
+                    "key": "key_0.43170063930584646"
+                },
+                {
+                    "person": "player",
+                    "text": "That doesn't make any sense. Why would you make a flying vehicle out of heavy wood and iron?",
+                    "key": "key_0.9915595541836884"
+                },
+                {
+                    "person": "item",
+                    "text": "Because airships are cool!",
+                    "key": "key_0.12692934302432135"
+                },
+                {
+                    "person": "player",
+                    "text": "But a ship hull isn't aerodynamic. It makes no sense.",
+                    "key": "key_0.7217082636321416"
+                },
+                {
+                    "person": "item",
+                    "text": "Fine. Just sit down and just drink your tea.",
+                    "key": "key_0.09035341145296671"
+                }
+            ],
+            "visible": false,
+            "next": null
+        },
+        {
+            "id": "dialog_0.94948706408811",
+            "title": "Dialog 0.15138738384756945",
+            "itemid": "newitem_629",
+            "type": "dialog",
+            "dialog": [
+                {
+                    "person": "item",
+                    "text": "I sure hope enough people play this game for the producers to greenlight a sequel. We might even get bigger sprites.",
+                    "key": "key_0.9914056389796663"
+                }
+            ],
             "visible": true,
             "next": null
         }
@@ -17250,6 +17300,42 @@
                     },
                     "x": 19,
                     "y": 5
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "item_master_465"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_406"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "Cid"
+                        }
+                    },
+                    "x": 21,
+                    "y": 36
+                },
+                {
+                    "master": {
+                        "group": "people",
+                        "id": "item_master_35"
+                    },
+                    "settings": {
+                        "id": {
+                            "name": "id",
+                            "value": "newitem_629"
+                        },
+                        "title": {
+                            "name": "title",
+                            "value": "chicken"
+                        }
+                    },
+                    "x": 8,
+                    "y": 29
                 }
             ],
             "visible": true,
