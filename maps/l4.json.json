@@ -16,7 +16,7 @@
                 "dx": 0,
                 "dy": 5
             },
-            "visible": true,
+            "visible": false,
             "next": null
         },
         {
@@ -40,12 +40,12 @@
             "type": "dialog",
             "dialog": [
                 {
-                    "person": "narrator",
+                    "person": "item",
                     "text": "Grarh!",
                     "key": "key_0.7654412287839429"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "start_battle"
         },
         {
@@ -16538,7 +16538,7 @@
                 {
                     "master": {
                         "group": "item_group_8703",
-                        "id": "item_master_410"
+                        "id": "item_master_112"
                     },
                     "settings": {
                         "id": {

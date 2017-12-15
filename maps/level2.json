@@ -12,12 +12,12 @@
             "type": "dialog",
             "dialog": [
                 {
-                    "person": "narrator",
+                    "person": "item",
                     "text": "I keeel you!",
                     "key": "key_0.7402661510794882"
                 }
             ],
-            "visible": false,
+            "visible": true,
             "next": "start_battle"
         },
         {

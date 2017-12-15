@@ -51,7 +51,7 @@
             "spills",
             "smudges"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 0,
             "y": 0,
@@ -70,7 +70,7 @@
             "spill",
             "smudge"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 2,
             "y": 0,
@@ -89,7 +89,7 @@
             "splat",
             "careen"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 4,
             "y": 0,
@@ -109,7 +109,7 @@
             "grab",
             "tweeze"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 6,
             "y": 0,
@@ -128,10 +128,10 @@
             "spills",
             "smudges"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 0,
-            "y": 0,
+            "y": 2,
             "w": 2,
             "h": 2
          }
@@ -147,10 +147,10 @@
             "spill",
             "smudge"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 2,
-            "y": 0,
+            "y": 2,
             "w": 2,
             "h": 2
          }
@@ -166,10 +166,10 @@
             "splat",
             "careen"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 4,
-            "y": 0,
+            "y": 2,
             "w": 2,
             "h": 2
          }
@@ -186,10 +186,10 @@
             "grab",
             "tweeze"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 6,
-            "y": 0,
+            "y": 2,
             "w": 2,
             "h": 2
          }
@@ -205,10 +205,10 @@
             "spills",
             "smudges"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 0,
-            "y": 0,
+            "y": 4,
             "w": 2,
             "h": 2
          }
@@ -224,10 +224,10 @@
             "spill",
             "smudge"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 2,
-            "y": 0,
+            "y": 4,
             "w": 2,
             "h": 2
          }
@@ -243,10 +243,10 @@
             "splat",
             "careen"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
-            "x": 2,
-            "y": 0,
+            "x": 4,
+            "y": 4,
             "w": 2,
             "h": 2
          }
@@ -263,10 +263,10 @@
             "grab",
             "tweeze"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 6,
-            "y": 0,
+            "y": 4,
             "w": 2,
             "h": 2
          }
@@ -282,10 +282,10 @@
             "spills",
             "smudges"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 0,
-            "y": 0,
+            "y": 6,
             "w": 2,
             "h": 2
          }
@@ -301,10 +301,10 @@
             "spill",
             "smudge"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 2,
-            "y": 0,
+            "y": 6,
             "w": 2,
             "h": 2
          }
@@ -320,10 +320,10 @@
             "splat",
             "careen"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 4,
-            "y": 0,
+            "y": 6,
             "w": 2,
             "h": 2
          }
@@ -340,10 +340,10 @@
             "grab",
             "tweeze"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 6,
-            "y": 0,
+            "y": 6,
             "w": 2,
             "h": 2
          }
@@ -359,10 +359,10 @@
             "spills",
             "smudges"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 0,
-            "y": 0,
+            "y": 8,
             "w": 2,
             "h": 2
          }
@@ -378,10 +378,10 @@
             "spill",
             "smudge"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 2,
-            "y": 0,
+            "y": 8,
             "w": 2,
             "h": 2
          }
@@ -397,10 +397,10 @@
             "splat",
             "careen"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 4,
-            "y": 0,
+            "y": 8,
             "w": 2,
             "h": 2
          }
@@ -417,10 +417,10 @@
             "grab",
             "tweeze"
          ],
-         "image": "dave_enemies",
+         "image": "better_enemies",
          "center": {
             "x": 6,
-            "y": 0,
+            "y": 8,
             "w": 2,
             "h": 2
          }
@@ -475,7 +475,7 @@
             {
                "type": "item_death",
                "item": "water",
-               "description": "The Rock Candy Monster melts into a delicious puddle of goo"
+               "description": "Rock Candy Monster melts into a delicious puddle of goo"
             }
          ]
       },
@@ -494,7 +494,7 @@
          "image": "dave_enemies",
          "center": {
             "x": 0,
-            "y": 4,
+            "y": 6,
             "w": 2,
             "h": 2
          },
@@ -502,7 +502,7 @@
             {
                "type": "item_death",
                "item": "icecream",
-               "description": "The Rock Lava Monster shrieks from the horrible mint and runs away"
+               "description": "Rock Lava Monster shrieks flees the horrible mint flavor"
             }
          ]
       },
@@ -579,6 +579,7 @@
       "rock_mountains": "tiles/terrain_rock_mountains.png",
       "items": "tiles/items.png",
       "dave_enemies": "tiles/dave_enemies.png",
+      "better_enemies": "tiles/better_enemies.png",
       "dirt": "tiles/terrain_dirt.png",
       "grass": "tiles/terrain_grass.png",
       "ice": "tiles/terrain_ice.png",
@@ -5321,6 +5322,14 @@
                "center": {
                   "x": 5,
                   "y": 4
+               },
+               "image": "dave_enemies"
+            },
+            {
+               "name": "item_master_112",
+               "center": {
+                  "x": 2,
+                  "y": 6
                },
                "image": "dave_enemies"
             }
